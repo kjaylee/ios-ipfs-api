@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'IpfsApi_Example' do
+  pod 'IpfsApi', :path => '../'
+
+  target 'IpfsApi_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
