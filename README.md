@@ -10,6 +10,10 @@ A wrapper of the IPFS Client HTTP-API for iOS.
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+```swift
+    import Ipfs
+```
+
 ## Requirements
 
 ## Installation
@@ -69,7 +73,7 @@ Stop the running container:
 
 ## Author
 
-kjaylee, k.jaylee@gmail.com
+    kjaylee, k.jaylee@gmail.com
 
 ## License
 
