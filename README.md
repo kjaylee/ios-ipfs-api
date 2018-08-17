@@ -21,9 +21,55 @@ it, simply add the following line to your Podfile:
 pod 'IpfsApi'
 ```
 
+
+## Test setting.
+### Docker usage
+
+An IPFS docker image is hosted at [hub.docker.com/r/ipfs/go-ipfs](https://hub.docker.com/r/ipfs/go-ipfs/).
+To make files visible inside the container you need to mount a host directory
+with the `-v` option to docker. Choose a directory that you want to use to
+import/export files from IPFS. You should also choose a directory to store
+IPFS files that will persist when you restart the container.
+
+    export ipfs_staging=</absolute/path/to/somewhere/>
+    export ipfs_data=</absolute/path/to/somewhere_else/>
+
+Start a container running ipfs and expose ports 4001, 5001 and 8080:
+
+    docker run -d --name ipfs_host -v $ipfs_staging:/export -v $ipfs_data:/data/ipfs -p 4001:4001 -p 127.0.0.1:8080:8080 -p 127.0.0.1:5001:5001 ipfs/go-ipfs:latest
+
+Watch the ipfs log:
+
+    docker logs -f ipfs_host
+
+Wait for ipfs to start. ipfs is running when you see:
+
+    Gateway (readonly) server
+    listening on /ip4/0.0.0.0/tcp/8080
+
+You can now stop watching the log.
+
+Run ipfs commands:
+
+    docker exec ipfs_host ipfs <args...>
+
+For example: connect to peers
+
+    docker exec ipfs_host ipfs swarm peers
+
+Add files:
+
+    cp -r <something> $ipfs_staging
+    docker exec ipfs_host ipfs add -r /export/<something>
+
+Stop the running container:
+
+    docker stop ipfs_host
+
+
 ## Author
 
-kjaylee, F000000066@wemakeprice.com
+kjaylee, k.jaylee@gmail.com
 
 ## License
 
