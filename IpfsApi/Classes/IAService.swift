@@ -128,6 +128,10 @@ enum IAService {
      curl "http://localhost:5001/api/v0/dht/findpeer?arg=<peerID>&verbose=false"
      */
     case dhtFindpeer(arguments: ArgumentsDhtFindpeerModel)
+    /*
+     Find peers in the DHT that can provide a specific value, given a key.
+     curl "http://localhost:5001/api/v0/dht/findprovs?arg=<key>&verbose=false&num-providers=20"
+     */
     case dhtFindprovs
     case dhtGet
     case dhtProvide
