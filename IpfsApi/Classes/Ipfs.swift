@@ -36,10 +36,10 @@ extension Ipfs {
 }
 
 extension Ipfs {
-    public func swarmPeers() {
-        self.request(MultiTarget(IAService.swarmPeers())) { (result) in
-            
-        }
-    }
+//    public func swarmPeers() {
+//        self.request(MultiTarget(IAService.swarmPeers())) { (result) in
+//            
+//        }
+//    }
 }
 

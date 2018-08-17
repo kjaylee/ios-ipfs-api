@@ -1,5 +1,5 @@
 import XCTest
-import IpfsApi
+import Ipfs
 
 class Tests: XCTestCase {
     

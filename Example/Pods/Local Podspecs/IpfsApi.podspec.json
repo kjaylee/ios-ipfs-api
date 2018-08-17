@@ -2,6 +2,7 @@
   "name": "IpfsApi",
   "version": "0.1.0",
   "summary": "A wrapper of the IPFS Client HTTP-API for iOS.",
+  "module_name": "Ipfs",
   "description": "A wrapper of the IPFS Client HTTP-API for iOS.",
   "homepage": "https://github.com/kjaylee/ios-ipfs-api",
   "license": {

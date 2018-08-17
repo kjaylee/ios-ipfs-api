@@ -7,13 +7,12 @@
 //
 
 import UIKit
-import IpfsApi
+import Ipfs
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        Ipfs.shared().swarmPeers()
     }
 
     override func didReceiveMemoryWarning() {

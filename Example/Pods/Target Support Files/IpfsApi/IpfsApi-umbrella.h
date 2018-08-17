@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double IpfsApiVersionNumber;
-FOUNDATION_EXPORT const unsigned char IpfsApiVersionString[];
+FOUNDATION_EXPORT double IpfsVersionNumber;
+FOUNDATION_EXPORT const unsigned char IpfsVersionString[];
 
