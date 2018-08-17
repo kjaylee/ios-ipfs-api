@@ -1,0 +1,6 @@
+framework module IpfsApi {
+  umbrella header "IpfsApi-umbrella.h"
+
+  export *
+  module * { export * }
+}

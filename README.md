@@ -1,4 +1,5 @@
-# IpfsApi
+# ios-ipfs-api
+A wrapper of the IPFS Client HTTP-API for iOS.
 
 [![CI Status](https://img.shields.io/travis/kjaylee/IpfsApi.svg?style=flat)](https://travis-ci.org/kjaylee/IpfsApi)
 [![Version](https://img.shields.io/cocoapods/v/IpfsApi.svg?style=flat)](https://cocoapods.org/pods/IpfsApi)
