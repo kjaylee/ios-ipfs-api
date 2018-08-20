@@ -8,8 +8,6 @@
 import Foundation
 
 public struct ArgumentsAddModel: Codable {
-//    arg [file]: The path to a file to be added to ipfs. Required: yes.
-    let arg: String
 //    recursive [bool]: Add directory paths recursively. Default: “false”. Required: no.
     let recursive: Bool?
 //    quiet [bool]: Write minimal output. Required: no.
@@ -43,8 +41,7 @@ public struct ArgumentsAddModel: Codable {
 //    hash [string]: Hash function to use. Will set Cid version to 1 if used. (experimental). Default: “sha2-256”. Required: no.
     let hash: String?
     
-    init(arg: String,
-         recursive: Bool? = nil,
+    init(recursive: Bool? = nil,
          quiet: Bool? = nil,
          quieter: Bool? = nil,
          silent: Bool? = nil,
@@ -61,7 +58,6 @@ public struct ArgumentsAddModel: Codable {
          cidVersion: Int? = nil,
          hash: String? = nil
          ) {
-        self.arg = arg
         self.recursive = recursive
         self.quiet = quiet
         self.quieter = quieter
@@ -81,7 +77,6 @@ public struct ArgumentsAddModel: Codable {
     }
     
     enum CodingKeys: String, CodingKey {
-        case arg
         case recursive
         case quiet
         case quieter

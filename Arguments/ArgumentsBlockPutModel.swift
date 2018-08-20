@@ -7,9 +7,9 @@
 
 import Foundation
 
-public struct ArgumentsBlockPutModel: Codable {
+public struct ArgumentsBlockPutModel: Encodable {
 //    arg [file]: The data to be stored as an IPFS block. Required: yes.
-    let arg: String
+    let arg: Data
 //    format [string]: cid format for blocks to be created with. Default: “v0”. Required: no.
     let format: String?
 //    mhtype [string]: multihash hash function. Default: “sha2-256”. Required: no.
@@ -17,7 +17,7 @@ public struct ArgumentsBlockPutModel: Codable {
 //    mhlen [int]: multihash hash length. Default: “-1”. Required: no.
     let mhlen:Int?
     
-    init(arg: String,
+    init(arg: Data,
          format: String? = nil,
          mhtype: String? = nil,
          mhlen: Int? = nil) {
@@ -25,5 +25,11 @@ public struct ArgumentsBlockPutModel: Codable {
         self.format = format
         self.mhtype = mhtype
         self.mhlen = mhlen
+    }
+    
+    enum CodingKeys: String, CodingKey {
+        case format
+        case mhtype
+        case mhlen
     }
 }
