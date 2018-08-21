@@ -8,5 +8,14 @@
 import Foundation
 
 public struct ArgumentsIdModel: Codable {
+    //    arg [string]: Peer.ID of node to look up. Required: no.
+    let arg: String?
+    //    format [string]: Optional output format. Required: no.
+    let format: String?
     
+    init(arg: String? = nil,
+         format: String? = nil) {
+        self.arg = arg
+        self.format = format
+    }
 }

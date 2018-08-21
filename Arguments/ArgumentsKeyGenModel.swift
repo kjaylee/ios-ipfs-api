@@ -8,5 +8,18 @@
 import Foundation
 
 public struct ArgumentsKeyGenModel: Codable {
+    //    arg [string]: name of key to create Required: yes.
+    let arg: String
+    //    type [string]: type of the key to create [rsa, ed25519]. Required: no.
+    let type: String?
+    //    size [int]: size of the key to generate. Required: no.
+    let size: Int?
     
+    init(arg: String,
+         type: String? = nil,
+         size: Int? = nil) {
+        self.arg = arg
+        self.type = type
+        self.size = size
+    }
 }

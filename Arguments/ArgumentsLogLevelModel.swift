@@ -8,5 +8,12 @@
 import Foundation
 
 public struct ArgumentsLogLevelModel: Codable {
+    //    arg [string]: The subsystem logging identifier. Use ‘all’ for all subsystems. Required: yes.
+    //    arg [string]: The log level, with ‘debug’ the most verbose and ‘critical’ the least verbose. One of: debug, info, warning, error, critical. Required: yes.
+    let arg: [String]
     
+    init(subsystem: String,
+         level: String) {
+        self.arg = [subsystem, level]
+    }
 }

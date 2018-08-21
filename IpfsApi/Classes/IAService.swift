@@ -194,7 +194,7 @@ enum IAService {
      List directories in the local mutable namespace.
      curl "http://localhost:5001/api/v0/files/ls?arg=<path>&l=<value>"
      */
-    case filesLs(arguments: ArgumentsFilesLsModel)
+    case filesLs(arguments: ArgumentsFilesLsModel?)
     /*
      Make directories.
      curl "http://localhost:5001/api/v0/files/mkdir?arg=<path>&parents=<value>"
@@ -237,12 +237,12 @@ enum IAService {
      List objects in filestore.
      curl "http://localhost:5001/api/v0/filestore/ls?arg=<obj>&file-order=<value>"
      */
-    case filestoreLs(arguments: ArgumentsFilestoreLsModel)
+    case filestoreLs(arguments: ArgumentsFilestoreLsModel?)
     /*
      Verify objects in filestore.
      curl "http://localhost:5001/api/v0/filestore/verify?arg=<obj>&file-order=<value>"
      */
-    case filestoreVerify(arguments: ArgumentsFilestoreVerifyModel)
+    case filestoreVerify(arguments: ArgumentsFilestoreVerifyModel?)
     /*
      Download IPFS objects.
      This endpoint returns a `text/plain` response body.
@@ -253,7 +253,7 @@ enum IAService {
      Show ipfs node id info.
      curl "http://localhost:5001/api/v0/id?arg=<peerid>&format=<value>"
      */
-    case id(arguments: ArgumentsIdModel)
+    case id(arguments: ArgumentsIdModel?)
     /*
      Create a new keypair
      curl "http://localhost:5001/api/v0/key/gen?arg=<name>&type=<value>&size=<value>"
@@ -298,7 +298,7 @@ enum IAService {
      Mounts IPFS to the filesystem (read-only).
      curl "http://localhost:5001/api/v0/mount?ipfs-path=<value>&ipns-path=<value>"
      */
-    case mount(arguments: ArgumentsMountModel)
+    case mount(arguments: ArgumentsMountModel?)
     /*
      Publish IPNS names.
      curl "http://localhost:5001/api/v0/name/publish?arg=<ipfs-path>&resolve=true&lifetime=24h&ttl=<value>&key=self"
@@ -308,7 +308,7 @@ enum IAService {
      Resolve IPNS names.
      curl "http://localhost:5001/api/v0/name/resolve?arg=<name>&recursive=false&nocache=false"
      */
-    case nameResolve(arguments: ArgumentsNameResolveModel)
+    case nameResolve(arguments: ArgumentsNameResolveModel?)
     /*
      Output the raw bytes of an IPFS object.
      curl "http://localhost:5001/api/v0/object/data?arg=<key>"
@@ -406,7 +406,7 @@ enum IAService {
      List objects pinned to local storage.
      curl "http://localhost:5001/api/v0/pin/ls?arg=<ipfs-path>&type=all&quiet=false"
      */
-    case pinLs(arguments: ArgumentsPinLsModel)
+    case pinLs(arguments: ArgumentsPinLsModel?)
     /*
      Remove pinned objects from local storage.
      curl "http://localhost:5001/api/v0/pin/rm?arg=<ipfs-path>&recursive=true"
@@ -498,7 +498,7 @@ enum IAService {
      Print ipfs bandwidth information.
      curl "http://localhost:5001/api/v0/stats/bw?peer=<value>&proto=<value>&poll=false&interval=1s"
      */
-    case statsBw(arguments: ArgumentsStatsBwModel)
+    case statsBw(arguments: ArgumentsStatsBwModel?)
     /*
      Get stats for the currently used repo.
      curl "http://localhost:5001/api/v0/stats/repo?human=false"
@@ -538,7 +538,7 @@ enum IAService {
      List peers with open connections.
      curl "http://localhost:5001/api/v0/swarm/peers?verbose=<value>&streams=<value>&latency=<value>"
      */
-    case swarmPeers(arguments: ArgumentsSwarmPeersModel)
+    case swarmPeers(arguments: ArgumentsSwarmPeersModel?)
     /*
      Import a tar file into ipfs.
      curl -F file=@myfile "http://localhost:5001/api/v0/tar/add"
@@ -559,7 +559,7 @@ enum IAService {
      Show ipfs version information.
      curl "http://localhost:5001/api/v0/version?number=false&commit=false&repo=false&all=false"
      */
-    case version(arguments: ArgumentsVersionModel)
+    case version(arguments: ArgumentsVersionModel?)
 }
 
 extension IAService: TargetType {
@@ -1013,7 +1013,6 @@ extension IAService: TargetType {
             return .uploadCompositeMultipart([data], urlParameters: arguments.toDictionary())
         case .bitswapLedger(let peer):
             return .requestParameters(parameters: ["arg":peer], encoding: URLEncoding.queryString)
-//            return .requestPlain
         case .bitswapReprovide:
             return .requestPlain
         case .bitswapStat:
@@ -1084,6 +1083,7 @@ extension IAService: TargetType {
             guard let path = path else { return .requestPlain }
             return .requestParameters(parameters: ["arg":path], encoding: URLEncoding.queryString)
         case .filesLs(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .filesMkdir(let arguments):
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
@@ -1101,12 +1101,15 @@ extension IAService: TargetType {
         case .filestoreDups:
             return .requestPlain
         case .filestoreLs(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .filestoreVerify(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .get(let arguments):
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .id(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .keyGen(let arguments):
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
@@ -1126,10 +1129,12 @@ extension IAService: TargetType {
         case .ls(let arguments):
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .mount(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .namePublish(let arguments):
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .nameResolve(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .objectData(let key):
             return .requestParameters(parameters: ["arg":key], encoding: URLEncoding.queryString)
@@ -1174,6 +1179,7 @@ extension IAService: TargetType {
         case .pinAdd(let arguments):
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .pinLs(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .pinRm(let arguments):
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
@@ -1213,6 +1219,7 @@ extension IAService: TargetType {
         case .statsBitswap:
             return .requestPlain
         case .statsBw(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .statsRepo(let human):
             guard let human = human else { return .requestPlain }
@@ -1231,6 +1238,7 @@ extension IAService: TargetType {
         case .swarmFiltersRm(let address):
             return .requestParameters(parameters: ["arg":address], encoding: URLEncoding.queryString)
         case .swarmPeers(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         case .tarAdd(let file):
             let data = MultipartFormData(provider: MultipartFormData.FormDataProvider.data(file), name: "file")
@@ -1241,6 +1249,7 @@ extension IAService: TargetType {
             guard let args = args else { return .requestPlain }
             return .requestParameters(parameters: ["arg":args], encoding: URLEncoding.queryString)
         case .version(let arguments):
+            guard let arguments = arguments else { return .requestPlain }
             return .requestParameters(parameters: arguments.toDictionary(), encoding: URLEncoding.queryString)
         }
     }
@@ -1284,7 +1293,6 @@ fileprivate extension Array {
         }
     }
 }
-
 
 fileprivate extension Encodable {
     func toDictionary() -> [String: Any] {

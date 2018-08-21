@@ -8,5 +8,14 @@
 import Foundation
 
 public struct ArgumentsDnsModel: Codable {
-
+    //    arg [string]: The domain-name name to resolve. Required: yes.
+    let arg: String
+    //    recursive [bool]: Resolve until the result is not a DNS link. Default: “false”. Required: no.
+    let recursive: Bool?
+    
+    init(arg: String,
+         recursive: Bool? = nil) {
+        self.arg = arg
+        self.recursive = recursive
+    }
 }

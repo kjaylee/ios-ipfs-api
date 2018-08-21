@@ -8,5 +8,18 @@
 import Foundation
 
 public struct ArgumentsMountModel: Codable {
+    //    ipfs-path [string]: The path where IPFS should be mounted. Required: no.
+    let ipfsPath: String?
+    //    ipns-path [string]: The path where IPNS should be mounted. Required: no.
+    let ipnsPath: String?
     
+    init(ipfsPath: String? = nil,
+         ipnsPath: String? = nil) {
+        self.ipfsPath = ipfsPath
+        self.ipnsPath = ipnsPath
+    }
+    enum CodingKeys: String, CodingKey {
+        case ipfsPath = "ipfs-path"
+        case ipnsPath = "ipns-path"
+    }
 }

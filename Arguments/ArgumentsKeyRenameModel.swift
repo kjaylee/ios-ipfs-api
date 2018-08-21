@@ -8,5 +8,16 @@
 import Foundation
 
 public struct ArgumentsKeyRenameModel: Codable {
+    //    arg [string]: name of key to rename Required: yes.
+    //    arg [string]: new name of the key Required: yes.
+    let arg: [String]
+    //    force [bool]: Allow to overwrite an existing key. Required: no.
+    let force: Bool?
     
+    init(name: String,
+         newName: String,
+         force: Bool? = nil) {
+        self.arg = [name, newName]
+        self.force = force
+    }
 }
