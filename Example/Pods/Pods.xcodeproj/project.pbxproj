@@ -89,50 +89,55 @@
 		962558DF212A5D720012E802 /* ArgumentsStatsBwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558DE212A5D720012E802 /* ArgumentsStatsBwModel.swift */; };
 		962558E1212A5DB00012E802 /* ArgumentsSwarmPeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E0212A5DB00012E802 /* ArgumentsSwarmPeersModel.swift */; };
 		962558E3212A5DCF0012E802 /* ArgumentsVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E2212A5DCF0012E802 /* ArgumentsVersionModel.swift */; };
-		962558E5212BD09F0012E802 /* ResponseBitswapStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E4212BD09F0012E802 /* ResponseBitswapStatModel.swift */; };
-		962558E7212BD1A90012E802 /* KeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E6212BD1A90012E802 /* KeysModel.swift */; };
-		962558E9212BD2160012E802 /* BlockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E8212BD2160012E802 /* BlockModel.swift */; };
-		962558EB212BD25B0012E802 /* ResponseBitswapRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EA212BD25B0012E802 /* ResponseBitswapRmModel.swift */; };
-		962558ED212BD3100012E802 /* PeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EC212BD3100012E802 /* PeersModel.swift */; };
-		962558EF212BD4C90012E802 /* CommandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EE212BD4C90012E802 /* CommandModel.swift */; };
-		962558F1212BD4D70012E802 /* CommandOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F0212BD4D70012E802 /* CommandOptionsModel.swift */; };
-		962558F3212BD52D0012E802 /* CidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F2212BD52D0012E802 /* CidModel.swift */; };
-		962558F5212BD8D70012E802 /* ResponseDhtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F4212BD8D70012E802 /* ResponseDhtModel.swift */; };
-		962558F7212BD8FB0012E802 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F6212BD8FB0012E802 /* AddressModel.swift */; };
-		962558F9212BD9A50012E802 /* PathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F8212BD9A50012E802 /* PathModel.swift */; };
-		962558FD212BDD540012E802 /* FileLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558FC212BDD540012E802 /* FileLsModel.swift */; };
-		962558FF212BDDC20012E802 /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558FE212BDDC20012E802 /* ObjectModel.swift */; };
-		96255901212BE63C0012E802 /* EntriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255900212BE63C0012E802 /* EntriesModel.swift */; };
-		96255903212BE9DF0012E802 /* ReferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255902212BE9DF0012E802 /* ReferenceModel.swift */; };
-		96255905212BEA8D0012E802 /* FilestoreObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255904212BEA8D0012E802 /* FilestoreObjectModel.swift */; };
-		96255909212C03A50012E802 /* IDInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255908212C03A50012E802 /* IDInfoModel.swift */; };
-		9625590B212C03D00012E802 /* KeypairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590A212C03D00012E802 /* KeypairModel.swift */; };
-		9625590D212C04140012E802 /* KeypairsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590C212C04140012E802 /* KeypairsModel.swift */; };
-		9625590F212C04BA0012E802 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590E212C04BA0012E802 /* MessageModel.swift */; };
-		96255913212C05470012E802 /* StringsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255912212C05470012E802 /* StringsModel.swift */; };
-		96255915212C06A40012E802 /* LsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255914212C06A40012E802 /* LsModel.swift */; };
-		96255917212C07740012E802 /* MountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255916212C07740012E802 /* MountModel.swift */; };
-		96255919212C07960012E802 /* IPNSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255918212C07960012E802 /* IPNSModel.swift */; };
-		9625591B212C09020012E802 /* DiffsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591A212C09020012E802 /* DiffsModel.swift */; };
-		9625591D212C09120012E802 /* DiffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591C212C09120012E802 /* DiffModel.swift */; };
-		9625591F212C09E70012E802 /* ObjectStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591E212C09E70012E802 /* ObjectStatModel.swift */; };
-		96255921212C0B650012E802 /* ListenersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255920212C0B650012E802 /* ListenersModel.swift */; };
-		96255923212C0B6F0012E802 /* ListenerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255922212C0B6F0012E802 /* ListenerModel.swift */; };
-		96255925212C0BC00012E802 /* StreamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255924212C0BBF0012E802 /* StreamsModel.swift */; };
-		96255927212C0BC70012E802 /* StreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255926212C0BC70012E802 /* StreamModel.swift */; };
-		96255929212C0C550012E802 /* PinsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255928212C0C550012E802 /* PinsModel.swift */; };
-		9625592B212C0C9D0012E802 /* PinnedObjectsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592A212C0C9D0012E802 /* PinnedObjectsModel.swift */; };
-		9625592D212C0D3A0012E802 /* ResponsePinVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592C212C0D3A0012E802 /* ResponsePinVerifyModel.swift */; };
-		9625592F212C0DC30012E802 /* PinStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592E212C0DC30012E802 /* PinStatusModel.swift */; };
-		96255931212C0E6F0012E802 /* ResponsePingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255930212C0E6F0012E802 /* ResponsePingModel.swift */; };
-		96255933212C0FAF0012E802 /* ResponseMessageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255932212C0FAF0012E802 /* ResponseMessageInfoModel.swift */; };
-		96255935212C0FBA0012E802 /* MessageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255934212C0FBA0012E802 /* MessageInfoModel.swift */; };
-		9691C92C212C131E00A79326 /* ResponseRepoGcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92B212C131E00A79326 /* ResponseRepoGcModel.swift */; };
-		9691C92E212C138500A79326 /* ResponseRepoStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92D212C138500A79326 /* ResponseRepoStatModel.swift */; };
-		9691C930212C142900A79326 /* ResponseRepoVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92F212C142900A79326 /* ResponseRepoVerifyModel.swift */; };
+		9691C99E212C195400A79326 /* BlockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E8212BD2160012E802 /* BlockModel.swift */; };
+		9691C99F212C195400A79326 /* PeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EC212BD3100012E802 /* PeersModel.swift */; };
+		9691C9A0212C195400A79326 /* CommandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EE212BD4C90012E802 /* CommandModel.swift */; };
+		9691C9A1212C195400A79326 /* CommandOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F0212BD4D70012E802 /* CommandOptionsModel.swift */; };
+		9691C9A2212C195400A79326 /* CidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F2212BD52D0012E802 /* CidModel.swift */; };
+		9691C9A3212C195400A79326 /* PathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F8212BD9A50012E802 /* PathModel.swift */; };
+		9691C9A4212C195400A79326 /* KeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E6212BD1A90012E802 /* KeysModel.swift */; };
+		9691C9A5212C195500A79326 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F6212BD8FB0012E802 /* AddressModel.swift */; };
+		9691C9A6212C195500A79326 /* FileLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558FC212BDD540012E802 /* FileLsModel.swift */; };
+		9691C9A7212C195500A79326 /* LsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255914212C06A40012E802 /* LsModel.swift */; };
+		9691C9A8212C195500A79326 /* IDInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255908212C03A50012E802 /* IDInfoModel.swift */; };
+		9691C9A9212C195500A79326 /* KeypairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590A212C03D00012E802 /* KeypairModel.swift */; };
+		9691C9AA212C195500A79326 /* KeypairsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590C212C04140012E802 /* KeypairsModel.swift */; };
+		9691C9AB212C195500A79326 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590E212C04BA0012E802 /* MessageModel.swift */; };
+		9691C9AC212C195500A79326 /* StringsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255912212C05470012E802 /* StringsModel.swift */; };
+		9691C9AD212C195500A79326 /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558FE212BDDC20012E802 /* ObjectModel.swift */; };
+		9691C9AE212C195500A79326 /* ObjectStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591E212C09E70012E802 /* ObjectStatModel.swift */; };
+		9691C9AF212C195500A79326 /* ListenersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255920212C0B650012E802 /* ListenersModel.swift */; };
+		9691C9B0212C195500A79326 /* ListenerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255922212C0B6F0012E802 /* ListenerModel.swift */; };
+		9691C9B1212C195500A79326 /* StreamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255924212C0BBF0012E802 /* StreamsModel.swift */; };
+		9691C9B2212C195500A79326 /* StreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255926212C0BC70012E802 /* StreamModel.swift */; };
+		9691C9B3212C195500A79326 /* PinsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255928212C0C550012E802 /* PinsModel.swift */; };
+		9691C9B4212C195500A79326 /* PinnedObjectsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592A212C0C9D0012E802 /* PinnedObjectsModel.swift */; };
+		9691C9B5212C195500A79326 /* PeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C935212C176500A79326 /* PeerModel.swift */; };
+		9691C9B6212C195500A79326 /* MountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255916212C07740012E802 /* MountModel.swift */; };
+		9691C9B7212C195500A79326 /* IPNSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255918212C07960012E802 /* IPNSModel.swift */; };
+		9691C9B8212C195500A79326 /* DiffsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591A212C09020012E802 /* DiffsModel.swift */; };
+		9691C9B9212C195500A79326 /* DiffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591C212C09120012E802 /* DiffModel.swift */; };
+		9691C9BA212C195500A79326 /* FilestoreObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255904212BEA8D0012E802 /* FilestoreObjectModel.swift */; };
+		9691C9BB212C195500A79326 /* EntriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255900212BE63C0012E802 /* EntriesModel.swift */; };
+		9691C9BC212C195500A79326 /* ReferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255902212BE9DF0012E802 /* ReferenceModel.swift */; };
+		9691C9BD212C195500A79326 /* PinStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592E212C0DC30012E802 /* PinStatusModel.swift */; };
+		9691C9BE212C195500A79326 /* MessageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255934212C0FBA0012E802 /* MessageInfoModel.swift */; };
+		9691C9BF212C195500A79326 /* ResponseDhtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F4212BD8D70012E802 /* ResponseDhtModel.swift */; };
+		9691C9C0212C195500A79326 /* ResponseSwarmPeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C937212C17C800A79326 /* ResponseSwarmPeersModel.swift */; };
+		9691C9C1212C195500A79326 /* ResponseRepoStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92D212C138500A79326 /* ResponseRepoStatModel.swift */; };
+		9691C9C2212C195500A79326 /* ResponsePinVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592C212C0D3A0012E802 /* ResponsePinVerifyModel.swift */; };
+		9691C9C3212C195500A79326 /* ResponseBitswapLedgerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF722126C66700413F49 /* ResponseBitswapLedgerModel.swift */; };
+		9691C9C4212C195500A79326 /* ResponseBitswapStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E4212BD09F0012E802 /* ResponseBitswapStatModel.swift */; };
+		9691C9C5212C195500A79326 /* ResponseBitswapRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EA212BD25B0012E802 /* ResponseBitswapRmModel.swift */; };
+		9691C9C6212C195500A79326 /* ResponsePingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255930212C0E6F0012E802 /* ResponsePingModel.swift */; };
+		9691C9C7212C195500A79326 /* ResponseMessageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255932212C0FAF0012E802 /* ResponseMessageInfoModel.swift */; };
+		9691C9C8212C195500A79326 /* ResponseRepoGcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92B212C131E00A79326 /* ResponseRepoGcModel.swift */; };
+		9691C9C9212C195500A79326 /* ResponseRepoVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92F212C142900A79326 /* ResponseRepoVerifyModel.swift */; };
+		9691C9CA212C195500A79326 /* ResponseRepoVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C931212C164C00A79326 /* ResponseRepoVersionModel.swift */; };
+		9691C9CB212C195500A79326 /* ResponseVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C96D212C18F000A79326 /* ResponseVersionModel.swift */; };
+		9691C9CC212C195500A79326 /* ResponseStatsBwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C933212C16C700A79326 /* ResponseStatsBwModel.swift */; };
 		96C4CF712126B58300413F49 /* ArgumentsAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF6F2126AEF300413F49 /* ArgumentsAddModel.swift */; };
 		96C4CF752126C9A700413F49 /* ArgumentsBlockPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF742126C9A700413F49 /* ArgumentsBlockPutModel.swift */; };
-		96C4CF762126C9AC00413F49 /* ResponseBitswapLedgerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF722126C66700413F49 /* ResponseBitswapLedgerModel.swift */; };
 		96C4CF792126CB6100413F49 /* ArgumentsBlockRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF782126CB6100413F49 /* ArgumentsBlockRmModel.swift */; };
 		96C4CF7B2126CE5500413F49 /* ArgumentsDagPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF7A2126CE5500413F49 /* ArgumentsDagPutModel.swift */; };
 		96C4CF7D2126D19200413F49 /* ArgumentsDhtFindpeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF7C2126D19200413F49 /* ArgumentsDhtFindpeerModel.swift */; };
@@ -374,6 +379,11 @@
 		9691C92B212C131E00A79326 /* ResponseRepoGcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRepoGcModel.swift; sourceTree = "<group>"; };
 		9691C92D212C138500A79326 /* ResponseRepoStatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRepoStatModel.swift; sourceTree = "<group>"; };
 		9691C92F212C142900A79326 /* ResponseRepoVerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRepoVerifyModel.swift; sourceTree = "<group>"; };
+		9691C931212C164C00A79326 /* ResponseRepoVersionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRepoVersionModel.swift; sourceTree = "<group>"; };
+		9691C933212C16C700A79326 /* ResponseStatsBwModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStatsBwModel.swift; sourceTree = "<group>"; };
+		9691C935212C176500A79326 /* PeerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerModel.swift; sourceTree = "<group>"; };
+		9691C937212C17C800A79326 /* ResponseSwarmPeersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSwarmPeersModel.swift; sourceTree = "<group>"; };
+		9691C96D212C18F000A79326 /* ResponseVersionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseVersionModel.swift; sourceTree = "<group>"; };
 		96C4CF6F2126AEF300413F49 /* ArgumentsAddModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsAddModel.swift; sourceTree = "<group>"; };
 		96C4CF722126C66700413F49 /* ResponseBitswapLedgerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBitswapLedgerModel.swift; sourceTree = "<group>"; };
 		96C4CF742126C9A700413F49 /* ArgumentsBlockPutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsBlockPutModel.swift; sourceTree = "<group>"; };
@@ -749,7 +759,6 @@
 				962558F2212BD52D0012E802 /* CidModel.swift */,
 				962558F8212BD9A50012E802 /* PathModel.swift */,
 				962558E6212BD1A90012E802 /* KeysModel.swift */,
-				962558F4212BD8D70012E802 /* ResponseDhtModel.swift */,
 				962558F6212BD8FB0012E802 /* AddressModel.swift */,
 				962558FC212BDD540012E802 /* FileLsModel.swift */,
 				96255914212C06A40012E802 /* LsModel.swift */,
@@ -766,6 +775,7 @@
 				96255926212C0BC70012E802 /* StreamModel.swift */,
 				96255928212C0C550012E802 /* PinsModel.swift */,
 				9625592A212C0C9D0012E802 /* PinnedObjectsModel.swift */,
+				9691C935212C176500A79326 /* PeerModel.swift */,
 				96255916212C07740012E802 /* MountModel.swift */,
 				96255918212C07960012E802 /* IPNSModel.swift */,
 				9625591A212C09020012E802 /* DiffsModel.swift */,
@@ -775,6 +785,8 @@
 				96255902212BE9DF0012E802 /* ReferenceModel.swift */,
 				9625592E212C0DC30012E802 /* PinStatusModel.swift */,
 				96255934212C0FBA0012E802 /* MessageInfoModel.swift */,
+				962558F4212BD8D70012E802 /* ResponseDhtModel.swift */,
+				9691C937212C17C800A79326 /* ResponseSwarmPeersModel.swift */,
 				9691C92D212C138500A79326 /* ResponseRepoStatModel.swift */,
 				9625592C212C0D3A0012E802 /* ResponsePinVerifyModel.swift */,
 				96C4CF722126C66700413F49 /* ResponseBitswapLedgerModel.swift */,
@@ -784,6 +796,9 @@
 				96255932212C0FAF0012E802 /* ResponseMessageInfoModel.swift */,
 				9691C92B212C131E00A79326 /* ResponseRepoGcModel.swift */,
 				9691C92F212C142900A79326 /* ResponseRepoVerifyModel.swift */,
+				9691C931212C164C00A79326 /* ResponseRepoVersionModel.swift */,
+				9691C96D212C18F000A79326 /* ResponseVersionModel.swift */,
+				9691C933212C16C700A79326 /* ResponseStatsBwModel.swift */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -1066,11 +1081,9 @@
 				A2A6F71B727312BD45CC7A4AAD7B0AB7 /* NetworkReachabilityManager.swift in Sources */,
 				EFD264FC408EBF3BA2528E70B08DDD94 /* Notifications.swift in Sources */,
 				BE5C67A07E289FE1F9BE27335B159997 /* ParameterEncoding.swift in Sources */,
-				9691C92C212C131E00A79326 /* ResponseRepoGcModel.swift in Sources */,
 				5387216E723A3C68E851CA15573CDD71 /* Request.swift in Sources */,
 				CB6D60925223897FFA2662667DF83E8A /* Response.swift in Sources */,
 				F6BECD98B97CBFEBE2C96F0E9E72A6C0 /* ResponseSerialization.swift in Sources */,
-				9691C92E212C138500A79326 /* ResponseRepoStatModel.swift in Sources */,
 				7D8CC01E8C9EFFF9F4D65406CDE0AB66 /* Result.swift in Sources */,
 				62F65AD8DC4F0F9610F4B8B4738EC094 /* ServerTrustPolicy.swift in Sources */,
 				7B5FE28C7EA4122B0598738E54DBEBD8 /* SessionDelegate.swift in Sources */,
@@ -1078,7 +1091,6 @@
 				3626B94094672CB1C9DEA32B9F9502E1 /* TaskDelegate.swift in Sources */,
 				10EB23E9ECC4B33E16933BB1EA560B6A /* Timeline.swift in Sources */,
 				BBEFE2F9CEB73DC7BD97FFA66A0D9D4F /* Validation.swift in Sources */,
-				9691C930212C142900A79326 /* ResponseRepoVerifyModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1086,101 +1098,109 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96255925212C0BC00012E802 /* StreamsModel.swift in Sources */,
 				96C4CF7D2126D19200413F49 /* ArgumentsDhtFindpeerModel.swift in Sources */,
-				962558F9212BD9A50012E802 /* PathModel.swift in Sources */,
+				9691C9B3212C195500A79326 /* PinsModel.swift in Sources */,
+				9691C9CC212C195500A79326 /* ResponseStatsBwModel.swift in Sources */,
 				962558B1212A57340012E802 /* ArgumentsObjectLinksModel.swift in Sources */,
 				9625589B212A55F20012E802 /* ArgumentsIdModel.swift in Sources */,
 				962558D3212A5C9B0012E802 /* ArgumentsPubsubSubModel.swift in Sources */,
+				9691C9AD212C195500A79326 /* ObjectModel.swift in Sources */,
 				962558D5212A5CC00012E802 /* ArgumentsRepoGcModel.swift in Sources */,
-				96255905212BEA8D0012E802 /* FilestoreObjectModel.swift in Sources */,
 				962558A1212A56440012E802 /* ArgumentsKeyRenameModel.swift in Sources */,
-				96255927212C0BC70012E802 /* StreamModel.swift in Sources */,
 				96255899212A55DE0012E802 /* ArgumentsGetModel.swift in Sources */,
+				9691C9A8212C195500A79326 /* IDInfoModel.swift in Sources */,
 				9625589D212A56050012E802 /* ArgumentsKeyGenModel.swift in Sources */,
-				96255931212C0E6F0012E802 /* ResponsePingModel.swift in Sources */,
 				962558CB212A58C10012E802 /* ArgumentsPinUpdateModel.swift in Sources */,
-				962558ED212BD3100012E802 /* PeersModel.swift in Sources */,
 				962558CF212A58F00012E802 /* ArgumentsPingModel.swift in Sources */,
+				9691C9BF212C195500A79326 /* ResponseDhtModel.swift in Sources */,
+				9691C9B4212C195500A79326 /* PinnedObjectsModel.swift in Sources */,
 				962558AB212A56D40012E802 /* ArgumentsNamePublishModel.swift in Sources */,
 				96255881212A513E0012E802 /* ArgumentsDhtQueryModel.swift in Sources */,
-				96255935212C0FBA0012E802 /* MessageInfoModel.swift in Sources */,
 				96C4CF752126C9A700413F49 /* ArgumentsBlockPutModel.swift in Sources */,
-				962558F3212BD52D0012E802 /* CidModel.swift in Sources */,
+				9691C9C7212C195500A79326 /* ResponseMessageInfoModel.swift in Sources */,
 				BFFB46842300E5CF567326C7949282BB /* IAService.swift in Sources */,
-				962558E9212BD2160012E802 /* BlockModel.swift in Sources */,
-				9625590D212C04140012E802 /* KeypairsModel.swift in Sources */,
+				9691C9A0212C195400A79326 /* CommandModel.swift in Sources */,
 				962558AF212A571E0012E802 /* ArgumentsObjectDiffModel.swift in Sources */,
-				96255919212C07960012E802 /* IPNSModel.swift in Sources */,
+				9691C9BA212C195500A79326 /* FilestoreObjectModel.swift in Sources */,
+				9691C9BC212C195500A79326 /* ReferenceModel.swift in Sources */,
+				9691C9AC212C195500A79326 /* StringsModel.swift in Sources */,
 				96255889212A552C0012E802 /* ArgumentsFilesMkdirModel.swift in Sources */,
 				962558C7212A589E0012E802 /* ArgumentsPinLsModel.swift in Sources */,
-				962558FD212BDD540012E802 /* FileLsModel.swift in Sources */,
+				9691C9C9212C195500A79326 /* ResponseRepoVerifyModel.swift in Sources */,
 				962558A9212A569D0012E802 /* ArgumentsMountModel.swift in Sources */,
-				96255903212BE9DF0012E802 /* ReferenceModel.swift in Sources */,
 				962558D1212A59240012E802 /* ArgumentsPubsubPubModel.swift in Sources */,
-				9625591F212C09E70012E802 /* ObjectStatModel.swift in Sources */,
 				96255887212A551B0012E802 /* ArgumentsFilesLsModel.swift in Sources */,
-				9625590F212C04BA0012E802 /* MessageModel.swift in Sources */,
-				9625592D212C0D3A0012E802 /* ResponsePinVerifyModel.swift in Sources */,
+				9691C9B6212C195500A79326 /* MountModel.swift in Sources */,
+				9691C99E212C195400A79326 /* BlockModel.swift in Sources */,
 				9625588D212A554E0012E802 /* ArgumentsFilesReadModel.swift in Sources */,
 				962558C9212A58AE0012E802 /* ArgumentsPinRmModel.swift in Sources */,
+				9691C9A4212C195400A79326 /* KeysModel.swift in Sources */,
+				9691C9A2212C195400A79326 /* CidModel.swift in Sources */,
 				7525BFA43365C11FD365361F6AAF7EDD /* Ipfs.swift in Sources */,
+				9691C9A6212C195500A79326 /* FileLsModel.swift in Sources */,
 				96255879212A4B200012E802 /* ArgumentsDhtFindprovsModel.swift in Sources */,
-				96255923212C0B6F0012E802 /* ListenerModel.swift in Sources */,
-				9625591B212C09020012E802 /* DiffsModel.swift in Sources */,
 				96C4CF712126B58300413F49 /* ArgumentsAddModel.swift in Sources */,
-				96C4CF762126C9AC00413F49 /* ResponseBitswapLedgerModel.swift in Sources */,
-				962558EF212BD4C90012E802 /* CommandModel.swift in Sources */,
 				96255885212A55060012E802 /* ArgumentsFilesCpModel.swift in Sources */,
 				96255891212A55730012E802 /* ArgumentsFilesStatModel.swift in Sources */,
-				96255929212C0C550012E802 /* PinsModel.swift in Sources */,
+				9691C9A3212C195400A79326 /* PathModel.swift in Sources */,
 				962558B7212A579A0012E802 /* ArgumentsObjectPatchRmLinkModel.swift in Sources */,
-				962558E5212BD09F0012E802 /* ResponseBitswapStatModel.swift in Sources */,
-				962558EB212BD25B0012E802 /* ResponseBitswapRmModel.swift in Sources */,
+				9691C9A9212C195500A79326 /* KeypairModel.swift in Sources */,
 				962558A3212A565A0012E802 /* ArgumentsKeyRmModel.swift in Sources */,
+				9691C9AA212C195500A79326 /* KeypairsModel.swift in Sources */,
 				9625587B212A4B950012E802 /* ArgumentsDhtGetModel.swift in Sources */,
-				962558E7212BD1A90012E802 /* KeysModel.swift in Sources */,
-				96255915212C06A40012E802 /* LsModel.swift in Sources */,
 				962558BB212A57D30012E802 /* ArgumentsObjectPutModel.swift in Sources */,
+				9691C9C5212C195500A79326 /* ResponseBitswapRmModel.swift in Sources */,
+				9691C9A5212C195500A79326 /* AddressModel.swift in Sources */,
 				962558C3212A58690012E802 /* ArgumentsP2pStreamDialModel.swift in Sources */,
-				96255917212C07740012E802 /* MountModel.swift in Sources */,
 				962558AD212A56FA0012E802 /* ArgumentsNameResolveModel.swift in Sources */,
 				9625587F212A511A0012E802 /* ArgumentsDhtPutModel.swift in Sources */,
 				3D819E5FF1F6162B685445B833F5C395 /* IpfsApi-dummy.m in Sources */,
-				9625592F212C0DC30012E802 /* PinStatusModel.swift in Sources */,
 				962558E3212A5DCF0012E802 /* ArgumentsVersionModel.swift in Sources */,
+				9691C9C6212C195500A79326 /* ResponsePingModel.swift in Sources */,
+				9691C9B7212C195500A79326 /* IPNSModel.swift in Sources */,
 				9625588B212A553D0012E802 /* ArgumentsFilesMvModel.swift in Sources */,
-				9625592B212C0C9D0012E802 /* PinnedObjectsModel.swift in Sources */,
 				962558BD212A57F70012E802 /* ArgumentsP2pListenerCloseModel.swift in Sources */,
-				96255909212C03A50012E802 /* IDInfoModel.swift in Sources */,
 				962558B3212A57500012E802 /* ArgumentsObjectPatchAddLinkModel.swift in Sources */,
-				962558F7212BD8FB0012E802 /* AddressModel.swift in Sources */,
 				9625588F212A555E0012E802 /* ArgumentsFilesRmModel.swift in Sources */,
 				962558A5212A56720012E802 /* ArgumentsLogLevelModel.swift in Sources */,
-				96255933212C0FAF0012E802 /* ResponseMessageInfoModel.swift in Sources */,
+				9691C9BB212C195500A79326 /* EntriesModel.swift in Sources */,
+				9691C9B5212C195500A79326 /* PeerModel.swift in Sources */,
 				962558C1212A58590012E802 /* ArgumentsP2pStreamCloseModel.swift in Sources */,
 				96C4CF792126CB6100413F49 /* ArgumentsBlockRmModel.swift in Sources */,
-				962558FF212BDDC20012E802 /* ObjectModel.swift in Sources */,
 				96C4CF7B2126CE5500413F49 /* ArgumentsDagPutModel.swift in Sources */,
-				962558F1212BD4D70012E802 /* CommandOptionsModel.swift in Sources */,
 				96255883212A54ED0012E802 /* ArgumentsDnsModel.swift in Sources */,
-				9625591D212C09120012E802 /* DiffModel.swift in Sources */,
+				9691C9B0212C195500A79326 /* ListenerModel.swift in Sources */,
+				9691C9A7212C195500A79326 /* LsModel.swift in Sources */,
 				96255893212A55830012E802 /* ArgumentsFilesWriteModel.swift in Sources */,
+				9691C9C0212C195500A79326 /* ResponseSwarmPeersModel.swift in Sources */,
+				9691C9A1212C195400A79326 /* CommandOptionsModel.swift in Sources */,
+				9691C9C2212C195500A79326 /* ResponsePinVerifyModel.swift in Sources */,
+				9691C9BE212C195500A79326 /* MessageInfoModel.swift in Sources */,
+				9691C99F212C195400A79326 /* PeersModel.swift in Sources */,
+				9691C9C3212C195500A79326 /* ResponseBitswapLedgerModel.swift in Sources */,
 				962558DF212A5D720012E802 /* ArgumentsStatsBwModel.swift in Sources */,
+				9691C9B9212C195500A79326 /* DiffModel.swift in Sources */,
 				96255895212A55AA0012E802 /* ArgumentsFilestoreLsModel.swift in Sources */,
+				9691C9B2212C195500A79326 /* StreamModel.swift in Sources */,
+				9691C9AF212C195500A79326 /* ListenersModel.swift in Sources */,
+				9691C9B1212C195500A79326 /* StreamsModel.swift in Sources */,
 				962558A7212A568B0012E802 /* ArgumentsLsModel.swift in Sources */,
 				962558C5212A58890012E802 /* ArgumentsPinAddModel.swift in Sources */,
-				9625590B212C03D00012E802 /* KeypairModel.swift in Sources */,
 				9625587D212A510C0012E802 /* ArgumentsDhtProvideModel.swift in Sources */,
-				96255901212BE63C0012E802 /* EntriesModel.swift in Sources */,
-				96255921212C0B650012E802 /* ListenersModel.swift in Sources */,
+				9691C9C8212C195500A79326 /* ResponseRepoGcModel.swift in Sources */,
 				96255897212A55C50012E802 /* ArgumentsFilestoreVerifyModel.swift in Sources */,
+				9691C9AB212C195500A79326 /* MessageModel.swift in Sources */,
+				9691C9C1212C195500A79326 /* ResponseRepoStatModel.swift in Sources */,
 				962558E1212A5DB00012E802 /* ArgumentsSwarmPeersModel.swift in Sources */,
 				962558BF212A58100012E802 /* ArgumentsP2pListenerOpenModel.swift in Sources */,
-				96255913212C05470012E802 /* StringsModel.swift in Sources */,
-				962558F5212BD8D70012E802 /* ResponseDhtModel.swift in Sources */,
+				9691C9C4212C195500A79326 /* ResponseBitswapStatModel.swift in Sources */,
+				9691C9BD212C195500A79326 /* PinStatusModel.swift in Sources */,
+				9691C9CA212C195500A79326 /* ResponseRepoVersionModel.swift in Sources */,
+				9691C9CB212C195500A79326 /* ResponseVersionModel.swift in Sources */,
 				962558DB212A5D390012E802 /* ArgumentsResolveModel.swift in Sources */,
+				9691C9B8212C195500A79326 /* DiffsModel.swift in Sources */,
 				962558CD212A58D40012E802 /* ArgumentsPinVerifyModel.swift in Sources */,
+				9691C9AE212C195500A79326 /* ObjectStatModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
