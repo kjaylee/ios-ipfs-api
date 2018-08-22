@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A wrapper of the IPFS Client HTTP-API for iOS.
+A client library for the IPFS HTTP API, implemented in Swift. Check out IPFS Docs(https://ipfs.io/docs/api/) for the full command reference.
                        DESC
 
   s.homepage         = 'https://github.com/kjaylee/ios-ipfs-api'
