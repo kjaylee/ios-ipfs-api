@@ -231,6 +231,12 @@ extension Ipfs {
         //    ipfs.swarm.connect(addr, [callback])
         //    ipfs.swarm.disconnect(addr, [callback])
         //    ipfs.swarm.peers([options], [callback])
+        public class func peers(_ arguments: ArgumentsSwarmPeersModel? = nil,
+                             callbackQueue: DispatchQueue? = nil,
+                             progressBlock: Moya.ProgressBlock? = nil,
+                             completion: @escaping Moya.Completion ) {
+            Ipfs.shared().request(MultiTarget(IAService.swarmPeers(arguments: arguments)), callbackQueue: callbackQueue, progress: progressBlock, completion: completion)
+        }
     }
     public class name {
         //MARK:  name
