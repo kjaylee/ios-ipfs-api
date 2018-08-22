@@ -1,11 +1,11 @@
 # ios-ipfs-api
 
 A wrapper of the IPFS Client HTTP-API for iOS.
-[![Build Status](https://travis-ci.com/kjaylee/ios-ipfs-api.svg?branch=master)](https://travis-ci.com/kjaylee/ios-ipfs-api)
-[![CI Status](https://img.shields.io/travis/kjaylee/ios-ipfs-api.svg?style=flat)](https://travis-ci.org/kjaylee/ios-ipfs-api)
-[![Version](https://img.shields.io/cocoapods/v/IpfsApi.svg?style=flat)](https://cocoapods.org/pods/IpfsApi)
-[![License](https://img.shields.io/cocoapods/l/IpfsApi.svg?style=flat)](https://cocoapods.org/pods/IpfsApi)
-[![Platform](https://img.shields.io/cocoapods/p/IpfsApi.svg?style=flat)](https://cocoapods.org/pods/IpfsApi)
+
+[![CI Status](https://img.shields.io/travis/com/kjaylee/ios-ipfs-api.svg?style=popout)](https://travis-ci.com/kjaylee/ios-ipfs-api)
+[![Version](https://img.shields.io/cocoapods/v/IpfsApi.svg?style=popout)](https://cocoapods.org/pods/IpfsApi)
+[![License](https://img.shields.io/cocoapods/l/IpfsApi.svg?style=popout)](https://cocoapods.org/pods/IpfsApi)
+[![Platform](https://img.shields.io/cocoapods/p/IpfsApi.svg?style=popout)](https://cocoapods.org/pods/IpfsApi)
 
 Check out [the client API reference](https://ipfs.io/docs/api/) for the full command reference. 
 
