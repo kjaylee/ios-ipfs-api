@@ -7,9 +7,9 @@ language: swift
 cache: cocoapods
 podfile: Example/Podfile
 before_install:
-- gem install cocoapods # Since Travis is not always on latest version
+- gem install cocoapods --pre # Since Travis is not always on latest version
 - pod install --project-directory=Example
-- pod update Alamofire
+- pod update --project-directory=Example Alamofire
 script:
 - set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/IpfsApi.xcworkspace -scheme IpfsApi-Example -sdk iphonesimulator11.2 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
