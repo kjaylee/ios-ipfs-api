@@ -56,16 +56,22 @@ extension Ipfs {
     }
     
     //    ipfs.ls(ipfsPath, [options], [callback])
+    public class func ls(_ arguments: ArgumentsLsModel,
+                         callbackQueue: DispatchQueue? = nil,
+                         progressBlock: Moya.ProgressBlock? = nil,
+                         completion: @escaping Moya.Completion ) {
+        Ipfs.shared().request(MultiTarget(IAService.ls(arguments: arguments)), callbackQueue: callbackQueue, progress: progressBlock, completion: completion)
+    }
+    
     public class func ls(_ ipfsPath: String,
         headers: Bool? = nil,
         resolveType: Bool? = nil,
         callbackQueue: DispatchQueue? = nil,
         progressBlock: Moya.ProgressBlock? = nil,
         completion: @escaping Moya.Completion ) {
-        Ipfs.shared().request(MultiTarget(IAService.ls(arguments:
-            ArgumentsLsModel(arg: ipfsPath, headers: headers, resolveType: resolveType)
-        )), callbackQueue: callbackQueue, progress: progressBlock, completion: completion)
+        Ipfs.ls(ArgumentsLsModel(arg: ipfsPath, headers: headers, resolveType: resolveType), callbackQueue: callbackQueue, progressBlock: progressBlock, completion: completion)
     }
+    
     
     
     //MARK: Files
@@ -138,8 +144,6 @@ extension Ipfs {
         //    ipfs.files.mkdir(path, [options], [callback])
         //    ipfs.files.mv([from, to], [callback])
         //    ipfs.files.read(path, [options], [callback])
-        //    ipfs.files.readPullStream(path, [options])
-        //    ipfs.files.readReadableStream(path, [options])
         //    ipfs.files.rm(path, [options], [callback])
         //    ipfs.files.stat(path, [options], [callback])
         //    ipfs.files.write(path, content, [options], [callback])
@@ -242,8 +246,6 @@ extension Ipfs {
     //    ipfs.dns(domain, [callback])
     //    ipfs.id([callback])
     //    ipfs.ping(id, [options], [callback])
-    //    ipfs.pingPullStream(id, [options])
-    //    ipfs.pingReadableStream(id, [options])
     //    ipfs.stop([callback]). Alias to ipfs.shutdown.
     //    ipfs.version([callback])
     public class config {
@@ -259,8 +261,6 @@ extension Ipfs {
         //
         //    ipfs.stats.bitswap([callback])
         //    ipfs.stats.bw([options], [callback])
-        //    ipfs.stats.bwPullStream([options])
-        //    ipfs.stats.bwReadableStream([options])
         //    ipfs.stats.repo([options], [callback])
         
     }
