@@ -287,7 +287,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-IpfsApi_Example/Pods-IpfsApi_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-IpfsApi_Example/Pods-IpfsApi_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/IpfsApi/Ipfs.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
@@ -302,7 +302,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IpfsApi_Example/Pods-IpfsApi_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-IpfsApi_Example/Pods-IpfsApi_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B7BACCA8907F8B1E1C8E133A /* [CP] Check Pods Manifest.lock */ = {
