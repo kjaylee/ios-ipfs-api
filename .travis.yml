@@ -11,5 +11,5 @@ before_install:
 - pod install --project-directory=Example
 - pod update --project-directory=Example Alamofire
 script:
-- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/IpfsApi.xcworkspace -scheme IpfsApi-Example -sdk iphonesimulator11.3 ONLY_ACTIVE_ARCH=NO | xcpretty
+#- set -o pipefail && xcodebuild test -enableCodeCoverage YES -workspace Example/IpfsApi.xcworkspace -scheme IpfsApi-Example -sdk iphonesimulator11.3 ONLY_ACTIVE_ARCH=NO | xcpretty
 - pod lib lint
