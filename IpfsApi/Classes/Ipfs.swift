@@ -8,7 +8,7 @@
 import Foundation
 import Moya
 
-public class Ipfs : MoyaProvider<MultiTarget> {
+public class Ipfs : Moya.MoyaProvider<MultiTarget> {
     
     var baseAddress: String = "http://127.0.0.1:5001/api/v0"
     
@@ -18,7 +18,7 @@ public class Ipfs : MoyaProvider<MultiTarget> {
             plugins: [NetworkLoggerPlugin(verbose: true)]
         )
         #else
-        let provider = IAProvider()
+        let provider = Ipfs()
         #endif
         return provider
     }()
