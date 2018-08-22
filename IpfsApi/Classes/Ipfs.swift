@@ -13,13 +13,15 @@ public class Ipfs : Moya.MoyaProvider<MultiTarget> {
     var baseAddress: String = "http://127.0.0.1:5001/api/v0"
     
     private static var sharedProvider: Ipfs = {
-        #if DEBUG
-        let provider = Ipfs(
-            plugins: [NetworkLoggerPlugin(verbose: true)]
-        )
-        #else
+//        #if DEBUG
+//        let provider = Ipfs(
+//            plugins: [NetworkLoggerPlugin(verbose: true)]
+//        )
+//        #else
+        
         let provider = Ipfs()
-        #endif
+        
+//        #endif
         return provider
     }()
     
