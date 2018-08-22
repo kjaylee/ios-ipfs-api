@@ -41,106 +41,106 @@
 		88A2880959EA86F4A3FBBE49D1008C8E /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F9998346B446DCFC98A99C1837B4F37D /* Alamofire.framework */; };
 		8B04B42612014400A01E5699AFEEF773 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48590183D2D6121CB8C6F364871B52F /* Endpoint.swift */; };
 		8E92AD76ADA489F68CFF61A255F7A38A /* Moya-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9FE45E946C8583B6F37A9E976CC818E /* Moya-dummy.m */; };
-		96255879212A4B200012E802 /* ArgumentsDhtFindprovsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255877212A4A5E0012E802 /* ArgumentsDhtFindprovsModel.swift */; };
-		9625587B212A4B950012E802 /* ArgumentsDhtGetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625587A212A4B950012E802 /* ArgumentsDhtGetModel.swift */; };
-		9625587D212A510C0012E802 /* ArgumentsDhtProvideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625587C212A510C0012E802 /* ArgumentsDhtProvideModel.swift */; };
-		9625587F212A511A0012E802 /* ArgumentsDhtPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625587E212A511A0012E802 /* ArgumentsDhtPutModel.swift */; };
-		96255881212A513E0012E802 /* ArgumentsDhtQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255880212A513E0012E802 /* ArgumentsDhtQueryModel.swift */; };
-		96255883212A54ED0012E802 /* ArgumentsDnsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255882212A54ED0012E802 /* ArgumentsDnsModel.swift */; };
-		96255885212A55060012E802 /* ArgumentsFilesCpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255884212A55060012E802 /* ArgumentsFilesCpModel.swift */; };
-		96255887212A551B0012E802 /* ArgumentsFilesLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255886212A551B0012E802 /* ArgumentsFilesLsModel.swift */; };
-		96255889212A552C0012E802 /* ArgumentsFilesMkdirModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255888212A552C0012E802 /* ArgumentsFilesMkdirModel.swift */; };
-		9625588B212A553D0012E802 /* ArgumentsFilesMvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625588A212A553D0012E802 /* ArgumentsFilesMvModel.swift */; };
-		9625588D212A554E0012E802 /* ArgumentsFilesReadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625588C212A554E0012E802 /* ArgumentsFilesReadModel.swift */; };
-		9625588F212A555E0012E802 /* ArgumentsFilesRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625588E212A555E0012E802 /* ArgumentsFilesRmModel.swift */; };
-		96255891212A55730012E802 /* ArgumentsFilesStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255890212A55730012E802 /* ArgumentsFilesStatModel.swift */; };
-		96255893212A55830012E802 /* ArgumentsFilesWriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255892212A55830012E802 /* ArgumentsFilesWriteModel.swift */; };
-		96255895212A55AA0012E802 /* ArgumentsFilestoreLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255894212A55AA0012E802 /* ArgumentsFilestoreLsModel.swift */; };
-		96255897212A55C50012E802 /* ArgumentsFilestoreVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255896212A55C50012E802 /* ArgumentsFilestoreVerifyModel.swift */; };
-		96255899212A55DE0012E802 /* ArgumentsGetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255898212A55DE0012E802 /* ArgumentsGetModel.swift */; };
-		9625589B212A55F20012E802 /* ArgumentsIdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625589A212A55F20012E802 /* ArgumentsIdModel.swift */; };
-		9625589D212A56050012E802 /* ArgumentsKeyGenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625589C212A56050012E802 /* ArgumentsKeyGenModel.swift */; };
-		962558A1212A56440012E802 /* ArgumentsKeyRenameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558A0212A56440012E802 /* ArgumentsKeyRenameModel.swift */; };
-		962558A3212A565A0012E802 /* ArgumentsKeyRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558A2212A565A0012E802 /* ArgumentsKeyRmModel.swift */; };
-		962558A5212A56720012E802 /* ArgumentsLogLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558A4212A56720012E802 /* ArgumentsLogLevelModel.swift */; };
-		962558A7212A568B0012E802 /* ArgumentsLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558A6212A568B0012E802 /* ArgumentsLsModel.swift */; };
-		962558A9212A569D0012E802 /* ArgumentsMountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558A8212A569D0012E802 /* ArgumentsMountModel.swift */; };
-		962558AB212A56D40012E802 /* ArgumentsNamePublishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558AA212A56D40012E802 /* ArgumentsNamePublishModel.swift */; };
-		962558AD212A56FA0012E802 /* ArgumentsNameResolveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558AC212A56FA0012E802 /* ArgumentsNameResolveModel.swift */; };
-		962558AF212A571E0012E802 /* ArgumentsObjectDiffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558AE212A571E0012E802 /* ArgumentsObjectDiffModel.swift */; };
-		962558B1212A57340012E802 /* ArgumentsObjectLinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558B0212A57340012E802 /* ArgumentsObjectLinksModel.swift */; };
-		962558B3212A57500012E802 /* ArgumentsObjectPatchAddLinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558B2212A57500012E802 /* ArgumentsObjectPatchAddLinkModel.swift */; };
-		962558B7212A579A0012E802 /* ArgumentsObjectPatchRmLinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558B6212A579A0012E802 /* ArgumentsObjectPatchRmLinkModel.swift */; };
-		962558BB212A57D30012E802 /* ArgumentsObjectPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558BA212A57D30012E802 /* ArgumentsObjectPutModel.swift */; };
-		962558BD212A57F70012E802 /* ArgumentsP2pListenerCloseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558BC212A57F70012E802 /* ArgumentsP2pListenerCloseModel.swift */; };
-		962558BF212A58100012E802 /* ArgumentsP2pListenerOpenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558BE212A58100012E802 /* ArgumentsP2pListenerOpenModel.swift */; };
-		962558C1212A58590012E802 /* ArgumentsP2pStreamCloseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558C0212A58590012E802 /* ArgumentsP2pStreamCloseModel.swift */; };
-		962558C3212A58690012E802 /* ArgumentsP2pStreamDialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558C2212A58690012E802 /* ArgumentsP2pStreamDialModel.swift */; };
-		962558C5212A58890012E802 /* ArgumentsPinAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558C4212A58890012E802 /* ArgumentsPinAddModel.swift */; };
-		962558C7212A589E0012E802 /* ArgumentsPinLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558C6212A589E0012E802 /* ArgumentsPinLsModel.swift */; };
-		962558C9212A58AE0012E802 /* ArgumentsPinRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558C8212A58AE0012E802 /* ArgumentsPinRmModel.swift */; };
-		962558CB212A58C10012E802 /* ArgumentsPinUpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558CA212A58C10012E802 /* ArgumentsPinUpdateModel.swift */; };
-		962558CD212A58D40012E802 /* ArgumentsPinVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558CC212A58D40012E802 /* ArgumentsPinVerifyModel.swift */; };
-		962558CF212A58F00012E802 /* ArgumentsPingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558CE212A58F00012E802 /* ArgumentsPingModel.swift */; };
-		962558D1212A59240012E802 /* ArgumentsPubsubPubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558D0212A59240012E802 /* ArgumentsPubsubPubModel.swift */; };
-		962558D3212A5C9B0012E802 /* ArgumentsPubsubSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558D2212A5C9B0012E802 /* ArgumentsPubsubSubModel.swift */; };
-		962558D5212A5CC00012E802 /* ArgumentsRepoGcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558D4212A5CC00012E802 /* ArgumentsRepoGcModel.swift */; };
-		962558DB212A5D390012E802 /* ArgumentsResolveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558DA212A5D390012E802 /* ArgumentsResolveModel.swift */; };
-		962558DF212A5D720012E802 /* ArgumentsStatsBwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558DE212A5D720012E802 /* ArgumentsStatsBwModel.swift */; };
-		962558E1212A5DB00012E802 /* ArgumentsSwarmPeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E0212A5DB00012E802 /* ArgumentsSwarmPeersModel.swift */; };
-		962558E3212A5DCF0012E802 /* ArgumentsVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E2212A5DCF0012E802 /* ArgumentsVersionModel.swift */; };
-		9691C99E212C195400A79326 /* BlockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E8212BD2160012E802 /* BlockModel.swift */; };
-		9691C99F212C195400A79326 /* PeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EC212BD3100012E802 /* PeersModel.swift */; };
-		9691C9A0212C195400A79326 /* CommandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EE212BD4C90012E802 /* CommandModel.swift */; };
-		9691C9A1212C195400A79326 /* CommandOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F0212BD4D70012E802 /* CommandOptionsModel.swift */; };
-		9691C9A2212C195400A79326 /* CidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F2212BD52D0012E802 /* CidModel.swift */; };
-		9691C9A3212C195400A79326 /* PathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F8212BD9A50012E802 /* PathModel.swift */; };
-		9691C9A4212C195400A79326 /* KeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E6212BD1A90012E802 /* KeysModel.swift */; };
-		9691C9A5212C195500A79326 /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F6212BD8FB0012E802 /* AddressModel.swift */; };
-		9691C9A6212C195500A79326 /* FileLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558FC212BDD540012E802 /* FileLsModel.swift */; };
-		9691C9A7212C195500A79326 /* LsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255914212C06A40012E802 /* LsModel.swift */; };
-		9691C9A8212C195500A79326 /* IDInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255908212C03A50012E802 /* IDInfoModel.swift */; };
-		9691C9A9212C195500A79326 /* KeypairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590A212C03D00012E802 /* KeypairModel.swift */; };
-		9691C9AA212C195500A79326 /* KeypairsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590C212C04140012E802 /* KeypairsModel.swift */; };
-		9691C9AB212C195500A79326 /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625590E212C04BA0012E802 /* MessageModel.swift */; };
-		9691C9AC212C195500A79326 /* StringsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255912212C05470012E802 /* StringsModel.swift */; };
-		9691C9AD212C195500A79326 /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558FE212BDDC20012E802 /* ObjectModel.swift */; };
-		9691C9AE212C195500A79326 /* ObjectStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591E212C09E70012E802 /* ObjectStatModel.swift */; };
-		9691C9AF212C195500A79326 /* ListenersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255920212C0B650012E802 /* ListenersModel.swift */; };
-		9691C9B0212C195500A79326 /* ListenerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255922212C0B6F0012E802 /* ListenerModel.swift */; };
-		9691C9B1212C195500A79326 /* StreamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255924212C0BBF0012E802 /* StreamsModel.swift */; };
-		9691C9B2212C195500A79326 /* StreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255926212C0BC70012E802 /* StreamModel.swift */; };
-		9691C9B3212C195500A79326 /* PinsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255928212C0C550012E802 /* PinsModel.swift */; };
-		9691C9B4212C195500A79326 /* PinnedObjectsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592A212C0C9D0012E802 /* PinnedObjectsModel.swift */; };
-		9691C9B5212C195500A79326 /* PeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C935212C176500A79326 /* PeerModel.swift */; };
-		9691C9B6212C195500A79326 /* MountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255916212C07740012E802 /* MountModel.swift */; };
-		9691C9B7212C195500A79326 /* IPNSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255918212C07960012E802 /* IPNSModel.swift */; };
-		9691C9B8212C195500A79326 /* DiffsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591A212C09020012E802 /* DiffsModel.swift */; };
-		9691C9B9212C195500A79326 /* DiffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625591C212C09120012E802 /* DiffModel.swift */; };
-		9691C9BA212C195500A79326 /* FilestoreObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255904212BEA8D0012E802 /* FilestoreObjectModel.swift */; };
-		9691C9BB212C195500A79326 /* EntriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255900212BE63C0012E802 /* EntriesModel.swift */; };
-		9691C9BC212C195500A79326 /* ReferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255902212BE9DF0012E802 /* ReferenceModel.swift */; };
-		9691C9BD212C195500A79326 /* PinStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592E212C0DC30012E802 /* PinStatusModel.swift */; };
-		9691C9BE212C195500A79326 /* MessageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255934212C0FBA0012E802 /* MessageInfoModel.swift */; };
-		9691C9BF212C195500A79326 /* ResponseDhtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558F4212BD8D70012E802 /* ResponseDhtModel.swift */; };
-		9691C9C0212C195500A79326 /* ResponseSwarmPeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C937212C17C800A79326 /* ResponseSwarmPeersModel.swift */; };
-		9691C9C1212C195500A79326 /* ResponseRepoStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92D212C138500A79326 /* ResponseRepoStatModel.swift */; };
-		9691C9C2212C195500A79326 /* ResponsePinVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9625592C212C0D3A0012E802 /* ResponsePinVerifyModel.swift */; };
-		9691C9C3212C195500A79326 /* ResponseBitswapLedgerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF722126C66700413F49 /* ResponseBitswapLedgerModel.swift */; };
-		9691C9C4212C195500A79326 /* ResponseBitswapStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558E4212BD09F0012E802 /* ResponseBitswapStatModel.swift */; };
-		9691C9C5212C195500A79326 /* ResponseBitswapRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962558EA212BD25B0012E802 /* ResponseBitswapRmModel.swift */; };
-		9691C9C6212C195500A79326 /* ResponsePingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255930212C0E6F0012E802 /* ResponsePingModel.swift */; };
-		9691C9C7212C195500A79326 /* ResponseMessageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96255932212C0FAF0012E802 /* ResponseMessageInfoModel.swift */; };
-		9691C9C8212C195500A79326 /* ResponseRepoGcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92B212C131E00A79326 /* ResponseRepoGcModel.swift */; };
-		9691C9C9212C195500A79326 /* ResponseRepoVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C92F212C142900A79326 /* ResponseRepoVerifyModel.swift */; };
-		9691C9CA212C195500A79326 /* ResponseRepoVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C931212C164C00A79326 /* ResponseRepoVersionModel.swift */; };
-		9691C9CB212C195500A79326 /* ResponseVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C96D212C18F000A79326 /* ResponseVersionModel.swift */; };
-		9691C9CC212C195500A79326 /* ResponseStatsBwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9691C933212C16C700A79326 /* ResponseStatsBwModel.swift */; };
-		96C4CF712126B58300413F49 /* ArgumentsAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF6F2126AEF300413F49 /* ArgumentsAddModel.swift */; };
-		96C4CF752126C9A700413F49 /* ArgumentsBlockPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF742126C9A700413F49 /* ArgumentsBlockPutModel.swift */; };
-		96C4CF792126CB6100413F49 /* ArgumentsBlockRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF782126CB6100413F49 /* ArgumentsBlockRmModel.swift */; };
-		96C4CF7B2126CE5500413F49 /* ArgumentsDagPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF7A2126CE5500413F49 /* ArgumentsDagPutModel.swift */; };
-		96C4CF7D2126D19200413F49 /* ArgumentsDhtFindpeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96C4CF7C2126D19200413F49 /* ArgumentsDhtFindpeerModel.swift */; };
+		96270033212D30DA00933ABD /* ArgumentsAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270031212D30C300933ABD /* ArgumentsAddModel.swift */; };
+		96270068212D30FD00933ABD /* ArgumentsFilesWriteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270034212D30F300933ABD /* ArgumentsFilesWriteModel.swift */; };
+		96270069212D30FD00933ABD /* ArgumentsPubsubPubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270035212D30F300933ABD /* ArgumentsPubsubPubModel.swift */; };
+		9627006A212D30FD00933ABD /* ArgumentsResolveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270036212D30F400933ABD /* ArgumentsResolveModel.swift */; };
+		9627006B212D30FD00933ABD /* ArgumentsPinRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270037212D30F400933ABD /* ArgumentsPinRmModel.swift */; };
+		9627006C212D30FD00933ABD /* ArgumentsDhtProvideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270038212D30F400933ABD /* ArgumentsDhtProvideModel.swift */; };
+		9627006D212D30FD00933ABD /* ArgumentsBlockRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270039212D30F400933ABD /* ArgumentsBlockRmModel.swift */; };
+		9627006E212D30FD00933ABD /* ArgumentsPinUpdateModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627003A212D30F400933ABD /* ArgumentsPinUpdateModel.swift */; };
+		9627006F212D30FD00933ABD /* ArgumentsFilesStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627003B212D30F400933ABD /* ArgumentsFilesStatModel.swift */; };
+		96270070212D30FD00933ABD /* ArgumentsVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627003C212D30F400933ABD /* ArgumentsVersionModel.swift */; };
+		96270071212D30FD00933ABD /* ArgumentsMountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627003D212D30F500933ABD /* ArgumentsMountModel.swift */; };
+		96270072212D30FD00933ABD /* ArgumentsObjectDiffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627003E212D30F500933ABD /* ArgumentsObjectDiffModel.swift */; };
+		96270073212D30FD00933ABD /* ArgumentsP2pStreamCloseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627003F212D30F500933ABD /* ArgumentsP2pStreamCloseModel.swift */; };
+		96270074212D30FD00933ABD /* ArgumentsKeyRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270040212D30F500933ABD /* ArgumentsKeyRmModel.swift */; };
+		96270075212D30FD00933ABD /* ArgumentsObjectPatchAddLinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270041212D30F500933ABD /* ArgumentsObjectPatchAddLinkModel.swift */; };
+		96270076212D30FD00933ABD /* ArgumentsNamePublishModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270042212D30F500933ABD /* ArgumentsNamePublishModel.swift */; };
+		96270077212D30FD00933ABD /* ArgumentsP2pListenerOpenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270043212D30F500933ABD /* ArgumentsP2pListenerOpenModel.swift */; };
+		96270078212D30FD00933ABD /* ArgumentsFilesReadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270044212D30F600933ABD /* ArgumentsFilesReadModel.swift */; };
+		96270079212D30FD00933ABD /* ArgumentsDhtGetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270045212D30F600933ABD /* ArgumentsDhtGetModel.swift */; };
+		9627007A212D30FD00933ABD /* ArgumentsPingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270046212D30F600933ABD /* ArgumentsPingModel.swift */; };
+		9627007B212D30FD00933ABD /* ArgumentsPinAddModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270047212D30F600933ABD /* ArgumentsPinAddModel.swift */; };
+		9627007C212D30FD00933ABD /* ArgumentsDhtPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270048212D30F600933ABD /* ArgumentsDhtPutModel.swift */; };
+		9627007D212D30FD00933ABD /* ArgumentsNameResolveModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270049212D30F600933ABD /* ArgumentsNameResolveModel.swift */; };
+		9627007E212D30FD00933ABD /* ArgumentsStatsBwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627004A212D30F700933ABD /* ArgumentsStatsBwModel.swift */; };
+		9627007F212D30FD00933ABD /* ArgumentsLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627004B212D30F700933ABD /* ArgumentsLsModel.swift */; };
+		96270080212D30FD00933ABD /* ArgumentsRepoGcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627004C212D30F700933ABD /* ArgumentsRepoGcModel.swift */; };
+		96270081212D30FD00933ABD /* ArgumentsDhtFindpeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627004D212D30F700933ABD /* ArgumentsDhtFindpeerModel.swift */; };
+		96270082212D30FD00933ABD /* ArgumentsDhtFindprovsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627004E212D30F700933ABD /* ArgumentsDhtFindprovsModel.swift */; };
+		96270083212D30FD00933ABD /* ArgumentsFilestoreLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627004F212D30F800933ABD /* ArgumentsFilestoreLsModel.swift */; };
+		96270084212D30FD00933ABD /* ArgumentsFilesCpModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270050212D30F800933ABD /* ArgumentsFilesCpModel.swift */; };
+		96270085212D30FD00933ABD /* ArgumentsPinLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270051212D30F800933ABD /* ArgumentsPinLsModel.swift */; };
+		96270086212D30FD00933ABD /* ArgumentsLogLevelModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270052212D30F800933ABD /* ArgumentsLogLevelModel.swift */; };
+		96270087212D30FD00933ABD /* ArgumentsKeyRenameModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270053212D30F800933ABD /* ArgumentsKeyRenameModel.swift */; };
+		96270088212D30FD00933ABD /* ArgumentsKeyGenModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270054212D30F900933ABD /* ArgumentsKeyGenModel.swift */; };
+		96270089212D30FD00933ABD /* ArgumentsPubsubSubModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270055212D30F900933ABD /* ArgumentsPubsubSubModel.swift */; };
+		9627008A212D30FD00933ABD /* ArgumentsObjectPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270056212D30F900933ABD /* ArgumentsObjectPutModel.swift */; };
+		9627008B212D30FD00933ABD /* ArgumentsFilesLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270057212D30F900933ABD /* ArgumentsFilesLsModel.swift */; };
+		9627008C212D30FD00933ABD /* ArgumentsIdModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270058212D30F900933ABD /* ArgumentsIdModel.swift */; };
+		9627008D212D30FD00933ABD /* ArgumentsFilesRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270059212D30FA00933ABD /* ArgumentsFilesRmModel.swift */; };
+		9627008E212D30FD00933ABD /* ArgumentsObjectLinksModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627005A212D30FA00933ABD /* ArgumentsObjectLinksModel.swift */; };
+		9627008F212D30FD00933ABD /* ArgumentsDagPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627005B212D30FA00933ABD /* ArgumentsDagPutModel.swift */; };
+		96270090212D30FD00933ABD /* ArgumentsGetModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627005C212D30FA00933ABD /* ArgumentsGetModel.swift */; };
+		96270091212D30FD00933ABD /* ArgumentsBlockPutModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627005D212D30FB00933ABD /* ArgumentsBlockPutModel.swift */; };
+		96270092212D30FD00933ABD /* ArgumentsDnsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627005E212D30FB00933ABD /* ArgumentsDnsModel.swift */; };
+		96270093212D30FD00933ABD /* ArgumentsFilestoreVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627005F212D30FB00933ABD /* ArgumentsFilestoreVerifyModel.swift */; };
+		96270094212D30FD00933ABD /* ArgumentsObjectPatchRmLinkModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270060212D30FB00933ABD /* ArgumentsObjectPatchRmLinkModel.swift */; };
+		96270095212D30FD00933ABD /* ArgumentsP2pStreamDialModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270061212D30FB00933ABD /* ArgumentsP2pStreamDialModel.swift */; };
+		96270096212D30FD00933ABD /* ArgumentsFilesMkdirModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270062212D30FC00933ABD /* ArgumentsFilesMkdirModel.swift */; };
+		96270097212D30FD00933ABD /* ArgumentsSwarmPeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270063212D30FC00933ABD /* ArgumentsSwarmPeersModel.swift */; };
+		96270098212D30FD00933ABD /* ArgumentsPinVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270064212D30FC00933ABD /* ArgumentsPinVerifyModel.swift */; };
+		96270099212D30FD00933ABD /* ArgumentsP2pListenerCloseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270065212D30FC00933ABD /* ArgumentsP2pListenerCloseModel.swift */; };
+		9627009A212D30FD00933ABD /* ArgumentsFilesMvModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270066212D30FC00933ABD /* ArgumentsFilesMvModel.swift */; };
+		9627009B212D30FD00933ABD /* ArgumentsDhtQueryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96270067212D30FD00933ABD /* ArgumentsDhtQueryModel.swift */; };
+		9627009D212D314600933ABD /* AddressModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627009C212D314600933ABD /* AddressModel.swift */; };
+		962700CC212D316500933ABD /* ResponseBitswapLedgerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627009E212D315C00933ABD /* ResponseBitswapLedgerModel.swift */; };
+		962700CD212D316500933ABD /* IPNSModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9627009F212D315C00933ABD /* IPNSModel.swift */; };
+		962700CE212D316500933ABD /* FilestoreObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A0212D315D00933ABD /* FilestoreObjectModel.swift */; };
+		962700CF212D316500933ABD /* ReferenceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A1212D315D00933ABD /* ReferenceModel.swift */; };
+		962700D0212D316500933ABD /* ResponseDhtModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A2212D315D00933ABD /* ResponseDhtModel.swift */; };
+		962700D1212D316500933ABD /* ResponseMessageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A3212D315D00933ABD /* ResponseMessageInfoModel.swift */; };
+		962700D2212D316500933ABD /* ResponsePingModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A4212D315D00933ABD /* ResponsePingModel.swift */; };
+		962700D3212D316500933ABD /* ResponseVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A5212D315D00933ABD /* ResponseVersionModel.swift */; };
+		962700D4212D316500933ABD /* ObjectStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A6212D315E00933ABD /* ObjectStatModel.swift */; };
+		962700D5212D316500933ABD /* EntriesModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A7212D315E00933ABD /* EntriesModel.swift */; };
+		962700D6212D316500933ABD /* DiffModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A8212D315E00933ABD /* DiffModel.swift */; };
+		962700D7212D316500933ABD /* DiffsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700A9212D315E00933ABD /* DiffsModel.swift */; };
+		962700D8212D316500933ABD /* CidModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700AA212D315E00933ABD /* CidModel.swift */; };
+		962700D9212D316500933ABD /* CommandOptionsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700AB212D315E00933ABD /* CommandOptionsModel.swift */; };
+		962700DA212D316500933ABD /* KeysModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700AC212D315E00933ABD /* KeysModel.swift */; };
+		962700DB212D316500933ABD /* FileLsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700AD212D315F00933ABD /* FileLsModel.swift */; };
+		962700DC212D316500933ABD /* ListenerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700AE212D315F00933ABD /* ListenerModel.swift */; };
+		962700DD212D316500933ABD /* PinStatusModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700AF212D315F00933ABD /* PinStatusModel.swift */; };
+		962700DE212D316500933ABD /* ResponseRepoStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B0212D315F00933ABD /* ResponseRepoStatModel.swift */; };
+		962700DF212D316500933ABD /* ListenersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B1212D315F00933ABD /* ListenersModel.swift */; };
+		962700E0212D316500933ABD /* LsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B2212D316000933ABD /* LsModel.swift */; };
+		962700E1212D316500933ABD /* MessageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B3212D316000933ABD /* MessageModel.swift */; };
+		962700E2212D316500933ABD /* KeypairModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B4212D316000933ABD /* KeypairModel.swift */; };
+		962700E3212D316500933ABD /* KeypairsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B5212D316000933ABD /* KeypairsModel.swift */; };
+		962700E4212D316500933ABD /* IDInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B6212D316000933ABD /* IDInfoModel.swift */; };
+		962700E5212D316500933ABD /* CommandModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B7212D316000933ABD /* CommandModel.swift */; };
+		962700E6212D316500933ABD /* PathModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B8212D316100933ABD /* PathModel.swift */; };
+		962700E7212D316500933ABD /* PinnedObjectsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700B9212D316100933ABD /* PinnedObjectsModel.swift */; };
+		962700E8212D316500933ABD /* ResponseBitswapRmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700BA212D316100933ABD /* ResponseBitswapRmModel.swift */; };
+		962700E9212D316500933ABD /* ResponseBitswapStatModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700BB212D316100933ABD /* ResponseBitswapStatModel.swift */; };
+		962700EA212D316500933ABD /* MountModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700BC212D316200933ABD /* MountModel.swift */; };
+		962700EB212D316500933ABD /* ResponseRepoGcModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700BD212D316200933ABD /* ResponseRepoGcModel.swift */; };
+		962700EC212D316500933ABD /* MessageInfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700BE212D316200933ABD /* MessageInfoModel.swift */; };
+		962700ED212D316500933ABD /* ObjectModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700BF212D316200933ABD /* ObjectModel.swift */; };
+		962700EE212D316500933ABD /* ResponsePinVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C0212D316200933ABD /* ResponsePinVerifyModel.swift */; };
+		962700EF212D316500933ABD /* PeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C1212D316300933ABD /* PeersModel.swift */; };
+		962700F0212D316500933ABD /* ResponseRepoVersionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C2212D316300933ABD /* ResponseRepoVersionModel.swift */; };
+		962700F1212D316500933ABD /* StreamModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C3212D316300933ABD /* StreamModel.swift */; };
+		962700F2212D316500933ABD /* StreamsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C4212D316300933ABD /* StreamsModel.swift */; };
+		962700F3212D316500933ABD /* PeerModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C5212D316300933ABD /* PeerModel.swift */; };
+		962700F4212D316500933ABD /* ResponseStatsBwModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C6212D316400933ABD /* ResponseStatsBwModel.swift */; };
+		962700F5212D316500933ABD /* BlockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C7212D316400933ABD /* BlockModel.swift */; };
+		962700F6212D316500933ABD /* StringsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C8212D316400933ABD /* StringsModel.swift */; };
+		962700F7212D316500933ABD /* ResponseRepoVerifyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700C9212D316400933ABD /* ResponseRepoVerifyModel.swift */; };
+		962700F8212D316500933ABD /* ResponseSwarmPeersModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700CA212D316500933ABD /* ResponseSwarmPeersModel.swift */; };
+		962700F9212D316500933ABD /* PinsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 962700CB212D316500933ABD /* PinsModel.swift */; };
 		980667344F39BEA4242699F8F594E5E8 /* MoyaProvider+Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 716593FE9429438817ACBEFA93BFB5B7 /* MoyaProvider+Internal.swift */; };
 		9C6BB44F6E23CF87E69D1DFA216D76A6 /* Moya-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 658DBC6BA8EAB157BA97194F31CAD32B /* Moya-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D83E9FDA9F3749718A939C8EF915FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA115EF924FAF82982D37D594673B76F /* Foundation.framework */; };
@@ -289,107 +289,107 @@
 		93372ACBD5B199B2BF5A309D4F3AF674 /* AnyEncodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyEncodable.swift; path = Sources/Moya/AnyEncodable.swift; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		94431EA4F64CFC5A9015D268FFC0B987 /* TargetType.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TargetType.swift; path = Sources/Moya/TargetType.swift; sourceTree = "<group>"; };
-		96255877212A4A5E0012E802 /* ArgumentsDhtFindprovsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDhtFindprovsModel.swift; sourceTree = "<group>"; };
-		9625587A212A4B950012E802 /* ArgumentsDhtGetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDhtGetModel.swift; sourceTree = "<group>"; };
-		9625587C212A510C0012E802 /* ArgumentsDhtProvideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDhtProvideModel.swift; sourceTree = "<group>"; };
-		9625587E212A511A0012E802 /* ArgumentsDhtPutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDhtPutModel.swift; sourceTree = "<group>"; };
-		96255880212A513E0012E802 /* ArgumentsDhtQueryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDhtQueryModel.swift; sourceTree = "<group>"; };
-		96255882212A54ED0012E802 /* ArgumentsDnsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDnsModel.swift; sourceTree = "<group>"; };
-		96255884212A55060012E802 /* ArgumentsFilesCpModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilesCpModel.swift; sourceTree = "<group>"; };
-		96255886212A551B0012E802 /* ArgumentsFilesLsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilesLsModel.swift; sourceTree = "<group>"; };
-		96255888212A552C0012E802 /* ArgumentsFilesMkdirModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilesMkdirModel.swift; sourceTree = "<group>"; };
-		9625588A212A553D0012E802 /* ArgumentsFilesMvModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilesMvModel.swift; sourceTree = "<group>"; };
-		9625588C212A554E0012E802 /* ArgumentsFilesReadModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilesReadModel.swift; sourceTree = "<group>"; };
-		9625588E212A555E0012E802 /* ArgumentsFilesRmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilesRmModel.swift; sourceTree = "<group>"; };
-		96255890212A55730012E802 /* ArgumentsFilesStatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilesStatModel.swift; sourceTree = "<group>"; };
-		96255892212A55830012E802 /* ArgumentsFilesWriteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilesWriteModel.swift; sourceTree = "<group>"; };
-		96255894212A55AA0012E802 /* ArgumentsFilestoreLsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilestoreLsModel.swift; sourceTree = "<group>"; };
-		96255896212A55C50012E802 /* ArgumentsFilestoreVerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsFilestoreVerifyModel.swift; sourceTree = "<group>"; };
-		96255898212A55DE0012E802 /* ArgumentsGetModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsGetModel.swift; sourceTree = "<group>"; };
-		9625589A212A55F20012E802 /* ArgumentsIdModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsIdModel.swift; sourceTree = "<group>"; };
-		9625589C212A56050012E802 /* ArgumentsKeyGenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsKeyGenModel.swift; sourceTree = "<group>"; };
-		962558A0212A56440012E802 /* ArgumentsKeyRenameModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsKeyRenameModel.swift; sourceTree = "<group>"; };
-		962558A2212A565A0012E802 /* ArgumentsKeyRmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsKeyRmModel.swift; sourceTree = "<group>"; };
-		962558A4212A56720012E802 /* ArgumentsLogLevelModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsLogLevelModel.swift; sourceTree = "<group>"; };
-		962558A6212A568B0012E802 /* ArgumentsLsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsLsModel.swift; sourceTree = "<group>"; };
-		962558A8212A569D0012E802 /* ArgumentsMountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsMountModel.swift; sourceTree = "<group>"; };
-		962558AA212A56D40012E802 /* ArgumentsNamePublishModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsNamePublishModel.swift; sourceTree = "<group>"; };
-		962558AC212A56FA0012E802 /* ArgumentsNameResolveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsNameResolveModel.swift; sourceTree = "<group>"; };
-		962558AE212A571E0012E802 /* ArgumentsObjectDiffModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsObjectDiffModel.swift; sourceTree = "<group>"; };
-		962558B0212A57340012E802 /* ArgumentsObjectLinksModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsObjectLinksModel.swift; sourceTree = "<group>"; };
-		962558B2212A57500012E802 /* ArgumentsObjectPatchAddLinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsObjectPatchAddLinkModel.swift; sourceTree = "<group>"; };
-		962558B6212A579A0012E802 /* ArgumentsObjectPatchRmLinkModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsObjectPatchRmLinkModel.swift; sourceTree = "<group>"; };
-		962558BA212A57D30012E802 /* ArgumentsObjectPutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsObjectPutModel.swift; sourceTree = "<group>"; };
-		962558BC212A57F70012E802 /* ArgumentsP2pListenerCloseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsP2pListenerCloseModel.swift; sourceTree = "<group>"; };
-		962558BE212A58100012E802 /* ArgumentsP2pListenerOpenModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsP2pListenerOpenModel.swift; sourceTree = "<group>"; };
-		962558C0212A58590012E802 /* ArgumentsP2pStreamCloseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsP2pStreamCloseModel.swift; sourceTree = "<group>"; };
-		962558C2212A58690012E802 /* ArgumentsP2pStreamDialModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsP2pStreamDialModel.swift; sourceTree = "<group>"; };
-		962558C4212A58890012E802 /* ArgumentsPinAddModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsPinAddModel.swift; sourceTree = "<group>"; };
-		962558C6212A589E0012E802 /* ArgumentsPinLsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsPinLsModel.swift; sourceTree = "<group>"; };
-		962558C8212A58AE0012E802 /* ArgumentsPinRmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsPinRmModel.swift; sourceTree = "<group>"; };
-		962558CA212A58C10012E802 /* ArgumentsPinUpdateModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsPinUpdateModel.swift; sourceTree = "<group>"; };
-		962558CC212A58D40012E802 /* ArgumentsPinVerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsPinVerifyModel.swift; sourceTree = "<group>"; };
-		962558CE212A58F00012E802 /* ArgumentsPingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsPingModel.swift; sourceTree = "<group>"; };
-		962558D0212A59240012E802 /* ArgumentsPubsubPubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsPubsubPubModel.swift; sourceTree = "<group>"; };
-		962558D2212A5C9B0012E802 /* ArgumentsPubsubSubModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsPubsubSubModel.swift; sourceTree = "<group>"; };
-		962558D4212A5CC00012E802 /* ArgumentsRepoGcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsRepoGcModel.swift; sourceTree = "<group>"; };
-		962558DA212A5D390012E802 /* ArgumentsResolveModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsResolveModel.swift; sourceTree = "<group>"; };
-		962558DE212A5D720012E802 /* ArgumentsStatsBwModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsStatsBwModel.swift; sourceTree = "<group>"; };
-		962558E0212A5DB00012E802 /* ArgumentsSwarmPeersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsSwarmPeersModel.swift; sourceTree = "<group>"; };
-		962558E2212A5DCF0012E802 /* ArgumentsVersionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsVersionModel.swift; sourceTree = "<group>"; };
-		962558E4212BD09F0012E802 /* ResponseBitswapStatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBitswapStatModel.swift; sourceTree = "<group>"; };
-		962558E6212BD1A90012E802 /* KeysModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeysModel.swift; sourceTree = "<group>"; };
-		962558E8212BD2160012E802 /* BlockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlockModel.swift; sourceTree = "<group>"; };
-		962558EA212BD25B0012E802 /* ResponseBitswapRmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBitswapRmModel.swift; sourceTree = "<group>"; };
-		962558EC212BD3100012E802 /* PeersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeersModel.swift; sourceTree = "<group>"; };
-		962558EE212BD4C90012E802 /* CommandModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandModel.swift; sourceTree = "<group>"; };
-		962558F0212BD4D70012E802 /* CommandOptionsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommandOptionsModel.swift; sourceTree = "<group>"; };
-		962558F2212BD52D0012E802 /* CidModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CidModel.swift; sourceTree = "<group>"; };
-		962558F4212BD8D70012E802 /* ResponseDhtModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseDhtModel.swift; sourceTree = "<group>"; };
-		962558F6212BD8FB0012E802 /* AddressModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddressModel.swift; sourceTree = "<group>"; };
-		962558F8212BD9A50012E802 /* PathModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PathModel.swift; sourceTree = "<group>"; };
-		962558FC212BDD540012E802 /* FileLsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileLsModel.swift; sourceTree = "<group>"; };
-		962558FE212BDDC20012E802 /* ObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectModel.swift; sourceTree = "<group>"; };
-		96255900212BE63C0012E802 /* EntriesModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntriesModel.swift; sourceTree = "<group>"; };
-		96255902212BE9DF0012E802 /* ReferenceModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReferenceModel.swift; sourceTree = "<group>"; };
-		96255904212BEA8D0012E802 /* FilestoreObjectModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilestoreObjectModel.swift; sourceTree = "<group>"; };
-		96255908212C03A50012E802 /* IDInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IDInfoModel.swift; sourceTree = "<group>"; };
-		9625590A212C03D00012E802 /* KeypairModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypairModel.swift; sourceTree = "<group>"; };
-		9625590C212C04140012E802 /* KeypairsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeypairsModel.swift; sourceTree = "<group>"; };
-		9625590E212C04BA0012E802 /* MessageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageModel.swift; sourceTree = "<group>"; };
-		96255912212C05470012E802 /* StringsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringsModel.swift; sourceTree = "<group>"; };
-		96255914212C06A40012E802 /* LsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LsModel.swift; sourceTree = "<group>"; };
-		96255916212C07740012E802 /* MountModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MountModel.swift; sourceTree = "<group>"; };
-		96255918212C07960012E802 /* IPNSModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IPNSModel.swift; sourceTree = "<group>"; };
-		9625591A212C09020012E802 /* DiffsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffsModel.swift; sourceTree = "<group>"; };
-		9625591C212C09120012E802 /* DiffModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiffModel.swift; sourceTree = "<group>"; };
-		9625591E212C09E70012E802 /* ObjectStatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectStatModel.swift; sourceTree = "<group>"; };
-		96255920212C0B650012E802 /* ListenersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenersModel.swift; sourceTree = "<group>"; };
-		96255922212C0B6F0012E802 /* ListenerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListenerModel.swift; sourceTree = "<group>"; };
-		96255924212C0BBF0012E802 /* StreamsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamsModel.swift; sourceTree = "<group>"; };
-		96255926212C0BC70012E802 /* StreamModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamModel.swift; sourceTree = "<group>"; };
-		96255928212C0C550012E802 /* PinsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinsModel.swift; sourceTree = "<group>"; };
-		9625592A212C0C9D0012E802 /* PinnedObjectsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedObjectsModel.swift; sourceTree = "<group>"; };
-		9625592C212C0D3A0012E802 /* ResponsePinVerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePinVerifyModel.swift; sourceTree = "<group>"; };
-		9625592E212C0DC30012E802 /* PinStatusModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinStatusModel.swift; sourceTree = "<group>"; };
-		96255930212C0E6F0012E802 /* ResponsePingModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponsePingModel.swift; sourceTree = "<group>"; };
-		96255932212C0FAF0012E802 /* ResponseMessageInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseMessageInfoModel.swift; sourceTree = "<group>"; };
-		96255934212C0FBA0012E802 /* MessageInfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageInfoModel.swift; sourceTree = "<group>"; };
+		96270031212D30C300933ABD /* ArgumentsAddModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsAddModel.swift; path = IpfsApi/Classes/ArgumentsAddModel.swift; sourceTree = "<group>"; };
+		96270034212D30F300933ABD /* ArgumentsFilesWriteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesWriteModel.swift; path = IpfsApi/Classes/ArgumentsFilesWriteModel.swift; sourceTree = "<group>"; };
+		96270035212D30F300933ABD /* ArgumentsPubsubPubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPubsubPubModel.swift; path = IpfsApi/Classes/ArgumentsPubsubPubModel.swift; sourceTree = "<group>"; };
+		96270036212D30F400933ABD /* ArgumentsResolveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsResolveModel.swift; path = IpfsApi/Classes/ArgumentsResolveModel.swift; sourceTree = "<group>"; };
+		96270037212D30F400933ABD /* ArgumentsPinRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinRmModel.swift; path = IpfsApi/Classes/ArgumentsPinRmModel.swift; sourceTree = "<group>"; };
+		96270038212D30F400933ABD /* ArgumentsDhtProvideModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtProvideModel.swift; path = IpfsApi/Classes/ArgumentsDhtProvideModel.swift; sourceTree = "<group>"; };
+		96270039212D30F400933ABD /* ArgumentsBlockRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsBlockRmModel.swift; path = IpfsApi/Classes/ArgumentsBlockRmModel.swift; sourceTree = "<group>"; };
+		9627003A212D30F400933ABD /* ArgumentsPinUpdateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinUpdateModel.swift; path = IpfsApi/Classes/ArgumentsPinUpdateModel.swift; sourceTree = "<group>"; };
+		9627003B212D30F400933ABD /* ArgumentsFilesStatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesStatModel.swift; path = IpfsApi/Classes/ArgumentsFilesStatModel.swift; sourceTree = "<group>"; };
+		9627003C212D30F400933ABD /* ArgumentsVersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsVersionModel.swift; path = IpfsApi/Classes/ArgumentsVersionModel.swift; sourceTree = "<group>"; };
+		9627003D212D30F500933ABD /* ArgumentsMountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsMountModel.swift; path = IpfsApi/Classes/ArgumentsMountModel.swift; sourceTree = "<group>"; };
+		9627003E212D30F500933ABD /* ArgumentsObjectDiffModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectDiffModel.swift; path = IpfsApi/Classes/ArgumentsObjectDiffModel.swift; sourceTree = "<group>"; };
+		9627003F212D30F500933ABD /* ArgumentsP2pStreamCloseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsP2pStreamCloseModel.swift; path = IpfsApi/Classes/ArgumentsP2pStreamCloseModel.swift; sourceTree = "<group>"; };
+		96270040212D30F500933ABD /* ArgumentsKeyRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsKeyRmModel.swift; path = IpfsApi/Classes/ArgumentsKeyRmModel.swift; sourceTree = "<group>"; };
+		96270041212D30F500933ABD /* ArgumentsObjectPatchAddLinkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectPatchAddLinkModel.swift; path = IpfsApi/Classes/ArgumentsObjectPatchAddLinkModel.swift; sourceTree = "<group>"; };
+		96270042212D30F500933ABD /* ArgumentsNamePublishModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsNamePublishModel.swift; path = IpfsApi/Classes/ArgumentsNamePublishModel.swift; sourceTree = "<group>"; };
+		96270043212D30F500933ABD /* ArgumentsP2pListenerOpenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsP2pListenerOpenModel.swift; path = IpfsApi/Classes/ArgumentsP2pListenerOpenModel.swift; sourceTree = "<group>"; };
+		96270044212D30F600933ABD /* ArgumentsFilesReadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesReadModel.swift; path = IpfsApi/Classes/ArgumentsFilesReadModel.swift; sourceTree = "<group>"; };
+		96270045212D30F600933ABD /* ArgumentsDhtGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtGetModel.swift; path = IpfsApi/Classes/ArgumentsDhtGetModel.swift; sourceTree = "<group>"; };
+		96270046212D30F600933ABD /* ArgumentsPingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPingModel.swift; path = IpfsApi/Classes/ArgumentsPingModel.swift; sourceTree = "<group>"; };
+		96270047212D30F600933ABD /* ArgumentsPinAddModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinAddModel.swift; path = IpfsApi/Classes/ArgumentsPinAddModel.swift; sourceTree = "<group>"; };
+		96270048212D30F600933ABD /* ArgumentsDhtPutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtPutModel.swift; path = IpfsApi/Classes/ArgumentsDhtPutModel.swift; sourceTree = "<group>"; };
+		96270049212D30F600933ABD /* ArgumentsNameResolveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsNameResolveModel.swift; path = IpfsApi/Classes/ArgumentsNameResolveModel.swift; sourceTree = "<group>"; };
+		9627004A212D30F700933ABD /* ArgumentsStatsBwModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsStatsBwModel.swift; path = IpfsApi/Classes/ArgumentsStatsBwModel.swift; sourceTree = "<group>"; };
+		9627004B212D30F700933ABD /* ArgumentsLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsLsModel.swift; path = IpfsApi/Classes/ArgumentsLsModel.swift; sourceTree = "<group>"; };
+		9627004C212D30F700933ABD /* ArgumentsRepoGcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsRepoGcModel.swift; path = IpfsApi/Classes/ArgumentsRepoGcModel.swift; sourceTree = "<group>"; };
+		9627004D212D30F700933ABD /* ArgumentsDhtFindpeerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtFindpeerModel.swift; path = IpfsApi/Classes/ArgumentsDhtFindpeerModel.swift; sourceTree = "<group>"; };
+		9627004E212D30F700933ABD /* ArgumentsDhtFindprovsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtFindprovsModel.swift; path = IpfsApi/Classes/ArgumentsDhtFindprovsModel.swift; sourceTree = "<group>"; };
+		9627004F212D30F800933ABD /* ArgumentsFilestoreLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilestoreLsModel.swift; path = IpfsApi/Classes/ArgumentsFilestoreLsModel.swift; sourceTree = "<group>"; };
+		96270050212D30F800933ABD /* ArgumentsFilesCpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesCpModel.swift; path = IpfsApi/Classes/ArgumentsFilesCpModel.swift; sourceTree = "<group>"; };
+		96270051212D30F800933ABD /* ArgumentsPinLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinLsModel.swift; path = IpfsApi/Classes/ArgumentsPinLsModel.swift; sourceTree = "<group>"; };
+		96270052212D30F800933ABD /* ArgumentsLogLevelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsLogLevelModel.swift; path = IpfsApi/Classes/ArgumentsLogLevelModel.swift; sourceTree = "<group>"; };
+		96270053212D30F800933ABD /* ArgumentsKeyRenameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsKeyRenameModel.swift; path = IpfsApi/Classes/ArgumentsKeyRenameModel.swift; sourceTree = "<group>"; };
+		96270054212D30F900933ABD /* ArgumentsKeyGenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsKeyGenModel.swift; path = IpfsApi/Classes/ArgumentsKeyGenModel.swift; sourceTree = "<group>"; };
+		96270055212D30F900933ABD /* ArgumentsPubsubSubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPubsubSubModel.swift; path = IpfsApi/Classes/ArgumentsPubsubSubModel.swift; sourceTree = "<group>"; };
+		96270056212D30F900933ABD /* ArgumentsObjectPutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectPutModel.swift; path = IpfsApi/Classes/ArgumentsObjectPutModel.swift; sourceTree = "<group>"; };
+		96270057212D30F900933ABD /* ArgumentsFilesLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesLsModel.swift; path = IpfsApi/Classes/ArgumentsFilesLsModel.swift; sourceTree = "<group>"; };
+		96270058212D30F900933ABD /* ArgumentsIdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsIdModel.swift; path = IpfsApi/Classes/ArgumentsIdModel.swift; sourceTree = "<group>"; };
+		96270059212D30FA00933ABD /* ArgumentsFilesRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesRmModel.swift; path = IpfsApi/Classes/ArgumentsFilesRmModel.swift; sourceTree = "<group>"; };
+		9627005A212D30FA00933ABD /* ArgumentsObjectLinksModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectLinksModel.swift; path = IpfsApi/Classes/ArgumentsObjectLinksModel.swift; sourceTree = "<group>"; };
+		9627005B212D30FA00933ABD /* ArgumentsDagPutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDagPutModel.swift; path = IpfsApi/Classes/ArgumentsDagPutModel.swift; sourceTree = "<group>"; };
+		9627005C212D30FA00933ABD /* ArgumentsGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsGetModel.swift; path = IpfsApi/Classes/ArgumentsGetModel.swift; sourceTree = "<group>"; };
+		9627005D212D30FB00933ABD /* ArgumentsBlockPutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsBlockPutModel.swift; path = IpfsApi/Classes/ArgumentsBlockPutModel.swift; sourceTree = "<group>"; };
+		9627005E212D30FB00933ABD /* ArgumentsDnsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDnsModel.swift; path = IpfsApi/Classes/ArgumentsDnsModel.swift; sourceTree = "<group>"; };
+		9627005F212D30FB00933ABD /* ArgumentsFilestoreVerifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilestoreVerifyModel.swift; path = IpfsApi/Classes/ArgumentsFilestoreVerifyModel.swift; sourceTree = "<group>"; };
+		96270060212D30FB00933ABD /* ArgumentsObjectPatchRmLinkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectPatchRmLinkModel.swift; path = IpfsApi/Classes/ArgumentsObjectPatchRmLinkModel.swift; sourceTree = "<group>"; };
+		96270061212D30FB00933ABD /* ArgumentsP2pStreamDialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsP2pStreamDialModel.swift; path = IpfsApi/Classes/ArgumentsP2pStreamDialModel.swift; sourceTree = "<group>"; };
+		96270062212D30FC00933ABD /* ArgumentsFilesMkdirModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesMkdirModel.swift; path = IpfsApi/Classes/ArgumentsFilesMkdirModel.swift; sourceTree = "<group>"; };
+		96270063212D30FC00933ABD /* ArgumentsSwarmPeersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsSwarmPeersModel.swift; path = IpfsApi/Classes/ArgumentsSwarmPeersModel.swift; sourceTree = "<group>"; };
+		96270064212D30FC00933ABD /* ArgumentsPinVerifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinVerifyModel.swift; path = IpfsApi/Classes/ArgumentsPinVerifyModel.swift; sourceTree = "<group>"; };
+		96270065212D30FC00933ABD /* ArgumentsP2pListenerCloseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsP2pListenerCloseModel.swift; path = IpfsApi/Classes/ArgumentsP2pListenerCloseModel.swift; sourceTree = "<group>"; };
+		96270066212D30FC00933ABD /* ArgumentsFilesMvModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesMvModel.swift; path = IpfsApi/Classes/ArgumentsFilesMvModel.swift; sourceTree = "<group>"; };
+		96270067212D30FD00933ABD /* ArgumentsDhtQueryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtQueryModel.swift; path = IpfsApi/Classes/ArgumentsDhtQueryModel.swift; sourceTree = "<group>"; };
+		9627009C212D314600933ABD /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressModel.swift; path = IpfsApi/Classes/AddressModel.swift; sourceTree = "<group>"; };
+		9627009E212D315C00933ABD /* ResponseBitswapLedgerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseBitswapLedgerModel.swift; path = IpfsApi/Classes/ResponseBitswapLedgerModel.swift; sourceTree = "<group>"; };
+		9627009F212D315C00933ABD /* IPNSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IPNSModel.swift; path = IpfsApi/Classes/IPNSModel.swift; sourceTree = "<group>"; };
+		962700A0212D315D00933ABD /* FilestoreObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilestoreObjectModel.swift; path = IpfsApi/Classes/FilestoreObjectModel.swift; sourceTree = "<group>"; };
+		962700A1212D315D00933ABD /* ReferenceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReferenceModel.swift; path = IpfsApi/Classes/ReferenceModel.swift; sourceTree = "<group>"; };
+		962700A2212D315D00933ABD /* ResponseDhtModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseDhtModel.swift; path = IpfsApi/Classes/ResponseDhtModel.swift; sourceTree = "<group>"; };
+		962700A3212D315D00933ABD /* ResponseMessageInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseMessageInfoModel.swift; path = IpfsApi/Classes/ResponseMessageInfoModel.swift; sourceTree = "<group>"; };
+		962700A4212D315D00933ABD /* ResponsePingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponsePingModel.swift; path = IpfsApi/Classes/ResponsePingModel.swift; sourceTree = "<group>"; };
+		962700A5212D315D00933ABD /* ResponseVersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseVersionModel.swift; path = IpfsApi/Classes/ResponseVersionModel.swift; sourceTree = "<group>"; };
+		962700A6212D315E00933ABD /* ObjectStatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectStatModel.swift; path = IpfsApi/Classes/ObjectStatModel.swift; sourceTree = "<group>"; };
+		962700A7212D315E00933ABD /* EntriesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntriesModel.swift; path = IpfsApi/Classes/EntriesModel.swift; sourceTree = "<group>"; };
+		962700A8212D315E00933ABD /* DiffModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiffModel.swift; path = IpfsApi/Classes/DiffModel.swift; sourceTree = "<group>"; };
+		962700A9212D315E00933ABD /* DiffsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiffsModel.swift; path = IpfsApi/Classes/DiffsModel.swift; sourceTree = "<group>"; };
+		962700AA212D315E00933ABD /* CidModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CidModel.swift; path = IpfsApi/Classes/CidModel.swift; sourceTree = "<group>"; };
+		962700AB212D315E00933ABD /* CommandOptionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandOptionsModel.swift; path = IpfsApi/Classes/CommandOptionsModel.swift; sourceTree = "<group>"; };
+		962700AC212D315E00933ABD /* KeysModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeysModel.swift; path = IpfsApi/Classes/KeysModel.swift; sourceTree = "<group>"; };
+		962700AD212D315F00933ABD /* FileLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileLsModel.swift; path = IpfsApi/Classes/FileLsModel.swift; sourceTree = "<group>"; };
+		962700AE212D315F00933ABD /* ListenerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListenerModel.swift; path = IpfsApi/Classes/ListenerModel.swift; sourceTree = "<group>"; };
+		962700AF212D315F00933ABD /* PinStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinStatusModel.swift; path = IpfsApi/Classes/PinStatusModel.swift; sourceTree = "<group>"; };
+		962700B0212D315F00933ABD /* ResponseRepoStatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseRepoStatModel.swift; path = IpfsApi/Classes/ResponseRepoStatModel.swift; sourceTree = "<group>"; };
+		962700B1212D315F00933ABD /* ListenersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListenersModel.swift; path = IpfsApi/Classes/ListenersModel.swift; sourceTree = "<group>"; };
+		962700B2212D316000933ABD /* LsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LsModel.swift; path = IpfsApi/Classes/LsModel.swift; sourceTree = "<group>"; };
+		962700B3212D316000933ABD /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageModel.swift; path = IpfsApi/Classes/MessageModel.swift; sourceTree = "<group>"; };
+		962700B4212D316000933ABD /* KeypairModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeypairModel.swift; path = IpfsApi/Classes/KeypairModel.swift; sourceTree = "<group>"; };
+		962700B5212D316000933ABD /* KeypairsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeypairsModel.swift; path = IpfsApi/Classes/KeypairsModel.swift; sourceTree = "<group>"; };
+		962700B6212D316000933ABD /* IDInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IDInfoModel.swift; path = IpfsApi/Classes/IDInfoModel.swift; sourceTree = "<group>"; };
+		962700B7212D316000933ABD /* CommandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandModel.swift; path = IpfsApi/Classes/CommandModel.swift; sourceTree = "<group>"; };
+		962700B8212D316100933ABD /* PathModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PathModel.swift; path = IpfsApi/Classes/PathModel.swift; sourceTree = "<group>"; };
+		962700B9212D316100933ABD /* PinnedObjectsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinnedObjectsModel.swift; path = IpfsApi/Classes/PinnedObjectsModel.swift; sourceTree = "<group>"; };
+		962700BA212D316100933ABD /* ResponseBitswapRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseBitswapRmModel.swift; path = IpfsApi/Classes/ResponseBitswapRmModel.swift; sourceTree = "<group>"; };
+		962700BB212D316100933ABD /* ResponseBitswapStatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseBitswapStatModel.swift; path = IpfsApi/Classes/ResponseBitswapStatModel.swift; sourceTree = "<group>"; };
+		962700BC212D316200933ABD /* MountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MountModel.swift; path = IpfsApi/Classes/MountModel.swift; sourceTree = "<group>"; };
+		962700BD212D316200933ABD /* ResponseRepoGcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseRepoGcModel.swift; path = IpfsApi/Classes/ResponseRepoGcModel.swift; sourceTree = "<group>"; };
+		962700BE212D316200933ABD /* MessageInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageInfoModel.swift; path = IpfsApi/Classes/MessageInfoModel.swift; sourceTree = "<group>"; };
+		962700BF212D316200933ABD /* ObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectModel.swift; path = IpfsApi/Classes/ObjectModel.swift; sourceTree = "<group>"; };
+		962700C0212D316200933ABD /* ResponsePinVerifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponsePinVerifyModel.swift; path = IpfsApi/Classes/ResponsePinVerifyModel.swift; sourceTree = "<group>"; };
+		962700C1212D316300933ABD /* PeersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeersModel.swift; path = IpfsApi/Classes/PeersModel.swift; sourceTree = "<group>"; };
+		962700C2212D316300933ABD /* ResponseRepoVersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseRepoVersionModel.swift; path = IpfsApi/Classes/ResponseRepoVersionModel.swift; sourceTree = "<group>"; };
+		962700C3212D316300933ABD /* StreamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamModel.swift; path = IpfsApi/Classes/StreamModel.swift; sourceTree = "<group>"; };
+		962700C4212D316300933ABD /* StreamsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamsModel.swift; path = IpfsApi/Classes/StreamsModel.swift; sourceTree = "<group>"; };
+		962700C5212D316300933ABD /* PeerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeerModel.swift; path = IpfsApi/Classes/PeerModel.swift; sourceTree = "<group>"; };
+		962700C6212D316400933ABD /* ResponseStatsBwModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseStatsBwModel.swift; path = IpfsApi/Classes/ResponseStatsBwModel.swift; sourceTree = "<group>"; };
+		962700C7212D316400933ABD /* BlockModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockModel.swift; path = IpfsApi/Classes/BlockModel.swift; sourceTree = "<group>"; };
+		962700C8212D316400933ABD /* StringsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringsModel.swift; path = IpfsApi/Classes/StringsModel.swift; sourceTree = "<group>"; };
+		962700C9212D316400933ABD /* ResponseRepoVerifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseRepoVerifyModel.swift; path = IpfsApi/Classes/ResponseRepoVerifyModel.swift; sourceTree = "<group>"; };
+		962700CA212D316500933ABD /* ResponseSwarmPeersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSwarmPeersModel.swift; path = IpfsApi/Classes/ResponseSwarmPeersModel.swift; sourceTree = "<group>"; };
+		962700CB212D316500933ABD /* PinsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinsModel.swift; path = IpfsApi/Classes/PinsModel.swift; sourceTree = "<group>"; };
 		965115C0E8A4AF7837952B8CDEC89417 /* Moya.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Moya.modulemap; sourceTree = "<group>"; };
-		9691C92B212C131E00A79326 /* ResponseRepoGcModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRepoGcModel.swift; sourceTree = "<group>"; };
-		9691C92D212C138500A79326 /* ResponseRepoStatModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRepoStatModel.swift; sourceTree = "<group>"; };
-		9691C92F212C142900A79326 /* ResponseRepoVerifyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRepoVerifyModel.swift; sourceTree = "<group>"; };
-		9691C931212C164C00A79326 /* ResponseRepoVersionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseRepoVersionModel.swift; sourceTree = "<group>"; };
-		9691C933212C16C700A79326 /* ResponseStatsBwModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseStatsBwModel.swift; sourceTree = "<group>"; };
-		9691C935212C176500A79326 /* PeerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerModel.swift; sourceTree = "<group>"; };
-		9691C937212C17C800A79326 /* ResponseSwarmPeersModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseSwarmPeersModel.swift; sourceTree = "<group>"; };
-		9691C96D212C18F000A79326 /* ResponseVersionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseVersionModel.swift; sourceTree = "<group>"; };
-		96C4CF6F2126AEF300413F49 /* ArgumentsAddModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsAddModel.swift; sourceTree = "<group>"; };
-		96C4CF722126C66700413F49 /* ResponseBitswapLedgerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseBitswapLedgerModel.swift; sourceTree = "<group>"; };
-		96C4CF742126C9A700413F49 /* ArgumentsBlockPutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsBlockPutModel.swift; sourceTree = "<group>"; };
-		96C4CF782126CB6100413F49 /* ArgumentsBlockRmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsBlockRmModel.swift; sourceTree = "<group>"; };
-		96C4CF7A2126CE5500413F49 /* ArgumentsDagPutModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDagPutModel.swift; sourceTree = "<group>"; };
-		96C4CF7C2126D19200413F49 /* ArgumentsDhtFindpeerModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArgumentsDhtFindpeerModel.swift; sourceTree = "<group>"; };
 		9E723C1FAB69639962A4F5BABE158744 /* Pods-IpfsApi_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IpfsApi_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9E77F9A36FF3A190E6EAC4C1760AFF37 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
 		A5A220B6F6F51B5C843F418DEDAD36A2 /* Pods_IpfsApi_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IpfsApi_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -689,118 +689,118 @@
 			name = Pod;
 			sourceTree = "<group>";
 		};
-		96255875212A4A420012E802 /* Arguments */ = {
+		96270030212D302100933ABD /* Responses */ = {
 			isa = PBXGroup;
 			children = (
-				96C4CF6F2126AEF300413F49 /* ArgumentsAddModel.swift */,
-				96C4CF742126C9A700413F49 /* ArgumentsBlockPutModel.swift */,
-				96C4CF782126CB6100413F49 /* ArgumentsBlockRmModel.swift */,
-				96C4CF7A2126CE5500413F49 /* ArgumentsDagPutModel.swift */,
-				96C4CF7C2126D19200413F49 /* ArgumentsDhtFindpeerModel.swift */,
-				96255877212A4A5E0012E802 /* ArgumentsDhtFindprovsModel.swift */,
-				9625587A212A4B950012E802 /* ArgumentsDhtGetModel.swift */,
-				9625587C212A510C0012E802 /* ArgumentsDhtProvideModel.swift */,
-				9625587E212A511A0012E802 /* ArgumentsDhtPutModel.swift */,
-				96255880212A513E0012E802 /* ArgumentsDhtQueryModel.swift */,
-				96255882212A54ED0012E802 /* ArgumentsDnsModel.swift */,
-				96255884212A55060012E802 /* ArgumentsFilesCpModel.swift */,
-				96255886212A551B0012E802 /* ArgumentsFilesLsModel.swift */,
-				96255888212A552C0012E802 /* ArgumentsFilesMkdirModel.swift */,
-				9625588A212A553D0012E802 /* ArgumentsFilesMvModel.swift */,
-				9625588C212A554E0012E802 /* ArgumentsFilesReadModel.swift */,
-				9625588E212A555E0012E802 /* ArgumentsFilesRmModel.swift */,
-				96255890212A55730012E802 /* ArgumentsFilesStatModel.swift */,
-				96255892212A55830012E802 /* ArgumentsFilesWriteModel.swift */,
-				96255894212A55AA0012E802 /* ArgumentsFilestoreLsModel.swift */,
-				96255896212A55C50012E802 /* ArgumentsFilestoreVerifyModel.swift */,
-				96255898212A55DE0012E802 /* ArgumentsGetModel.swift */,
-				9625589A212A55F20012E802 /* ArgumentsIdModel.swift */,
-				9625589C212A56050012E802 /* ArgumentsKeyGenModel.swift */,
-				962558A0212A56440012E802 /* ArgumentsKeyRenameModel.swift */,
-				962558A2212A565A0012E802 /* ArgumentsKeyRmModel.swift */,
-				962558A4212A56720012E802 /* ArgumentsLogLevelModel.swift */,
-				962558A6212A568B0012E802 /* ArgumentsLsModel.swift */,
-				962558A8212A569D0012E802 /* ArgumentsMountModel.swift */,
-				962558AA212A56D40012E802 /* ArgumentsNamePublishModel.swift */,
-				962558AC212A56FA0012E802 /* ArgumentsNameResolveModel.swift */,
-				962558AE212A571E0012E802 /* ArgumentsObjectDiffModel.swift */,
-				962558B0212A57340012E802 /* ArgumentsObjectLinksModel.swift */,
-				962558B2212A57500012E802 /* ArgumentsObjectPatchAddLinkModel.swift */,
-				962558B6212A579A0012E802 /* ArgumentsObjectPatchRmLinkModel.swift */,
-				962558BA212A57D30012E802 /* ArgumentsObjectPutModel.swift */,
-				962558BC212A57F70012E802 /* ArgumentsP2pListenerCloseModel.swift */,
-				962558BE212A58100012E802 /* ArgumentsP2pListenerOpenModel.swift */,
-				962558C0212A58590012E802 /* ArgumentsP2pStreamCloseModel.swift */,
-				962558C2212A58690012E802 /* ArgumentsP2pStreamDialModel.swift */,
-				962558C4212A58890012E802 /* ArgumentsPinAddModel.swift */,
-				962558C6212A589E0012E802 /* ArgumentsPinLsModel.swift */,
-				962558C8212A58AE0012E802 /* ArgumentsPinRmModel.swift */,
-				962558CA212A58C10012E802 /* ArgumentsPinUpdateModel.swift */,
-				962558CC212A58D40012E802 /* ArgumentsPinVerifyModel.swift */,
-				962558CE212A58F00012E802 /* ArgumentsPingModel.swift */,
-				962558D0212A59240012E802 /* ArgumentsPubsubPubModel.swift */,
-				962558D2212A5C9B0012E802 /* ArgumentsPubsubSubModel.swift */,
-				962558D4212A5CC00012E802 /* ArgumentsRepoGcModel.swift */,
-				962558DA212A5D390012E802 /* ArgumentsResolveModel.swift */,
-				962558DE212A5D720012E802 /* ArgumentsStatsBwModel.swift */,
-				962558E0212A5DB00012E802 /* ArgumentsSwarmPeersModel.swift */,
-				962558E2212A5DCF0012E802 /* ArgumentsVersionModel.swift */,
+				9627009C212D314600933ABD /* AddressModel.swift */,
+				962700C7212D316400933ABD /* BlockModel.swift */,
+				962700AA212D315E00933ABD /* CidModel.swift */,
+				962700B7212D316000933ABD /* CommandModel.swift */,
+				962700AB212D315E00933ABD /* CommandOptionsModel.swift */,
+				962700A8212D315E00933ABD /* DiffModel.swift */,
+				962700A9212D315E00933ABD /* DiffsModel.swift */,
+				962700A7212D315E00933ABD /* EntriesModel.swift */,
+				962700AD212D315F00933ABD /* FileLsModel.swift */,
+				962700A0212D315D00933ABD /* FilestoreObjectModel.swift */,
+				962700B6212D316000933ABD /* IDInfoModel.swift */,
+				9627009F212D315C00933ABD /* IPNSModel.swift */,
+				962700B4212D316000933ABD /* KeypairModel.swift */,
+				962700B5212D316000933ABD /* KeypairsModel.swift */,
+				962700AC212D315E00933ABD /* KeysModel.swift */,
+				962700AE212D315F00933ABD /* ListenerModel.swift */,
+				962700B1212D315F00933ABD /* ListenersModel.swift */,
+				962700B2212D316000933ABD /* LsModel.swift */,
+				962700BE212D316200933ABD /* MessageInfoModel.swift */,
+				962700B3212D316000933ABD /* MessageModel.swift */,
+				962700BC212D316200933ABD /* MountModel.swift */,
+				962700BF212D316200933ABD /* ObjectModel.swift */,
+				962700A6212D315E00933ABD /* ObjectStatModel.swift */,
+				962700B8212D316100933ABD /* PathModel.swift */,
+				962700C5212D316300933ABD /* PeerModel.swift */,
+				962700C1212D316300933ABD /* PeersModel.swift */,
+				962700B9212D316100933ABD /* PinnedObjectsModel.swift */,
+				962700CB212D316500933ABD /* PinsModel.swift */,
+				962700AF212D315F00933ABD /* PinStatusModel.swift */,
+				962700A1212D315D00933ABD /* ReferenceModel.swift */,
+				9627009E212D315C00933ABD /* ResponseBitswapLedgerModel.swift */,
+				962700BA212D316100933ABD /* ResponseBitswapRmModel.swift */,
+				962700BB212D316100933ABD /* ResponseBitswapStatModel.swift */,
+				962700A2212D315D00933ABD /* ResponseDhtModel.swift */,
+				962700A3212D315D00933ABD /* ResponseMessageInfoModel.swift */,
+				962700A4212D315D00933ABD /* ResponsePingModel.swift */,
+				962700C0212D316200933ABD /* ResponsePinVerifyModel.swift */,
+				962700BD212D316200933ABD /* ResponseRepoGcModel.swift */,
+				962700B0212D315F00933ABD /* ResponseRepoStatModel.swift */,
+				962700C9212D316400933ABD /* ResponseRepoVerifyModel.swift */,
+				962700C2212D316300933ABD /* ResponseRepoVersionModel.swift */,
+				962700C6212D316400933ABD /* ResponseStatsBwModel.swift */,
+				962700CA212D316500933ABD /* ResponseSwarmPeersModel.swift */,
+				962700A5212D315D00933ABD /* ResponseVersionModel.swift */,
+				962700C3212D316300933ABD /* StreamModel.swift */,
+				962700C4212D316300933ABD /* StreamsModel.swift */,
+				962700C8212D316400933ABD /* StringsModel.swift */,
 			);
-			path = Arguments;
+			name = Responses;
 			sourceTree = "<group>";
 		};
-		96255876212A4A4C0012E802 /* Response */ = {
+		9691CA37212D2FA900A79326 /* Arguments */ = {
 			isa = PBXGroup;
 			children = (
-				962558E8212BD2160012E802 /* BlockModel.swift */,
-				962558EC212BD3100012E802 /* PeersModel.swift */,
-				962558EE212BD4C90012E802 /* CommandModel.swift */,
-				962558F0212BD4D70012E802 /* CommandOptionsModel.swift */,
-				962558F2212BD52D0012E802 /* CidModel.swift */,
-				962558F8212BD9A50012E802 /* PathModel.swift */,
-				962558E6212BD1A90012E802 /* KeysModel.swift */,
-				962558F6212BD8FB0012E802 /* AddressModel.swift */,
-				962558FC212BDD540012E802 /* FileLsModel.swift */,
-				96255914212C06A40012E802 /* LsModel.swift */,
-				96255908212C03A50012E802 /* IDInfoModel.swift */,
-				9625590A212C03D00012E802 /* KeypairModel.swift */,
-				9625590C212C04140012E802 /* KeypairsModel.swift */,
-				9625590E212C04BA0012E802 /* MessageModel.swift */,
-				96255912212C05470012E802 /* StringsModel.swift */,
-				962558FE212BDDC20012E802 /* ObjectModel.swift */,
-				9625591E212C09E70012E802 /* ObjectStatModel.swift */,
-				96255920212C0B650012E802 /* ListenersModel.swift */,
-				96255922212C0B6F0012E802 /* ListenerModel.swift */,
-				96255924212C0BBF0012E802 /* StreamsModel.swift */,
-				96255926212C0BC70012E802 /* StreamModel.swift */,
-				96255928212C0C550012E802 /* PinsModel.swift */,
-				9625592A212C0C9D0012E802 /* PinnedObjectsModel.swift */,
-				9691C935212C176500A79326 /* PeerModel.swift */,
-				96255916212C07740012E802 /* MountModel.swift */,
-				96255918212C07960012E802 /* IPNSModel.swift */,
-				9625591A212C09020012E802 /* DiffsModel.swift */,
-				9625591C212C09120012E802 /* DiffModel.swift */,
-				96255904212BEA8D0012E802 /* FilestoreObjectModel.swift */,
-				96255900212BE63C0012E802 /* EntriesModel.swift */,
-				96255902212BE9DF0012E802 /* ReferenceModel.swift */,
-				9625592E212C0DC30012E802 /* PinStatusModel.swift */,
-				96255934212C0FBA0012E802 /* MessageInfoModel.swift */,
-				962558F4212BD8D70012E802 /* ResponseDhtModel.swift */,
-				9691C937212C17C800A79326 /* ResponseSwarmPeersModel.swift */,
-				9691C92D212C138500A79326 /* ResponseRepoStatModel.swift */,
-				9625592C212C0D3A0012E802 /* ResponsePinVerifyModel.swift */,
-				96C4CF722126C66700413F49 /* ResponseBitswapLedgerModel.swift */,
-				962558E4212BD09F0012E802 /* ResponseBitswapStatModel.swift */,
-				962558EA212BD25B0012E802 /* ResponseBitswapRmModel.swift */,
-				96255930212C0E6F0012E802 /* ResponsePingModel.swift */,
-				96255932212C0FAF0012E802 /* ResponseMessageInfoModel.swift */,
-				9691C92B212C131E00A79326 /* ResponseRepoGcModel.swift */,
-				9691C92F212C142900A79326 /* ResponseRepoVerifyModel.swift */,
-				9691C931212C164C00A79326 /* ResponseRepoVersionModel.swift */,
-				9691C96D212C18F000A79326 /* ResponseVersionModel.swift */,
-				9691C933212C16C700A79326 /* ResponseStatsBwModel.swift */,
+				96270031212D30C300933ABD /* ArgumentsAddModel.swift */,
+				9627005D212D30FB00933ABD /* ArgumentsBlockPutModel.swift */,
+				96270039212D30F400933ABD /* ArgumentsBlockRmModel.swift */,
+				9627005B212D30FA00933ABD /* ArgumentsDagPutModel.swift */,
+				9627004D212D30F700933ABD /* ArgumentsDhtFindpeerModel.swift */,
+				9627004E212D30F700933ABD /* ArgumentsDhtFindprovsModel.swift */,
+				96270045212D30F600933ABD /* ArgumentsDhtGetModel.swift */,
+				96270038212D30F400933ABD /* ArgumentsDhtProvideModel.swift */,
+				96270048212D30F600933ABD /* ArgumentsDhtPutModel.swift */,
+				96270067212D30FD00933ABD /* ArgumentsDhtQueryModel.swift */,
+				9627005E212D30FB00933ABD /* ArgumentsDnsModel.swift */,
+				96270050212D30F800933ABD /* ArgumentsFilesCpModel.swift */,
+				96270057212D30F900933ABD /* ArgumentsFilesLsModel.swift */,
+				96270062212D30FC00933ABD /* ArgumentsFilesMkdirModel.swift */,
+				96270066212D30FC00933ABD /* ArgumentsFilesMvModel.swift */,
+				96270044212D30F600933ABD /* ArgumentsFilesReadModel.swift */,
+				96270059212D30FA00933ABD /* ArgumentsFilesRmModel.swift */,
+				9627003B212D30F400933ABD /* ArgumentsFilesStatModel.swift */,
+				9627004F212D30F800933ABD /* ArgumentsFilestoreLsModel.swift */,
+				9627005F212D30FB00933ABD /* ArgumentsFilestoreVerifyModel.swift */,
+				96270034212D30F300933ABD /* ArgumentsFilesWriteModel.swift */,
+				9627005C212D30FA00933ABD /* ArgumentsGetModel.swift */,
+				96270058212D30F900933ABD /* ArgumentsIdModel.swift */,
+				96270054212D30F900933ABD /* ArgumentsKeyGenModel.swift */,
+				96270053212D30F800933ABD /* ArgumentsKeyRenameModel.swift */,
+				96270040212D30F500933ABD /* ArgumentsKeyRmModel.swift */,
+				96270052212D30F800933ABD /* ArgumentsLogLevelModel.swift */,
+				9627004B212D30F700933ABD /* ArgumentsLsModel.swift */,
+				9627003D212D30F500933ABD /* ArgumentsMountModel.swift */,
+				96270042212D30F500933ABD /* ArgumentsNamePublishModel.swift */,
+				96270049212D30F600933ABD /* ArgumentsNameResolveModel.swift */,
+				9627003E212D30F500933ABD /* ArgumentsObjectDiffModel.swift */,
+				9627005A212D30FA00933ABD /* ArgumentsObjectLinksModel.swift */,
+				96270041212D30F500933ABD /* ArgumentsObjectPatchAddLinkModel.swift */,
+				96270060212D30FB00933ABD /* ArgumentsObjectPatchRmLinkModel.swift */,
+				96270056212D30F900933ABD /* ArgumentsObjectPutModel.swift */,
+				96270065212D30FC00933ABD /* ArgumentsP2pListenerCloseModel.swift */,
+				96270043212D30F500933ABD /* ArgumentsP2pListenerOpenModel.swift */,
+				9627003F212D30F500933ABD /* ArgumentsP2pStreamCloseModel.swift */,
+				96270061212D30FB00933ABD /* ArgumentsP2pStreamDialModel.swift */,
+				96270047212D30F600933ABD /* ArgumentsPinAddModel.swift */,
+				96270046212D30F600933ABD /* ArgumentsPingModel.swift */,
+				96270051212D30F800933ABD /* ArgumentsPinLsModel.swift */,
+				96270037212D30F400933ABD /* ArgumentsPinRmModel.swift */,
+				9627003A212D30F400933ABD /* ArgumentsPinUpdateModel.swift */,
+				96270064212D30FC00933ABD /* ArgumentsPinVerifyModel.swift */,
+				96270035212D30F300933ABD /* ArgumentsPubsubPubModel.swift */,
+				96270055212D30F900933ABD /* ArgumentsPubsubSubModel.swift */,
+				9627004C212D30F700933ABD /* ArgumentsRepoGcModel.swift */,
+				96270036212D30F400933ABD /* ArgumentsResolveModel.swift */,
+				9627004A212D30F700933ABD /* ArgumentsStatsBwModel.swift */,
+				96270063212D30FC00933ABD /* ArgumentsSwarmPeersModel.swift */,
+				9627003C212D30F400933ABD /* ArgumentsVersionModel.swift */,
 			);
-			path = Response;
+			name = Arguments;
 			sourceTree = "<group>";
 		};
 		9C2125A8E3D612F34C15D097CD3FD36B /* Products */ = {
@@ -819,10 +819,10 @@
 		BF8DC872F5CC716A8EB818C5E604925D /* IpfsApi */ = {
 			isa = PBXGroup;
 			children = (
-				E8E0FC4C480A98195AC95DE0A9D99F77 /* IAService.swift */,
 				D3ED8BF66CEDA09782E0C3599511190C /* Ipfs.swift */,
-				96255876212A4A4C0012E802 /* Response */,
-				96255875212A4A420012E802 /* Arguments */,
+				E8E0FC4C480A98195AC95DE0A9D99F77 /* IAService.swift */,
+				96270030212D302100933ABD /* Responses */,
+				9691CA37212D2FA900A79326 /* Arguments */,
 				8906AEC75903F8668B4CB6FBD3FE60F3 /* Pod */,
 				68C17F1E3FEBA5EEDD94A4848D14B64C /* Support Files */,
 			);
@@ -1098,109 +1098,109 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				96C4CF7D2126D19200413F49 /* ArgumentsDhtFindpeerModel.swift in Sources */,
-				9691C9B3212C195500A79326 /* PinsModel.swift in Sources */,
-				9691C9CC212C195500A79326 /* ResponseStatsBwModel.swift in Sources */,
-				962558B1212A57340012E802 /* ArgumentsObjectLinksModel.swift in Sources */,
-				9625589B212A55F20012E802 /* ArgumentsIdModel.swift in Sources */,
-				962558D3212A5C9B0012E802 /* ArgumentsPubsubSubModel.swift in Sources */,
-				9691C9AD212C195500A79326 /* ObjectModel.swift in Sources */,
-				962558D5212A5CC00012E802 /* ArgumentsRepoGcModel.swift in Sources */,
-				962558A1212A56440012E802 /* ArgumentsKeyRenameModel.swift in Sources */,
-				96255899212A55DE0012E802 /* ArgumentsGetModel.swift in Sources */,
-				9691C9A8212C195500A79326 /* IDInfoModel.swift in Sources */,
-				9625589D212A56050012E802 /* ArgumentsKeyGenModel.swift in Sources */,
-				962558CB212A58C10012E802 /* ArgumentsPinUpdateModel.swift in Sources */,
-				962558CF212A58F00012E802 /* ArgumentsPingModel.swift in Sources */,
-				9691C9BF212C195500A79326 /* ResponseDhtModel.swift in Sources */,
-				9691C9B4212C195500A79326 /* PinnedObjectsModel.swift in Sources */,
-				962558AB212A56D40012E802 /* ArgumentsNamePublishModel.swift in Sources */,
-				96255881212A513E0012E802 /* ArgumentsDhtQueryModel.swift in Sources */,
-				96C4CF752126C9A700413F49 /* ArgumentsBlockPutModel.swift in Sources */,
-				9691C9C7212C195500A79326 /* ResponseMessageInfoModel.swift in Sources */,
+				962700D2212D316500933ABD /* ResponsePingModel.swift in Sources */,
+				962700F8212D316500933ABD /* ResponseSwarmPeersModel.swift in Sources */,
+				962700D5212D316500933ABD /* EntriesModel.swift in Sources */,
+				96270081212D30FD00933ABD /* ArgumentsDhtFindpeerModel.swift in Sources */,
+				96270095212D30FD00933ABD /* ArgumentsP2pStreamDialModel.swift in Sources */,
+				962700E6212D316500933ABD /* PathModel.swift in Sources */,
+				96270084212D30FD00933ABD /* ArgumentsFilesCpModel.swift in Sources */,
 				BFFB46842300E5CF567326C7949282BB /* IAService.swift in Sources */,
-				9691C9A0212C195400A79326 /* CommandModel.swift in Sources */,
-				962558AF212A571E0012E802 /* ArgumentsObjectDiffModel.swift in Sources */,
-				9691C9BA212C195500A79326 /* FilestoreObjectModel.swift in Sources */,
-				9691C9BC212C195500A79326 /* ReferenceModel.swift in Sources */,
-				9691C9AC212C195500A79326 /* StringsModel.swift in Sources */,
-				96255889212A552C0012E802 /* ArgumentsFilesMkdirModel.swift in Sources */,
-				962558C7212A589E0012E802 /* ArgumentsPinLsModel.swift in Sources */,
-				9691C9C9212C195500A79326 /* ResponseRepoVerifyModel.swift in Sources */,
-				962558A9212A569D0012E802 /* ArgumentsMountModel.swift in Sources */,
-				962558D1212A59240012E802 /* ArgumentsPubsubPubModel.swift in Sources */,
-				96255887212A551B0012E802 /* ArgumentsFilesLsModel.swift in Sources */,
-				9691C9B6212C195500A79326 /* MountModel.swift in Sources */,
-				9691C99E212C195400A79326 /* BlockModel.swift in Sources */,
-				9625588D212A554E0012E802 /* ArgumentsFilesReadModel.swift in Sources */,
-				962558C9212A58AE0012E802 /* ArgumentsPinRmModel.swift in Sources */,
-				9691C9A4212C195400A79326 /* KeysModel.swift in Sources */,
-				9691C9A2212C195400A79326 /* CidModel.swift in Sources */,
+				962700EA212D316500933ABD /* MountModel.swift in Sources */,
+				9627006B212D30FD00933ABD /* ArgumentsPinRmModel.swift in Sources */,
+				96270070212D30FD00933ABD /* ArgumentsVersionModel.swift in Sources */,
+				9627007F212D30FD00933ABD /* ArgumentsLsModel.swift in Sources */,
+				96270069212D30FD00933ABD /* ArgumentsPubsubPubModel.swift in Sources */,
+				96270099212D30FD00933ABD /* ArgumentsP2pListenerCloseModel.swift in Sources */,
+				962700EB212D316500933ABD /* ResponseRepoGcModel.swift in Sources */,
+				96270079212D30FD00933ABD /* ArgumentsDhtGetModel.swift in Sources */,
+				962700D9212D316500933ABD /* CommandOptionsModel.swift in Sources */,
+				9627006E212D30FD00933ABD /* ArgumentsPinUpdateModel.swift in Sources */,
+				962700EF212D316500933ABD /* PeersModel.swift in Sources */,
 				7525BFA43365C11FD365361F6AAF7EDD /* Ipfs.swift in Sources */,
-				9691C9A6212C195500A79326 /* FileLsModel.swift in Sources */,
-				96255879212A4B200012E802 /* ArgumentsDhtFindprovsModel.swift in Sources */,
-				96C4CF712126B58300413F49 /* ArgumentsAddModel.swift in Sources */,
-				96255885212A55060012E802 /* ArgumentsFilesCpModel.swift in Sources */,
-				96255891212A55730012E802 /* ArgumentsFilesStatModel.swift in Sources */,
-				9691C9A3212C195400A79326 /* PathModel.swift in Sources */,
-				962558B7212A579A0012E802 /* ArgumentsObjectPatchRmLinkModel.swift in Sources */,
-				9691C9A9212C195500A79326 /* KeypairModel.swift in Sources */,
-				962558A3212A565A0012E802 /* ArgumentsKeyRmModel.swift in Sources */,
-				9691C9AA212C195500A79326 /* KeypairsModel.swift in Sources */,
-				9625587B212A4B950012E802 /* ArgumentsDhtGetModel.swift in Sources */,
-				962558BB212A57D30012E802 /* ArgumentsObjectPutModel.swift in Sources */,
-				9691C9C5212C195500A79326 /* ResponseBitswapRmModel.swift in Sources */,
-				9691C9A5212C195500A79326 /* AddressModel.swift in Sources */,
-				962558C3212A58690012E802 /* ArgumentsP2pStreamDialModel.swift in Sources */,
-				962558AD212A56FA0012E802 /* ArgumentsNameResolveModel.swift in Sources */,
-				9625587F212A511A0012E802 /* ArgumentsDhtPutModel.swift in Sources */,
+				962700DA212D316500933ABD /* KeysModel.swift in Sources */,
+				962700E5212D316500933ABD /* CommandModel.swift in Sources */,
+				96270090212D30FD00933ABD /* ArgumentsGetModel.swift in Sources */,
+				962700DC212D316500933ABD /* ListenerModel.swift in Sources */,
+				962700E7212D316500933ABD /* PinnedObjectsModel.swift in Sources */,
+				9627007A212D30FD00933ABD /* ArgumentsPingModel.swift in Sources */,
+				96270071212D30FD00933ABD /* ArgumentsMountModel.swift in Sources */,
+				96270078212D30FD00933ABD /* ArgumentsFilesReadModel.swift in Sources */,
+				962700D3212D316500933ABD /* ResponseVersionModel.swift in Sources */,
+				96270085212D30FD00933ABD /* ArgumentsPinLsModel.swift in Sources */,
+				962700F3212D316500933ABD /* PeerModel.swift in Sources */,
+				962700F0212D316500933ABD /* ResponseRepoVersionModel.swift in Sources */,
+				96270093212D30FD00933ABD /* ArgumentsFilestoreVerifyModel.swift in Sources */,
+				96270082212D30FD00933ABD /* ArgumentsDhtFindprovsModel.swift in Sources */,
+				96270083212D30FD00933ABD /* ArgumentsFilestoreLsModel.swift in Sources */,
+				9627008E212D30FD00933ABD /* ArgumentsObjectLinksModel.swift in Sources */,
+				96270072212D30FD00933ABD /* ArgumentsObjectDiffModel.swift in Sources */,
+				96270073212D30FD00933ABD /* ArgumentsP2pStreamCloseModel.swift in Sources */,
+				96270033212D30DA00933ABD /* ArgumentsAddModel.swift in Sources */,
+				9627008D212D30FD00933ABD /* ArgumentsFilesRmModel.swift in Sources */,
+				962700D6212D316500933ABD /* DiffModel.swift in Sources */,
+				96270076212D30FD00933ABD /* ArgumentsNamePublishModel.swift in Sources */,
+				962700D4212D316500933ABD /* ObjectStatModel.swift in Sources */,
+				962700E3212D316500933ABD /* KeypairsModel.swift in Sources */,
+				962700E0212D316500933ABD /* LsModel.swift in Sources */,
+				96270087212D30FD00933ABD /* ArgumentsKeyRenameModel.swift in Sources */,
+				9627008A212D30FD00933ABD /* ArgumentsObjectPutModel.swift in Sources */,
+				9627009B212D30FD00933ABD /* ArgumentsDhtQueryModel.swift in Sources */,
+				96270075212D30FD00933ABD /* ArgumentsObjectPatchAddLinkModel.swift in Sources */,
+				962700F6212D316500933ABD /* StringsModel.swift in Sources */,
+				962700CE212D316500933ABD /* FilestoreObjectModel.swift in Sources */,
+				9627008F212D30FD00933ABD /* ArgumentsDagPutModel.swift in Sources */,
+				96270094212D30FD00933ABD /* ArgumentsObjectPatchRmLinkModel.swift in Sources */,
+				962700DF212D316500933ABD /* ListenersModel.swift in Sources */,
+				9627006F212D30FD00933ABD /* ArgumentsFilesStatModel.swift in Sources */,
+				96270086212D30FD00933ABD /* ArgumentsLogLevelModel.swift in Sources */,
+				962700EE212D316500933ABD /* ResponsePinVerifyModel.swift in Sources */,
+				96270098212D30FD00933ABD /* ArgumentsPinVerifyModel.swift in Sources */,
+				96270089212D30FD00933ABD /* ArgumentsPubsubSubModel.swift in Sources */,
+				962700CC212D316500933ABD /* ResponseBitswapLedgerModel.swift in Sources */,
+				96270088212D30FD00933ABD /* ArgumentsKeyGenModel.swift in Sources */,
+				9627007E212D30FD00933ABD /* ArgumentsStatsBwModel.swift in Sources */,
+				9627006C212D30FD00933ABD /* ArgumentsDhtProvideModel.swift in Sources */,
+				962700F7212D316500933ABD /* ResponseRepoVerifyModel.swift in Sources */,
+				962700E2212D316500933ABD /* KeypairModel.swift in Sources */,
+				9627007C212D30FD00933ABD /* ArgumentsDhtPutModel.swift in Sources */,
+				96270096212D30FD00933ABD /* ArgumentsFilesMkdirModel.swift in Sources */,
+				9627009D212D314600933ABD /* AddressModel.swift in Sources */,
+				9627009A212D30FD00933ABD /* ArgumentsFilesMvModel.swift in Sources */,
+				96270068212D30FD00933ABD /* ArgumentsFilesWriteModel.swift in Sources */,
+				962700EC212D316500933ABD /* MessageInfoModel.swift in Sources */,
+				9627008C212D30FD00933ABD /* ArgumentsIdModel.swift in Sources */,
+				962700DB212D316500933ABD /* FileLsModel.swift in Sources */,
+				9627008B212D30FD00933ABD /* ArgumentsFilesLsModel.swift in Sources */,
+				962700F5212D316500933ABD /* BlockModel.swift in Sources */,
+				962700F9212D316500933ABD /* PinsModel.swift in Sources */,
+				962700ED212D316500933ABD /* ObjectModel.swift in Sources */,
+				962700DD212D316500933ABD /* PinStatusModel.swift in Sources */,
+				96270080212D30FD00933ABD /* ArgumentsRepoGcModel.swift in Sources */,
+				96270074212D30FD00933ABD /* ArgumentsKeyRmModel.swift in Sources */,
+				962700E4212D316500933ABD /* IDInfoModel.swift in Sources */,
+				9627006D212D30FD00933ABD /* ArgumentsBlockRmModel.swift in Sources */,
+				962700D0212D316500933ABD /* ResponseDhtModel.swift in Sources */,
+				96270091212D30FD00933ABD /* ArgumentsBlockPutModel.swift in Sources */,
+				962700D8212D316500933ABD /* CidModel.swift in Sources */,
+				9627007B212D30FD00933ABD /* ArgumentsPinAddModel.swift in Sources */,
+				962700F4212D316500933ABD /* ResponseStatsBwModel.swift in Sources */,
+				962700F1212D316500933ABD /* StreamModel.swift in Sources */,
+				962700E9212D316500933ABD /* ResponseBitswapStatModel.swift in Sources */,
+				9627007D212D30FD00933ABD /* ArgumentsNameResolveModel.swift in Sources */,
+				962700CF212D316500933ABD /* ReferenceModel.swift in Sources */,
+				96270092212D30FD00933ABD /* ArgumentsDnsModel.swift in Sources */,
+				962700DE212D316500933ABD /* ResponseRepoStatModel.swift in Sources */,
+				962700E1212D316500933ABD /* MessageModel.swift in Sources */,
+				9627006A212D30FD00933ABD /* ArgumentsResolveModel.swift in Sources */,
+				96270097212D30FD00933ABD /* ArgumentsSwarmPeersModel.swift in Sources */,
 				3D819E5FF1F6162B685445B833F5C395 /* IpfsApi-dummy.m in Sources */,
-				962558E3212A5DCF0012E802 /* ArgumentsVersionModel.swift in Sources */,
-				9691C9C6212C195500A79326 /* ResponsePingModel.swift in Sources */,
-				9691C9B7212C195500A79326 /* IPNSModel.swift in Sources */,
-				9625588B212A553D0012E802 /* ArgumentsFilesMvModel.swift in Sources */,
-				962558BD212A57F70012E802 /* ArgumentsP2pListenerCloseModel.swift in Sources */,
-				962558B3212A57500012E802 /* ArgumentsObjectPatchAddLinkModel.swift in Sources */,
-				9625588F212A555E0012E802 /* ArgumentsFilesRmModel.swift in Sources */,
-				962558A5212A56720012E802 /* ArgumentsLogLevelModel.swift in Sources */,
-				9691C9BB212C195500A79326 /* EntriesModel.swift in Sources */,
-				9691C9B5212C195500A79326 /* PeerModel.swift in Sources */,
-				962558C1212A58590012E802 /* ArgumentsP2pStreamCloseModel.swift in Sources */,
-				96C4CF792126CB6100413F49 /* ArgumentsBlockRmModel.swift in Sources */,
-				96C4CF7B2126CE5500413F49 /* ArgumentsDagPutModel.swift in Sources */,
-				96255883212A54ED0012E802 /* ArgumentsDnsModel.swift in Sources */,
-				9691C9B0212C195500A79326 /* ListenerModel.swift in Sources */,
-				9691C9A7212C195500A79326 /* LsModel.swift in Sources */,
-				96255893212A55830012E802 /* ArgumentsFilesWriteModel.swift in Sources */,
-				9691C9C0212C195500A79326 /* ResponseSwarmPeersModel.swift in Sources */,
-				9691C9A1212C195400A79326 /* CommandOptionsModel.swift in Sources */,
-				9691C9C2212C195500A79326 /* ResponsePinVerifyModel.swift in Sources */,
-				9691C9BE212C195500A79326 /* MessageInfoModel.swift in Sources */,
-				9691C99F212C195400A79326 /* PeersModel.swift in Sources */,
-				9691C9C3212C195500A79326 /* ResponseBitswapLedgerModel.swift in Sources */,
-				962558DF212A5D720012E802 /* ArgumentsStatsBwModel.swift in Sources */,
-				9691C9B9212C195500A79326 /* DiffModel.swift in Sources */,
-				96255895212A55AA0012E802 /* ArgumentsFilestoreLsModel.swift in Sources */,
-				9691C9B2212C195500A79326 /* StreamModel.swift in Sources */,
-				9691C9AF212C195500A79326 /* ListenersModel.swift in Sources */,
-				9691C9B1212C195500A79326 /* StreamsModel.swift in Sources */,
-				962558A7212A568B0012E802 /* ArgumentsLsModel.swift in Sources */,
-				962558C5212A58890012E802 /* ArgumentsPinAddModel.swift in Sources */,
-				9625587D212A510C0012E802 /* ArgumentsDhtProvideModel.swift in Sources */,
-				9691C9C8212C195500A79326 /* ResponseRepoGcModel.swift in Sources */,
-				96255897212A55C50012E802 /* ArgumentsFilestoreVerifyModel.swift in Sources */,
-				9691C9AB212C195500A79326 /* MessageModel.swift in Sources */,
-				9691C9C1212C195500A79326 /* ResponseRepoStatModel.swift in Sources */,
-				962558E1212A5DB00012E802 /* ArgumentsSwarmPeersModel.swift in Sources */,
-				962558BF212A58100012E802 /* ArgumentsP2pListenerOpenModel.swift in Sources */,
-				9691C9C4212C195500A79326 /* ResponseBitswapStatModel.swift in Sources */,
-				9691C9BD212C195500A79326 /* PinStatusModel.swift in Sources */,
-				9691C9CA212C195500A79326 /* ResponseRepoVersionModel.swift in Sources */,
-				9691C9CB212C195500A79326 /* ResponseVersionModel.swift in Sources */,
-				962558DB212A5D390012E802 /* ArgumentsResolveModel.swift in Sources */,
-				9691C9B8212C195500A79326 /* DiffsModel.swift in Sources */,
-				962558CD212A58D40012E802 /* ArgumentsPinVerifyModel.swift in Sources */,
-				9691C9AE212C195500A79326 /* ObjectStatModel.swift in Sources */,
+				962700D1212D316500933ABD /* ResponseMessageInfoModel.swift in Sources */,
+				96270077212D30FD00933ABD /* ArgumentsP2pListenerOpenModel.swift in Sources */,
+				962700D7212D316500933ABD /* DiffsModel.swift in Sources */,
+				962700F2212D316500933ABD /* StreamsModel.swift in Sources */,
+				962700E8212D316500933ABD /* ResponseBitswapRmModel.swift in Sources */,
+				962700CD212D316500933ABD /* IPNSModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

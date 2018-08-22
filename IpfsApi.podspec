@@ -30,7 +30,7 @@ A wrapper of the IPFS Client HTTP-API for iOS.
   s.social_media_url = 'https://twitter.com/kjaylee'
 
   s.ios.deployment_target = '8.0'
-
+  s.swift_version = '4.1'
   s.source_files = 'IpfsApi/Classes/*.swift'
   
   # s.resource_bundles = {
