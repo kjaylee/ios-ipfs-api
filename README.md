@@ -15,6 +15,7 @@ Check out [the client API reference](https://ipfs.io/docs/api/) for the full com
 - [ ] test case.
 - [ ] support OSX.
 - [ ] example app.
+- [ ] support carthage.
 
 
 ## Example
