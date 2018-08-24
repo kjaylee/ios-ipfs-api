@@ -11,13 +11,6 @@ Pod::Spec.new do |s|
   s.version          = '0.2.0'
   s.summary          = 'A wrapper of the IPFS Client HTTP-API for iOS.'
   s.module_name   = 'Ipfs'
-  
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
   s.description      = <<-DESC
 A client library for the IPFS HTTP API, implemented in Swift. Check out IPFS Docs(https://ipfs.io/docs/api/) for the full command reference.
                        DESC
@@ -30,6 +23,7 @@ A client library for the IPFS HTTP API, implemented in Swift. Check out IPFS Doc
   s.social_media_url = 'https://twitter.com/kjaylee'
 
   s.ios.deployment_target = '8.0'
+  s.osx.deployment_target = '10.10'
   s.swift_version = '4.1'
   s.source_files = 'IpfsApi/Classes/*.swift'
   

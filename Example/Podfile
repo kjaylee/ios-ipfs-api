@@ -3,7 +3,8 @@ platform :ios, '8.0'
 
 target 'IpfsApi_Example' do
   pod 'IpfsApi', :path => '../'
-  pod 'Moya', '~> 11.0'
+  pod 'Moya/RxSwift', '~> 11.0'
+  
   
   target 'IpfsApi_Tests' do
     inherit! :search_paths

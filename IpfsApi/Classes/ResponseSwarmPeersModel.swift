@@ -8,7 +8,7 @@
 import Foundation
 
 public struct ResponseSwarmPeersModel: Codable {
-    let peers: [PeerModel]?
+    public let peers: [PeerModel]?
     
     enum CodingKeys: String, CodingKey {
         case peers = "Peers"

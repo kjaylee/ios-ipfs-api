@@ -10,7 +10,7 @@ import Foundation
 import Alamofire
 import Moya
 
-enum IAService {
+public enum IAService {
     /*
     Add a file or directory to ipfs.
     Argument “path” is of file type. This endpoint expects a file in the body of the request as ‘multipart/form-data’.
@@ -564,11 +564,11 @@ enum IAService {
 
 extension IAService: TargetType {
     
-    var baseURL: URL {
+    public var baseURL: URL {
         return URL(string: Ipfs.shared().baseAddress)!
     }
     
-    var path: String {
+    public var path: String {
         switch self {
         case .add:
             return "/add"
@@ -785,7 +785,7 @@ extension IAService: TargetType {
         }
     }
     
-    var method: Moya.Method {
+    public var method: Moya.Method {
         switch self {
         case .add:
             return .post
@@ -1002,11 +1002,11 @@ extension IAService: TargetType {
         }
     }
     
-    var sampleData: Data {
+    public var sampleData: Data {
        return "{}".utf8Encoded
     }
     
-    var task: Task {
+    public var task: Task {
         switch self {
         case .add(let file, let arguments):
             let data = MultipartFormData(provider: MultipartFormData.FormDataProvider.data(file), name: "file")
@@ -1254,7 +1254,7 @@ extension IAService: TargetType {
         }
     }
     
-    var headers: [String : String]? {
+    public var headers: [String : String]? {
         switch self {
         default:
             return ["Content-type": "application/json"]

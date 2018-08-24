@@ -8,8 +8,8 @@
 import Foundation
 
 public struct AddressModel: Codable {
-    let id: String?
-    let addrs: [String]?
+    public let id: String?
+    public let addrs: [String]?
     
     enum CodingKeys: String, CodingKey {
         case id = "ID"

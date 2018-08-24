@@ -9,37 +9,37 @@ import Foundation
 
 public struct ArgumentsAddModel: Codable {
     //    recursive [bool]: Add directory paths recursively. Default: “false”. Required: no.
-    let recursive: Bool?
+    public let recursive: Bool?
     //    quiet [bool]: Write minimal output. Required: no.
-    let quiet: Bool?
+    public let quiet: Bool?
     //    quieter [bool]: Write only final hash. Required: no.
-    let quieter: Bool?
+    public let quieter: Bool?
     //    silent [bool]: Write no output. Required: no.
-    let silent: Bool?
+    public let silent: Bool?
     //    progress [bool]: Stream progress data. Required: no.
-    let progress: Bool?
+    public let progress: Bool?
     //    trickle [bool]: Use trickle-dag format for dag generation. Required: no.
-    let triclke: Bool?
+    public let triclke: Bool?
     //    only-hash [bool]: Only chunk and hash - do not write to disk. Required: no.
-    let onlyHash: Bool?
+    public let onlyHash: Bool?
     //    wrap-with-directory [bool]: Wrap files with a directory object. Required: no.
-    let wrapWithDirectory: Bool?
+    public let wrapWithDirectory: Bool?
     //    hidden [bool]: Include files that are hidden. Only takes effect on recursive add. Required: no.
-    let hidden: Bool?
+    public let hidden: Bool?
     //    chunker [string]: Chunking algorithm to use. Required: no.
-    let chunker: String?
+    public let chunker: String?
     //    pin [bool]: Pin this object when adding. Default: “true”. Required: no.
-    let pin: Bool?
+    public let pin: Bool?
     //    raw-leaves [bool]: Use raw blocks for leaf nodes. (experimental). Required: no.
-    let rawLeaves: Bool?
+    public let rawLeaves: Bool?
     //    nocopy [bool]: Add the file using filestore. (experimental). Required: no.
-    let nocopy: Bool?
+    public let nocopy: Bool?
     //    fscache [bool]: Check the filestore for pre-existing blocks. (experimental). Required: no.
-    let fscache: Bool?
+    public let fscache: Bool?
     //    cid-version [int]: Cid version. Non-zero value will change default of ‘raw-leaves’ to true. (experimental). Default: “0”. Required: no.
-    let cidVersion: Int?
+    public let cidVersion: Int?
     //    hash [string]: Hash function to use. Will set Cid version to 1 if used. (experimental). Default: “sha2-256”. Required: no.
-    let hash: String?
+    public let hash: String?
     
     init(recursive: Bool? = nil,
          quiet: Bool? = nil,
