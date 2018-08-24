@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'IpfsApi'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'A wrapper of the IPFS Client HTTP-API for iOS.'
   s.module_name   = 'Ipfs'
   
