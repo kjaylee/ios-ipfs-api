@@ -13,9 +13,9 @@ public struct ArgumentsDnsModel: Codable {
     //    recursive [bool]: Resolve until the result is not a DNS link. Default: “false”. Required: no.
     let recursive: Bool?
     
-    init(arg: String,
+    init(domain: String,
          recursive: Bool? = nil) {
-        self.arg = arg
+        self.arg = domain
         self.recursive = recursive
     }
 }

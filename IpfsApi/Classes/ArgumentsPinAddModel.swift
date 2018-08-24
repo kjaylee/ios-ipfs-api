@@ -15,10 +15,10 @@ public struct ArgumentsPinAddModel: Codable {
     //    progress [bool]: Show progress. Required: no.
     let progress: Bool?
     
-    init(arg: String,
+    init(path: String,
          recursive: Bool? = nil,
          progress: Bool? = nil) {
-        self.arg = arg
+        self.arg = path
         self.recursive = recursive
         self.progress = progress
     }

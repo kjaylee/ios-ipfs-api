@@ -19,12 +19,12 @@ public struct ArgumentsNamePublishModel: Codable {
     //    key [string]: Name of the key to be used or a valid PeerID, as listed by ‘ipfs key list -l’. Default:. Default: “self”. Required: no.
     let key: String?
     
-    init(arg: String,
+    init(path: String,
          resolve: Bool? = nil,
          lifetime: String? = nil,
          ttl: String? = nil,
          key: String? = nil) {
-        self.arg = arg
+        self.arg = path
         self.resolve = resolve
         self.lifetime = lifetime
         self.ttl = ttl

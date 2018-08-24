@@ -13,9 +13,9 @@ public struct ArgumentsFilesLsModel: Codable {
     //    l [bool]: Use long listing format. Required: no.
     let l: Bool?
     
-    init(arg: String? = nil,
-         l: Bool? = nil) {
-        self.arg = arg
-        self.l = l
+    init(path: String? = nil,
+         long: Bool? = nil) {
+        self.arg = path
+        self.l = long
     }
 }

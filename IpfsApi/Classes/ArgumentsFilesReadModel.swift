@@ -15,10 +15,10 @@ public struct ArgumentsFilesReadModel: Codable {
     //    count [int]: Maximum number of bytes to read. Required: no.
     let count: Int?
     
-    init(arg: String,
+    init(path: String,
          offset: Int? = nil,
          count: Int? = nil) {
-        self.arg = arg
+        self.arg = path
         self.offset = offset
         self.count = count
     }

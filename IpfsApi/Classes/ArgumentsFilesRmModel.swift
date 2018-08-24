@@ -13,9 +13,9 @@ public struct ArgumentsFilesRmModel: Codable {
     //    recursive [bool]: Recursively remove directories. Required: no.
     let recursive: Bool?
     
-    init(arg: String,
+    init(path: String,
          recursive: Bool? = nil) {
-        self.arg = arg
+        self.arg = path
         self.recursive = recursive
     }
 }

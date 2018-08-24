@@ -16,10 +16,10 @@ public struct ArgumentsNameResolveModel: Codable {
     let nocache: Bool?
 
     
-    init(arg: String? = nil,
+    init(name: String? = nil,
          recursive: Bool? = nil,
          nocache: Bool? = nil) {
-        self.arg = arg
+        self.arg = name
         self.recursive = recursive
         self.nocache = nocache
     }

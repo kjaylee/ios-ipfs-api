@@ -13,9 +13,9 @@ public struct ArgumentsDhtGetModel: Codable {
     //    verbose [bool]: Print extra information. Default: “false”. Required: no.
     let verbose: Bool?
     
-    init(arg: String,
+    init(key: String,
          verbose: Bool? = nil) {
-        self.arg = arg
+        self.arg = key
         self.verbose = verbose
     }
 }

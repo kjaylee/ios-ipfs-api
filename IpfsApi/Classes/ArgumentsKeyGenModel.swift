@@ -15,10 +15,10 @@ public struct ArgumentsKeyGenModel: Codable {
     //    size [int]: size of the key to generate. Required: no.
     let size: Int?
     
-    init(arg: String,
+    init(name: String,
          type: String? = nil,
          size: Int? = nil) {
-        self.arg = arg
+        self.arg = name
         self.type = type
         self.size = size
     }

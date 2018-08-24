@@ -15,10 +15,10 @@ public struct ArgumentsDhtFindprovsModel: Codable {
     //    num-providers [int]: The number of providers to find. Default: “20”. Required: no.
     let numProviders: Int?
     
-    init(arg: String,
+    init(key: String,
          verbose: Bool? = nil,
          numProviders: Int? = nil) {
-        self.arg = arg
+        self.arg = key
         self.verbose = verbose
         self.numProviders = numProviders
     }

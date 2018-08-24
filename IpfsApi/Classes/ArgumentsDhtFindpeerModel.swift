@@ -13,9 +13,9 @@ public struct ArgumentsDhtFindpeerModel: Codable {
     //    verbose [bool]: Print extra information. Default: “false”. Required: no.
     let verbose: Bool?
     
-    init(arg: String,
+    init(peerID: String,
          verbose: Bool? = nil) {
-        self.arg = arg
+        self.arg = peerID
         self.verbose = verbose
     }
 }

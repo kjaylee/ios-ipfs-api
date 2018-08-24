@@ -15,10 +15,10 @@ public struct ArgumentsPinLsModel: Codable {
     //    quiet [bool]: Write just hashes of objects. Default: “false”. Required: no.
     let quiet: Bool?
     
-    init(arg: String? = nil,
+    init(path: String? = nil,
          type: String? = nil,
          quiet: Bool? = nil) {
-        self.arg = arg
+        self.arg = path
         self.type = type
         self.quiet = quiet
     }

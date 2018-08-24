@@ -15,10 +15,10 @@ public struct ArgumentsDhtProvideModel: Codable {
     //    recursive [bool]: Recursively provide entire graph. Default: “false”. Required: no.
     let recursive: Bool?
     
-    init(arg: String,
+    init(key: String,
          verbose: Bool? = nil,
          recursive: Bool? = nil) {
-        self.arg = arg
+        self.arg = key
         self.verbose = verbose
         self.recursive = recursive
     }

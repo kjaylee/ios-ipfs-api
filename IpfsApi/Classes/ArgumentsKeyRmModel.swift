@@ -13,9 +13,9 @@ public struct ArgumentsKeyRmModel: Codable {
     //    l [bool]: Show extra information about keys. Required: no.
     let l: Bool?
     
-    init(arg: String,
-         l: Bool? = nil) {
-        self.arg = arg
-        self.l = l
+    init(name: String,
+         information: Bool? = nil) {
+        self.arg = name
+        self.l = information
     }
 }

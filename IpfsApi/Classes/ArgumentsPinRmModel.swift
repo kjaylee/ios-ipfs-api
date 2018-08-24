@@ -13,9 +13,9 @@ public struct ArgumentsPinRmModel: Codable {
     //    recursive [bool]: Recursively unpin the object linked to by the specified object(s). Default: “true”. Required: no.
     let recursive: Bool?
     
-    init(arg: String,
+    init(path: String,
          recursive: Bool? = nil) {
-        self.arg = arg
+        self.arg = path
         self.recursive = recursive
     }
 }

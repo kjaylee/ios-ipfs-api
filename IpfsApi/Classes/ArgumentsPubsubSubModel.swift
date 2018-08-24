@@ -13,9 +13,9 @@ public struct ArgumentsPubsubSubModel: Codable {
     //    discover [bool]: try to discover other peers subscribed to the same topic. Required: no.
     let discover: Bool?
     
-    init(arg: String,
+    init(topic: String,
          discover: Bool? = nil) {
-        self.arg = arg
+        self.arg = topic
         self.discover = discover
     }
 }

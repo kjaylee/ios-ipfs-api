@@ -13,9 +13,9 @@ public struct ArgumentsIdModel: Codable {
     //    format [string]: Optional output format. Required: no.
     let format: String?
     
-    init(arg: String? = nil,
+    init(peerID: String? = nil,
          format: String? = nil) {
-        self.arg = arg
+        self.arg = peerID
         self.format = format
     }
 }

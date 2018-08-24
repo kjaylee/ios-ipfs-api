@@ -19,12 +19,12 @@ public struct ArgumentsFilesWriteModel: Codable {
     //    count [int]: Maximum number of bytes to read. Required: no.
     let count: Int?
     
-    init(arg: String,
+    init(path: String,
          offset: Int? = nil,
          create: Bool? = nil,
          truncate: Bool? = nil,
          count: Int? = nil) {
-        self.arg = arg
+        self.arg = path
         self.offset = offset
         self.create = create
         self.truncate = truncate

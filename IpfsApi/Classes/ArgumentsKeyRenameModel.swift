@@ -14,10 +14,10 @@ public struct ArgumentsKeyRenameModel: Codable {
     //    force [bool]: Allow to overwrite an existing key. Required: no.
     let force: Bool?
     
-    init(name: String,
+    init(oldName: String,
          newName: String,
          force: Bool? = nil) {
-        self.arg = [name, newName]
+        self.arg = [oldName, newName]
         self.force = force
     }
 }

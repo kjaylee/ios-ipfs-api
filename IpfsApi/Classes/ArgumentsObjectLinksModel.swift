@@ -13,9 +13,9 @@ public struct ArgumentsObjectLinksModel: Codable {
     //    headers [bool]: Print table headers (Hash, Size, Name). Default: “false”. Required: no.
     let headers: Bool?
     
-    init(arg: String,
+    init(multihash: String,
          headers: Bool? = nil) {
-        self.arg = arg
+        self.arg = multihash
         self.headers = headers
     }
 }

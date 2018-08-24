@@ -13,9 +13,9 @@ public struct ArgumentsPingModel: Codable {
     //    count [int]: Number of ping messages to send. Default: “10”. Required: no.
     let count: Int?
     
-    init(arg: String,
+    init(peerID: String,
          count: Int? = nil) {
-        self.arg = arg
+        self.arg = peerID
         self.count = count
     }
 }

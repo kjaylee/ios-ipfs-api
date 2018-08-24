@@ -13,9 +13,9 @@ public struct ArgumentsFilesMkdirModel: Codable {
     //    parents [bool]: No error if existing, make parent directories as needed. Required: no.
     let parents: Bool?
     
-    init(arg: String,
+    init(path: String,
          parents: Bool? = nil) {
-        self.arg = arg
+        self.arg = path
         self.parents = parents
     }
 }

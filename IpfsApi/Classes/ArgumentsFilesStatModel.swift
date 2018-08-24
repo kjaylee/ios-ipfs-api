@@ -17,11 +17,11 @@ public struct ArgumentsFilesStatModel: Codable {
     //    size [bool]: Print only size. Implies ‘–format=’. Conflicts with other format options. Default: “false”. Required: no.
     let size: Bool?
     
-    init(arg: String,
+    init(path: String,
          format: String? = nil,
          hash: Bool? = nil,
          size: Bool? = nil) {
-        self.arg = arg
+        self.arg = path
         self.format = format
         self.hash = hash
         self.size = size
