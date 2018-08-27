@@ -27,19 +27,6 @@
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXCopyFilesBuildPhase section */
-		968C6951212FDEE100D6EBAA /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
-
 /* Begin PBXFileReference section */
 		0AD168466AB8339B66F8E3B5 /* Pods-IpfsApi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IpfsApi_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IpfsApi_Example/Pods-IpfsApi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		0D76EE2E825C369D69460777 /* Pods_IpfsApi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IpfsApi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,110 +42,6 @@
 		607FACE51AFB9204008FA782 /* IpfsApi_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IpfsApi_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		968C6947212FDEE100D6EBAA /* IpfsApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IpfsApi.h; sourceTree = "<group>"; };
-		968C6948212FDEE100D6EBAA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		968C6953212FE0E000D6EBAA /* ArgumentsFilesWriteModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesWriteModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilesWriteModel.swift; sourceTree = "<group>"; };
-		968C6954212FE0E000D6EBAA /* ArgumentsResolveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsResolveModel.swift; path = ../../IpfsApi/Classes/ArgumentsResolveModel.swift; sourceTree = "<group>"; };
-		968C6955212FE0E000D6EBAA /* ResponseBitswapLedgerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseBitswapLedgerModel.swift; path = ../../IpfsApi/Classes/ResponseBitswapLedgerModel.swift; sourceTree = "<group>"; };
-		968C6956212FE0E000D6EBAA /* ArgumentsBlockRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsBlockRmModel.swift; path = ../../IpfsApi/Classes/ArgumentsBlockRmModel.swift; sourceTree = "<group>"; };
-		968C6957212FE0E000D6EBAA /* ArgumentsFilesStatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesStatModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilesStatModel.swift; sourceTree = "<group>"; };
-		968C6958212FE0E100D6EBAA /* ArgumentsVersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsVersionModel.swift; path = ../../IpfsApi/Classes/ArgumentsVersionModel.swift; sourceTree = "<group>"; };
-		968C6959212FE0E100D6EBAA /* AddressModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AddressModel.swift; path = ../../IpfsApi/Classes/AddressModel.swift; sourceTree = "<group>"; };
-		968C695A212FE0E100D6EBAA /* ArgumentsObjectDiffModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectDiffModel.swift; path = ../../IpfsApi/Classes/ArgumentsObjectDiffModel.swift; sourceTree = "<group>"; };
-		968C695B212FE0E100D6EBAA /* DiffModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiffModel.swift; path = ../../IpfsApi/Classes/DiffModel.swift; sourceTree = "<group>"; };
-		968C695C212FE0E100D6EBAA /* ArgumentsKeyRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsKeyRmModel.swift; path = ../../IpfsApi/Classes/ArgumentsKeyRmModel.swift; sourceTree = "<group>"; };
-		968C695D212FE0E100D6EBAA /* CommandOptionsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandOptionsModel.swift; path = ../../IpfsApi/Classes/CommandOptionsModel.swift; sourceTree = "<group>"; };
-		968C695E212FE0E200D6EBAA /* KeysModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeysModel.swift; path = ../../IpfsApi/Classes/KeysModel.swift; sourceTree = "<group>"; };
-		968C695F212FE0E200D6EBAA /* FileLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FileLsModel.swift; path = ../../IpfsApi/Classes/FileLsModel.swift; sourceTree = "<group>"; };
-		968C6960212FE0E200D6EBAA /* PinStatusModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinStatusModel.swift; path = ../../IpfsApi/Classes/PinStatusModel.swift; sourceTree = "<group>"; };
-		968C6961212FE0E200D6EBAA /* ArgumentsNamePublishModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsNamePublishModel.swift; path = ../../IpfsApi/Classes/ArgumentsNamePublishModel.swift; sourceTree = "<group>"; };
-		968C6962212FE0E200D6EBAA /* PinnedObjectsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinnedObjectsModel.swift; path = ../../IpfsApi/Classes/PinnedObjectsModel.swift; sourceTree = "<group>"; };
-		968C6963212FE0E200D6EBAA /* IDInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IDInfoModel.swift; path = ../../IpfsApi/Classes/IDInfoModel.swift; sourceTree = "<group>"; };
-		968C6964212FE0E300D6EBAA /* ArgumentsP2pListenerOpenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsP2pListenerOpenModel.swift; path = ../../IpfsApi/Classes/ArgumentsP2pListenerOpenModel.swift; sourceTree = "<group>"; };
-		968C6965212FE0E300D6EBAA /* StreamModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamModel.swift; path = ../../IpfsApi/Classes/StreamModel.swift; sourceTree = "<group>"; };
-		968C6966212FE0E300D6EBAA /* MessageInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageInfoModel.swift; path = ../../IpfsApi/Classes/MessageInfoModel.swift; sourceTree = "<group>"; };
-		968C6967212FE0E300D6EBAA /* ResponsePinVerifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponsePinVerifyModel.swift; path = ../../IpfsApi/Classes/ResponsePinVerifyModel.swift; sourceTree = "<group>"; };
-		968C6968212FE0E300D6EBAA /* ArgumentsDhtGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtGetModel.swift; path = ../../IpfsApi/Classes/ArgumentsDhtGetModel.swift; sourceTree = "<group>"; };
-		968C6969212FE0E300D6EBAA /* ArgumentsPingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPingModel.swift; path = ../../IpfsApi/Classes/ArgumentsPingModel.swift; sourceTree = "<group>"; };
-		968C696A212FE0E400D6EBAA /* ArgumentsPinAddModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinAddModel.swift; path = ../../IpfsApi/Classes/ArgumentsPinAddModel.swift; sourceTree = "<group>"; };
-		968C696B212FE0E400D6EBAA /* ArgumentsNameResolveModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsNameResolveModel.swift; path = ../../IpfsApi/Classes/ArgumentsNameResolveModel.swift; sourceTree = "<group>"; };
-		968C696C212FE0E400D6EBAA /* ArgumentsLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsLsModel.swift; path = ../../IpfsApi/Classes/ArgumentsLsModel.swift; sourceTree = "<group>"; };
-		968C696D212FE0E400D6EBAA /* ResponseRepoVerifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseRepoVerifyModel.swift; path = ../../IpfsApi/Classes/ResponseRepoVerifyModel.swift; sourceTree = "<group>"; };
-		968C696E212FE0E400D6EBAA /* PinsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PinsModel.swift; path = ../../IpfsApi/Classes/PinsModel.swift; sourceTree = "<group>"; };
-		968C696F212FE0E500D6EBAA /* ResponseSwarmPeersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseSwarmPeersModel.swift; path = ../../IpfsApi/Classes/ResponseSwarmPeersModel.swift; sourceTree = "<group>"; };
-		968C6970212FE0E500D6EBAA /* ArgumentsRepoGcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsRepoGcModel.swift; path = ../../IpfsApi/Classes/ArgumentsRepoGcModel.swift; sourceTree = "<group>"; };
-		968C6971212FE0E500D6EBAA /* ArgumentsDhtFindpeerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtFindpeerModel.swift; path = ../../IpfsApi/Classes/ArgumentsDhtFindpeerModel.swift; sourceTree = "<group>"; };
-		968C6972212FE0E500D6EBAA /* ArgumentsFilestoreLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilestoreLsModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilestoreLsModel.swift; sourceTree = "<group>"; };
-		968C6973212FE0E500D6EBAA /* ArgumentsPinLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinLsModel.swift; path = ../../IpfsApi/Classes/ArgumentsPinLsModel.swift; sourceTree = "<group>"; };
-		968C6974212FE0E600D6EBAA /* ResponsePingModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponsePingModel.swift; path = ../../IpfsApi/Classes/ResponsePingModel.swift; sourceTree = "<group>"; };
-		968C6975212FE0E600D6EBAA /* ArgumentsLogLevelModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsLogLevelModel.swift; path = ../../IpfsApi/Classes/ArgumentsLogLevelModel.swift; sourceTree = "<group>"; };
-		968C6976212FE0E600D6EBAA /* ObjectStatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectStatModel.swift; path = ../../IpfsApi/Classes/ObjectStatModel.swift; sourceTree = "<group>"; };
-		968C6977212FE0E600D6EBAA /* ArgumentsKeyGenModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsKeyGenModel.swift; path = ../../IpfsApi/Classes/ArgumentsKeyGenModel.swift; sourceTree = "<group>"; };
-		968C6978212FE0E600D6EBAA /* EntriesModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = EntriesModel.swift; path = ../../IpfsApi/Classes/EntriesModel.swift; sourceTree = "<group>"; };
-		968C6979212FE0E700D6EBAA /* DiffsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DiffsModel.swift; path = ../../IpfsApi/Classes/DiffsModel.swift; sourceTree = "<group>"; };
-		968C697A212FE0E700D6EBAA /* ArgumentsIdModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsIdModel.swift; path = ../../IpfsApi/Classes/ArgumentsIdModel.swift; sourceTree = "<group>"; };
-		968C697B212FE0E700D6EBAA /* ArgumentsFilesRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesRmModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilesRmModel.swift; sourceTree = "<group>"; };
-		968C697C212FE0E700D6EBAA /* ArgumentsObjectLinksModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectLinksModel.swift; path = ../../IpfsApi/Classes/ArgumentsObjectLinksModel.swift; sourceTree = "<group>"; };
-		968C697D212FE0E800D6EBAA /* ArgumentsDagPutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDagPutModel.swift; path = ../../IpfsApi/Classes/ArgumentsDagPutModel.swift; sourceTree = "<group>"; };
-		968C697E212FE0E800D6EBAA /* ArgumentsGetModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsGetModel.swift; path = ../../IpfsApi/Classes/ArgumentsGetModel.swift; sourceTree = "<group>"; };
-		968C697F212FE0E800D6EBAA /* ListenersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListenersModel.swift; path = ../../IpfsApi/Classes/ListenersModel.swift; sourceTree = "<group>"; };
-		968C6980212FE0E800D6EBAA /* ArgumentsBlockPutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsBlockPutModel.swift; path = ../../IpfsApi/Classes/ArgumentsBlockPutModel.swift; sourceTree = "<group>"; };
-		968C6981212FE0E800D6EBAA /* Ipfs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Ipfs.swift; path = ../../IpfsApi/Classes/Ipfs.swift; sourceTree = "<group>"; };
-		968C6982212FE0E900D6EBAA /* ArgumentsFilestoreVerifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilestoreVerifyModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilestoreVerifyModel.swift; sourceTree = "<group>"; };
-		968C6983212FE0E900D6EBAA /* ResponseBitswapStatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseBitswapStatModel.swift; path = ../../IpfsApi/Classes/ResponseBitswapStatModel.swift; sourceTree = "<group>"; };
-		968C6984212FE0E900D6EBAA /* ResponseRepoGcModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseRepoGcModel.swift; path = ../../IpfsApi/Classes/ResponseRepoGcModel.swift; sourceTree = "<group>"; };
-		968C6985212FE0E900D6EBAA /* ArgumentsFilesMkdirModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesMkdirModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilesMkdirModel.swift; sourceTree = "<group>"; };
-		968C6986212FE0EA00D6EBAA /* MountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MountModel.swift; path = ../../IpfsApi/Classes/MountModel.swift; sourceTree = "<group>"; };
-		968C6987212FE0EA00D6EBAA /* ArgumentsPinVerifyModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinVerifyModel.swift; path = ../../IpfsApi/Classes/ArgumentsPinVerifyModel.swift; sourceTree = "<group>"; };
-		968C6988212FE0EA00D6EBAA /* StreamsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StreamsModel.swift; path = ../../IpfsApi/Classes/StreamsModel.swift; sourceTree = "<group>"; };
-		968C6989212FE0EA00D6EBAA /* ArgumentsP2pListenerCloseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsP2pListenerCloseModel.swift; path = ../../IpfsApi/Classes/ArgumentsP2pListenerCloseModel.swift; sourceTree = "<group>"; };
-		968C698A212FE0EB00D6EBAA /* BlockModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BlockModel.swift; path = ../../IpfsApi/Classes/BlockModel.swift; sourceTree = "<group>"; };
-		968C698B212FE0EB00D6EBAA /* ArgumentsFilesMvModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesMvModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilesMvModel.swift; sourceTree = "<group>"; };
-		968C698C212FE0EB00D6EBAA /* ArgumentsPubsubPubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPubsubPubModel.swift; path = ../../IpfsApi/Classes/ArgumentsPubsubPubModel.swift; sourceTree = "<group>"; };
-		968C698D212FE0EB00D6EBAA /* ArgumentsPinRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinRmModel.swift; path = ../../IpfsApi/Classes/ArgumentsPinRmModel.swift; sourceTree = "<group>"; };
-		968C698E212FE0EC00D6EBAA /* IPNSModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IPNSModel.swift; path = ../../IpfsApi/Classes/IPNSModel.swift; sourceTree = "<group>"; };
-		968C698F212FE0EC00D6EBAA /* ArgumentsDhtProvideModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtProvideModel.swift; path = ../../IpfsApi/Classes/ArgumentsDhtProvideModel.swift; sourceTree = "<group>"; };
-		968C6990212FE0ED00D6EBAA /* ArgumentsPinUpdateModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPinUpdateModel.swift; path = ../../IpfsApi/Classes/ArgumentsPinUpdateModel.swift; sourceTree = "<group>"; };
-		968C6991212FE0ED00D6EBAA /* ResponseDhtModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseDhtModel.swift; path = ../../IpfsApi/Classes/ResponseDhtModel.swift; sourceTree = "<group>"; };
-		968C6992212FE0ED00D6EBAA /* ArgumentsMountModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsMountModel.swift; path = ../../IpfsApi/Classes/ArgumentsMountModel.swift; sourceTree = "<group>"; };
-		968C6993212FE0EE00D6EBAA /* ArgumentsP2pStreamCloseModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsP2pStreamCloseModel.swift; path = ../../IpfsApi/Classes/ArgumentsP2pStreamCloseModel.swift; sourceTree = "<group>"; };
-		968C6994212FE0EE00D6EBAA /* CidModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CidModel.swift; path = ../../IpfsApi/Classes/CidModel.swift; sourceTree = "<group>"; };
-		968C6995212FE0EE00D6EBAA /* ArgumentsObjectPatchAddLinkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectPatchAddLinkModel.swift; path = ../../IpfsApi/Classes/ArgumentsObjectPatchAddLinkModel.swift; sourceTree = "<group>"; };
-		968C6996212FE0EE00D6EBAA /* LsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LsModel.swift; path = ../../IpfsApi/Classes/LsModel.swift; sourceTree = "<group>"; };
-		968C6997212FE0EF00D6EBAA /* MessageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MessageModel.swift; path = ../../IpfsApi/Classes/MessageModel.swift; sourceTree = "<group>"; };
-		968C6998212FE0EF00D6EBAA /* KeypairModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeypairModel.swift; path = ../../IpfsApi/Classes/KeypairModel.swift; sourceTree = "<group>"; };
-		968C6999212FE0EF00D6EBAA /* KeypairsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KeypairsModel.swift; path = ../../IpfsApi/Classes/KeypairsModel.swift; sourceTree = "<group>"; };
-		968C699A212FE0EF00D6EBAA /* CommandModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CommandModel.swift; path = ../../IpfsApi/Classes/CommandModel.swift; sourceTree = "<group>"; };
-		968C699B212FE0EF00D6EBAA /* ArgumentsFilesReadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesReadModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilesReadModel.swift; sourceTree = "<group>"; };
-		968C699C212FE0F000D6EBAA /* PeersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeersModel.swift; path = ../../IpfsApi/Classes/PeersModel.swift; sourceTree = "<group>"; };
-		968C699D212FE0F000D6EBAA /* ArgumentsDhtPutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtPutModel.swift; path = ../../IpfsApi/Classes/ArgumentsDhtPutModel.swift; sourceTree = "<group>"; };
-		968C699E212FE0F000D6EBAA /* ArgumentsStatsBwModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsStatsBwModel.swift; path = ../../IpfsApi/Classes/ArgumentsStatsBwModel.swift; sourceTree = "<group>"; };
-		968C699F212FE0F000D6EBAA /* PeerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PeerModel.swift; path = ../../IpfsApi/Classes/PeerModel.swift; sourceTree = "<group>"; };
-		968C69A0212FE0F100D6EBAA /* IAService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = IAService.swift; path = ../../IpfsApi/Classes/IAService.swift; sourceTree = "<group>"; };
-		968C69A1212FE0F100D6EBAA /* ResponseStatsBwModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseStatsBwModel.swift; path = ../../IpfsApi/Classes/ResponseStatsBwModel.swift; sourceTree = "<group>"; };
-		968C69A2212FE0F100D6EBAA /* StringsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = StringsModel.swift; path = ../../IpfsApi/Classes/StringsModel.swift; sourceTree = "<group>"; };
-		968C69A3212FE0F100D6EBAA /* ArgumentsDhtFindprovsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtFindprovsModel.swift; path = ../../IpfsApi/Classes/ArgumentsDhtFindprovsModel.swift; sourceTree = "<group>"; };
-		968C69A4212FE0F200D6EBAA /* ArgumentsFilesCpModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesCpModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilesCpModel.swift; sourceTree = "<group>"; };
-		968C69A5212FE0F200D6EBAA /* FilestoreObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FilestoreObjectModel.swift; path = ../../IpfsApi/Classes/FilestoreObjectModel.swift; sourceTree = "<group>"; };
-		968C69A6212FE0F200D6EBAA /* ReferenceModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ReferenceModel.swift; path = ../../IpfsApi/Classes/ReferenceModel.swift; sourceTree = "<group>"; };
-		968C69A7212FE0F200D6EBAA /* ResponseMessageInfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseMessageInfoModel.swift; path = ../../IpfsApi/Classes/ResponseMessageInfoModel.swift; sourceTree = "<group>"; };
-		968C69A8212FE0F300D6EBAA /* ResponseVersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseVersionModel.swift; path = ../../IpfsApi/Classes/ResponseVersionModel.swift; sourceTree = "<group>"; };
-		968C69A9212FE0F300D6EBAA /* ArgumentsKeyRenameModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsKeyRenameModel.swift; path = ../../IpfsApi/Classes/ArgumentsKeyRenameModel.swift; sourceTree = "<group>"; };
-		968C69AA212FE0F300D6EBAA /* ArgumentsPubsubSubModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsPubsubSubModel.swift; path = ../../IpfsApi/Classes/ArgumentsPubsubSubModel.swift; sourceTree = "<group>"; };
-		968C69AB212FE0F300D6EBAA /* ArgumentsObjectPutModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectPutModel.swift; path = ../../IpfsApi/Classes/ArgumentsObjectPutModel.swift; sourceTree = "<group>"; };
-		968C69AC212FE0F400D6EBAA /* ArgumentsFilesLsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsFilesLsModel.swift; path = ../../IpfsApi/Classes/ArgumentsFilesLsModel.swift; sourceTree = "<group>"; };
-		968C69AD212FE0F400D6EBAA /* ListenerModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ListenerModel.swift; path = ../../IpfsApi/Classes/ListenerModel.swift; sourceTree = "<group>"; };
-		968C69AE212FE0F400D6EBAA /* ArgumentsAddModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsAddModel.swift; path = ../../IpfsApi/Classes/ArgumentsAddModel.swift; sourceTree = "<group>"; };
-		968C69AF212FE0F400D6EBAA /* ResponseRepoStatModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseRepoStatModel.swift; path = ../../IpfsApi/Classes/ResponseRepoStatModel.swift; sourceTree = "<group>"; };
-		968C69B0212FE0F500D6EBAA /* ArgumentsDnsModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDnsModel.swift; path = ../../IpfsApi/Classes/ArgumentsDnsModel.swift; sourceTree = "<group>"; };
-		968C69B1212FE0F500D6EBAA /* ArgumentsObjectPatchRmLinkModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsObjectPatchRmLinkModel.swift; path = ../../IpfsApi/Classes/ArgumentsObjectPatchRmLinkModel.swift; sourceTree = "<group>"; };
-		968C69B2212FE0F500D6EBAA /* PathModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PathModel.swift; path = ../../IpfsApi/Classes/PathModel.swift; sourceTree = "<group>"; };
-		968C69B3212FE0F500D6EBAA /* ArgumentsP2pStreamDialModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsP2pStreamDialModel.swift; path = ../../IpfsApi/Classes/ArgumentsP2pStreamDialModel.swift; sourceTree = "<group>"; };
-		968C69B4212FE0F600D6EBAA /* ResponseBitswapRmModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseBitswapRmModel.swift; path = ../../IpfsApi/Classes/ResponseBitswapRmModel.swift; sourceTree = "<group>"; };
-		968C69B5212FE0F600D6EBAA /* ObjectModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ObjectModel.swift; path = ../../IpfsApi/Classes/ObjectModel.swift; sourceTree = "<group>"; };
-		968C69B6212FE0F600D6EBAA /* ResponseRepoVersionModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ResponseRepoVersionModel.swift; path = ../../IpfsApi/Classes/ResponseRepoVersionModel.swift; sourceTree = "<group>"; };
-		968C69B7212FE0F600D6EBAA /* ArgumentsSwarmPeersModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsSwarmPeersModel.swift; path = ../../IpfsApi/Classes/ArgumentsSwarmPeersModel.swift; sourceTree = "<group>"; };
-		968C69B8212FE0F700D6EBAA /* ArgumentsDhtQueryModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ArgumentsDhtQueryModel.swift; path = ../../IpfsApi/Classes/ArgumentsDhtQueryModel.swift; sourceTree = "<group>"; };
 		A2B7D28499BCFE6EDD811056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AB5B89CB5E11CBC49460DBC5 /* Pods-IpfsApi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IpfsApi_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IpfsApi_Tests/Pods-IpfsApi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1721566A09ECC38CE255832 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -203,7 +86,6 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for IpfsApi */,
 				607FACE81AFB9204008FA782 /* Tests */,
-				968C6946212FDEE100D6EBAA /* IpfsApi */,
 				607FACD11AFB9204008FA782 /* Products */,
 				38E81FA00C5189C93BAC3188 /* Pods */,
 				C6AB8F1A069630CDA78760A3 /* Frameworks */,
@@ -268,117 +150,6 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		968C6946212FDEE100D6EBAA /* IpfsApi */ = {
-			isa = PBXGroup;
-			children = (
-				968C6947212FDEE100D6EBAA /* IpfsApi.h */,
-				968C6959212FE0E100D6EBAA /* AddressModel.swift */,
-				968C69AE212FE0F400D6EBAA /* ArgumentsAddModel.swift */,
-				968C6980212FE0E800D6EBAA /* ArgumentsBlockPutModel.swift */,
-				968C6956212FE0E000D6EBAA /* ArgumentsBlockRmModel.swift */,
-				968C697D212FE0E800D6EBAA /* ArgumentsDagPutModel.swift */,
-				968C6971212FE0E500D6EBAA /* ArgumentsDhtFindpeerModel.swift */,
-				968C69A3212FE0F100D6EBAA /* ArgumentsDhtFindprovsModel.swift */,
-				968C6968212FE0E300D6EBAA /* ArgumentsDhtGetModel.swift */,
-				968C698F212FE0EC00D6EBAA /* ArgumentsDhtProvideModel.swift */,
-				968C699D212FE0F000D6EBAA /* ArgumentsDhtPutModel.swift */,
-				968C69B8212FE0F700D6EBAA /* ArgumentsDhtQueryModel.swift */,
-				968C69B0212FE0F500D6EBAA /* ArgumentsDnsModel.swift */,
-				968C69A4212FE0F200D6EBAA /* ArgumentsFilesCpModel.swift */,
-				968C69AC212FE0F400D6EBAA /* ArgumentsFilesLsModel.swift */,
-				968C6985212FE0E900D6EBAA /* ArgumentsFilesMkdirModel.swift */,
-				968C698B212FE0EB00D6EBAA /* ArgumentsFilesMvModel.swift */,
-				968C699B212FE0EF00D6EBAA /* ArgumentsFilesReadModel.swift */,
-				968C697B212FE0E700D6EBAA /* ArgumentsFilesRmModel.swift */,
-				968C6957212FE0E000D6EBAA /* ArgumentsFilesStatModel.swift */,
-				968C6972212FE0E500D6EBAA /* ArgumentsFilestoreLsModel.swift */,
-				968C6982212FE0E900D6EBAA /* ArgumentsFilestoreVerifyModel.swift */,
-				968C6953212FE0E000D6EBAA /* ArgumentsFilesWriteModel.swift */,
-				968C697E212FE0E800D6EBAA /* ArgumentsGetModel.swift */,
-				968C697A212FE0E700D6EBAA /* ArgumentsIdModel.swift */,
-				968C6977212FE0E600D6EBAA /* ArgumentsKeyGenModel.swift */,
-				968C69A9212FE0F300D6EBAA /* ArgumentsKeyRenameModel.swift */,
-				968C695C212FE0E100D6EBAA /* ArgumentsKeyRmModel.swift */,
-				968C6975212FE0E600D6EBAA /* ArgumentsLogLevelModel.swift */,
-				968C696C212FE0E400D6EBAA /* ArgumentsLsModel.swift */,
-				968C6992212FE0ED00D6EBAA /* ArgumentsMountModel.swift */,
-				968C6961212FE0E200D6EBAA /* ArgumentsNamePublishModel.swift */,
-				968C696B212FE0E400D6EBAA /* ArgumentsNameResolveModel.swift */,
-				968C695A212FE0E100D6EBAA /* ArgumentsObjectDiffModel.swift */,
-				968C697C212FE0E700D6EBAA /* ArgumentsObjectLinksModel.swift */,
-				968C6995212FE0EE00D6EBAA /* ArgumentsObjectPatchAddLinkModel.swift */,
-				968C69B1212FE0F500D6EBAA /* ArgumentsObjectPatchRmLinkModel.swift */,
-				968C69AB212FE0F300D6EBAA /* ArgumentsObjectPutModel.swift */,
-				968C6989212FE0EA00D6EBAA /* ArgumentsP2pListenerCloseModel.swift */,
-				968C6964212FE0E300D6EBAA /* ArgumentsP2pListenerOpenModel.swift */,
-				968C6993212FE0EE00D6EBAA /* ArgumentsP2pStreamCloseModel.swift */,
-				968C69B3212FE0F500D6EBAA /* ArgumentsP2pStreamDialModel.swift */,
-				968C696A212FE0E400D6EBAA /* ArgumentsPinAddModel.swift */,
-				968C6969212FE0E300D6EBAA /* ArgumentsPingModel.swift */,
-				968C6973212FE0E500D6EBAA /* ArgumentsPinLsModel.swift */,
-				968C698D212FE0EB00D6EBAA /* ArgumentsPinRmModel.swift */,
-				968C6990212FE0ED00D6EBAA /* ArgumentsPinUpdateModel.swift */,
-				968C6987212FE0EA00D6EBAA /* ArgumentsPinVerifyModel.swift */,
-				968C698C212FE0EB00D6EBAA /* ArgumentsPubsubPubModel.swift */,
-				968C69AA212FE0F300D6EBAA /* ArgumentsPubsubSubModel.swift */,
-				968C6970212FE0E500D6EBAA /* ArgumentsRepoGcModel.swift */,
-				968C6954212FE0E000D6EBAA /* ArgumentsResolveModel.swift */,
-				968C699E212FE0F000D6EBAA /* ArgumentsStatsBwModel.swift */,
-				968C69B7212FE0F600D6EBAA /* ArgumentsSwarmPeersModel.swift */,
-				968C6958212FE0E100D6EBAA /* ArgumentsVersionModel.swift */,
-				968C698A212FE0EB00D6EBAA /* BlockModel.swift */,
-				968C6994212FE0EE00D6EBAA /* CidModel.swift */,
-				968C699A212FE0EF00D6EBAA /* CommandModel.swift */,
-				968C695D212FE0E100D6EBAA /* CommandOptionsModel.swift */,
-				968C695B212FE0E100D6EBAA /* DiffModel.swift */,
-				968C6979212FE0E700D6EBAA /* DiffsModel.swift */,
-				968C6978212FE0E600D6EBAA /* EntriesModel.swift */,
-				968C695F212FE0E200D6EBAA /* FileLsModel.swift */,
-				968C69A5212FE0F200D6EBAA /* FilestoreObjectModel.swift */,
-				968C69A0212FE0F100D6EBAA /* IAService.swift */,
-				968C6963212FE0E200D6EBAA /* IDInfoModel.swift */,
-				968C6981212FE0E800D6EBAA /* Ipfs.swift */,
-				968C698E212FE0EC00D6EBAA /* IPNSModel.swift */,
-				968C6998212FE0EF00D6EBAA /* KeypairModel.swift */,
-				968C6999212FE0EF00D6EBAA /* KeypairsModel.swift */,
-				968C695E212FE0E200D6EBAA /* KeysModel.swift */,
-				968C69AD212FE0F400D6EBAA /* ListenerModel.swift */,
-				968C697F212FE0E800D6EBAA /* ListenersModel.swift */,
-				968C6996212FE0EE00D6EBAA /* LsModel.swift */,
-				968C6966212FE0E300D6EBAA /* MessageInfoModel.swift */,
-				968C6997212FE0EF00D6EBAA /* MessageModel.swift */,
-				968C6986212FE0EA00D6EBAA /* MountModel.swift */,
-				968C69B5212FE0F600D6EBAA /* ObjectModel.swift */,
-				968C6976212FE0E600D6EBAA /* ObjectStatModel.swift */,
-				968C69B2212FE0F500D6EBAA /* PathModel.swift */,
-				968C699F212FE0F000D6EBAA /* PeerModel.swift */,
-				968C699C212FE0F000D6EBAA /* PeersModel.swift */,
-				968C6962212FE0E200D6EBAA /* PinnedObjectsModel.swift */,
-				968C696E212FE0E400D6EBAA /* PinsModel.swift */,
-				968C6960212FE0E200D6EBAA /* PinStatusModel.swift */,
-				968C69A6212FE0F200D6EBAA /* ReferenceModel.swift */,
-				968C6955212FE0E000D6EBAA /* ResponseBitswapLedgerModel.swift */,
-				968C69B4212FE0F600D6EBAA /* ResponseBitswapRmModel.swift */,
-				968C6983212FE0E900D6EBAA /* ResponseBitswapStatModel.swift */,
-				968C6991212FE0ED00D6EBAA /* ResponseDhtModel.swift */,
-				968C69A7212FE0F200D6EBAA /* ResponseMessageInfoModel.swift */,
-				968C6974212FE0E600D6EBAA /* ResponsePingModel.swift */,
-				968C6967212FE0E300D6EBAA /* ResponsePinVerifyModel.swift */,
-				968C6984212FE0E900D6EBAA /* ResponseRepoGcModel.swift */,
-				968C69AF212FE0F400D6EBAA /* ResponseRepoStatModel.swift */,
-				968C696D212FE0E400D6EBAA /* ResponseRepoVerifyModel.swift */,
-				968C69B6212FE0F600D6EBAA /* ResponseRepoVersionModel.swift */,
-				968C69A1212FE0F100D6EBAA /* ResponseStatsBwModel.swift */,
-				968C696F212FE0E500D6EBAA /* ResponseSwarmPeersModel.swift */,
-				968C69A8212FE0F300D6EBAA /* ResponseVersionModel.swift */,
-				968C6965212FE0E300D6EBAA /* StreamModel.swift */,
-				968C6988212FE0EA00D6EBAA /* StreamsModel.swift */,
-				968C69A2212FE0F100D6EBAA /* StringsModel.swift */,
-				968C6948212FDEE100D6EBAA /* Info.plist */,
-			);
-			path = IpfsApi;
-			sourceTree = "<group>";
-		};
 		C6AB8F1A069630CDA78760A3 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -400,7 +171,6 @@
 				607FACCD1AFB9204008FA782 /* Frameworks */,
 				607FACCE1AFB9204008FA782 /* Resources */,
 				6DEF35E388E5BC589FEFD22A /* [CP] Embed Pods Frameworks */,
-				968C6951212FDEE100D6EBAA /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -712,9 +482,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0AD168466AB8339B66F8E3B5 /* Pods-IpfsApi_Example.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 45WU468FZE;
 				INFOPLIST_FILE = IpfsApi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
@@ -731,9 +499,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2015D31AFA886D4FD49EA03 /* Pods-IpfsApi_Example.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEVELOPMENT_TEAM = 45WU468FZE;
 				INFOPLIST_FILE = IpfsApi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
