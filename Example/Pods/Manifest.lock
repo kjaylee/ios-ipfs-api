@@ -1,7 +1,36 @@
 PODS:
   - Alamofire (4.7.3)
+  - DynamicBlurView (2.0.2)
+  - FontAwesomeKit (2.2.1):
+    - FontAwesomeKit/Core (= 2.2.1)
+    - FontAwesomeKit/FontAwesome (= 2.2.1)
+    - FontAwesomeKit/FoundationIcons (= 2.2.1)
+    - FontAwesomeKit/IonIcons (= 2.2.1)
+    - FontAwesomeKit/Material (= 2.2.1)
+    - FontAwesomeKit/Octicons (= 2.2.1)
+    - FontAwesomeKit/Zocial (= 2.2.1)
+  - FontAwesomeKit/Core (2.2.1)
+  - FontAwesomeKit/FontAwesome (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Material (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Octicons (2.2.1):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.2.1):
+    - FontAwesomeKit/Core
+  - Hero (1.3.0)
+  - IGListKit (3.4.0):
+    - IGListKit/Default (= 3.4.0)
+  - IGListKit/Default (3.4.0):
+    - IGListKit/Diffing
+  - IGListKit/Diffing (3.4.0)
   - IpfsApi (0.2.0):
     - Moya (~> 11.0)
+  - IQKeyboardManagerSwift (6.1.1)
   - Moya (11.0.2):
     - Moya/Core (= 11.0.2)
   - Moya/Core (11.0.2):
@@ -10,19 +39,38 @@ PODS:
   - Moya/RxSwift (11.0.2):
     - Moya/Core
     - RxSwift (~> 4.0)
+  - PopupDialog (0.8.1):
+    - DynamicBlurView (~> 2.0)
   - Result (3.2.4)
   - RxSwift (4.2.0)
+  - TUSafariActivity (1.0.4)
+  - Viewer (3.0.0)
 
 DEPENDENCIES:
+  - FontAwesomeKit
+  - Hero
+  - IGListKit
   - IpfsApi (from `../`)
+  - IQKeyboardManagerSwift
   - Moya/RxSwift (~> 11.0)
+  - PopupDialog
+  - TUSafariActivity
+  - Viewer
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - DynamicBlurView
+    - FontAwesomeKit
+    - Hero
+    - IGListKit
+    - IQKeyboardManagerSwift
     - Moya
+    - PopupDialog
     - Result
     - RxSwift
+    - TUSafariActivity
+    - Viewer
 
 EXTERNAL SOURCES:
   IpfsApi:
@@ -30,11 +78,19 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
+  FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
+  Hero: 3eecd3fd62dd2425cbc7e35505c557b86d5a379e
+  IGListKit: 7a5d788e9fb746bcd402baa8e8b24bc3bd2a5a07
   IpfsApi: d4905c68b8105377c1350f1ab4d4dfc7cce9f95e
+  IQKeyboardManagerSwift: 977affaeb4d6e971975c7790a6850f31d38f1207
   Moya: a725035953bc1c0eb1be505ab903984501d82440
+  PopupDialog: 3d4e8e0795c3a614f407d730986c9b9af9781123
   Result: d2d07204ce72856f1fd9130bbe42c35a7b0fea10
   RxSwift: 99e10317ddfcc7fbe01356aafd118fde4a0be104
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+  Viewer: 1820d06cfe48054775a3e979567208dc37eb270d
 
-PODFILE CHECKSUM: 4375e92cddbc6d8ad1d1b8f1baa166837cc108fe
+PODFILE CHECKSUM: ebca79b8ce559421ee0a90e6bcd72aa883ca009d
 
 COCOAPODS: 1.6.0.beta.1

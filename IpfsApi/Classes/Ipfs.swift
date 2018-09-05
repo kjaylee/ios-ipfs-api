@@ -33,6 +33,9 @@ extension Ipfs {
     public func setBase(address:String, port:Int? = 5001, apiVersionPath:String? = "/api/v0") {
         self.baseAddress = address + String(describing: ":\(port!)") + apiVersionPath!
     }
+    public func address() -> String {
+        return baseAddress
+    }
 }
 
 //MARK: - Did refer to js-ipfs-api interface.

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "968C7702213393C800D6EBAA"
+               BlueprintIdentifier = "96A8F2E9213F64AF00DAB354"
                BuildableName = "ios_ipfs_api.framework"
                BlueprintName = "ios-ipfs-api"
                ReferencedContainer = "container:ios-ipfs-api.xcodeproj">
@@ -45,7 +45,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "968C7702213393C800D6EBAA"
+            BlueprintIdentifier = "96A8F2E9213F64AF00DAB354"
             BuildableName = "ios_ipfs_api.framework"
             BlueprintName = "ios-ipfs-api"
             ReferencedContainer = "container:ios-ipfs-api.xcodeproj">
@@ -63,7 +63,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "968C7702213393C800D6EBAA"
+            BlueprintIdentifier = "96A8F2E9213F64AF00DAB354"
             BuildableName = "ios_ipfs_api.framework"
             BlueprintName = "ios-ipfs-api"
             ReferencedContainer = "container:ios-ipfs-api.xcodeproj">

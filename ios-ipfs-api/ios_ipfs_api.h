@@ -2,7 +2,7 @@
 //  ios_ipfs_api.h
 //  ios-ipfs-api
 //
-//  Created by we on 2018. 8. 27..
+//  Created by we on 2018. 9. 5..
 //  Copyright © 2018년 jaylee. All rights reserved.
 //
 
