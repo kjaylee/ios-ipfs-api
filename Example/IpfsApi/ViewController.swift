@@ -12,79 +12,57 @@ import Moya
 import Ipfs
 import IGListKit
 import PopupDialog
+import Hero
 
-class ViewController: UIViewController {
-    typealias Item = Demo
+class ViewController: ListVC<DemoVM, DemoLSC>, AdaptedCollectionViewProtocol {
+    typealias Item = DemoVM
     @IBOutlet weak var collectionView: UICollectionView!
-    
     let disposeBag = DisposeBag()
-    
-    var items = [Item]()
-    
-    lazy var adapter: ListAdapter = {
-        return ListAdapter(updater: ListAdapterUpdater(), viewController: self, workingRangeSize: 3)
-    }()
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         self.title = "ios-ipfs-api Demo"
         initializeItems()
-        initializeCollectionView()
+        initializeListView()
     }
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
-        self.items[0].title = "1. Host - \(Ipfs.shared().address())"
     }
 }
 extension ViewController {
     func initializeItems() {
-        self.items.append(Item(title:"1. Host - \(Ipfs.shared().address())", handler: {
+        self.items.removeAll()
+        self.items.append(Item(model: Demo(id: "1", title:"Change Host", handler: {
             guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "TextFieldVC") as? TextFieldVC else { return }
             vc.title = "Change host"
             vc.subtitle = "host address"
             vc.placeholder = Ipfs.shared().address()
-            self.present(PopupDialog(viewController: vc), animated: true, completion: {
+            let alert = PopupDialog(viewController: vc)
+            alert.addButtons([
+                DefaultButton(title: "Save", action: {
+                    if vc.textField != nil {
+                        Ipfs.shared().setBase(fullAddress: vc.textField.text!)
+                    }
+                }),
+                DefaultButton(title: "Reset", action: {
+                    Ipfs.shared().setBase(fullAddress:"http://127.0.0.1:5001/api/v0")
+                }),
+                CancelButton(title: "Cancel", action: nil)
+                ])
+            self.present(alert, animated: true, completion: {
                 
             })
-        }))
-        self.items.append(Item(title:"2"))
-        self.items.append(Item(title:"3"))
-        self.items.append(Item(title:"4"))
-        self.items.append(Item(title:"5"))
-        self.items.append(Item(title:"6"))
-        self.items.append(Item(title:"7"))
-        self.items.append(Item(title:"8"))
-        self.items.append(Item(title:"9"))
-        self.items.append(Item(title:"10"))
-        self.items.append(Item(title:"11"))
-        self.items.append(Item(title:"12"))
-        self.items.append(Item(title:"13"))
-        self.items.append(Item(title:"14"))
-        self.items.append(Item(title:"15"))
-        self.items.append(Item(title:"16"))
-        self.items.append(Item(title:"17"))
-        self.items.append(Item(title:"18"))
-        self.items.append(Item(title:"19"))
+        })))
+        self.items.append(Item(model: Demo(id: "2", title:"Swarm peers", handler: {
+            guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "PeersVC") as? PeersVC else { return }
+            self.navigationController?.pushViewController(vc, animated: true)
+        })))
+        self.items.append(Item(model: Demo(id: "3", title:"File add&pin test", handler: {
+            guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "FileVC") as? FileVC else { return }
+            self.navigationController?.pushViewController(vc, animated: true)
+        })))
+        self.items.append(Item(model: Demo(id: "4", title:"Pinned files", handler: {
+            guard let vc = self.storyboard?.instantiateViewController(withIdentifier: "PinnedVC") as? PinnedVC else { return }
+            self.navigationController?.pushViewController(vc, animated: true)
+        })))
     }
 }
-//MARK: - DataSource
-extension ViewController: ListAdapterDataSource {
-    func initializeCollectionView() {
-        adapter.collectionView = collectionView
-        adapter.dataSource = self
-    }
-    
-    func objects(for listAdapter: ListAdapter) -> [ListDiffable] {
-        return self.items as [ListDiffable]
-    }
-    
-    func listAdapter(_ listAdapter: ListAdapter, sectionControllerFor object: Any) -> ListSectionController {
-        return DemoLSC()
-    }
-    
-    func emptyView(for listAdapter: ListAdapter) -> UIView? {
-        return nil
-        
-    }
-}
-

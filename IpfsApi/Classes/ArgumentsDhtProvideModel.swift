@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsDhtProvideModel: Codable {
     //    arg [string]: The key[s] to send provide records for. Required: yes.
-    let arg: String
+    public let arg: String
     //    verbose [bool]: Print extra information. Default: “false”. Required: no.
-    let verbose: Bool?
+    public let verbose: Bool?
     //    recursive [bool]: Recursively provide entire graph. Default: “false”. Required: no.
-    let recursive: Bool?
+    public let recursive: Bool?
     
     init(key: String,
          verbose: Bool? = nil,

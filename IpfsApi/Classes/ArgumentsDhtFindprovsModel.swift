@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsDhtFindprovsModel: Codable {
     //    arg [string]: The key to find providers for. Required: yes.
-    let arg: String
+    public let arg: String
     //    verbose [bool]: Print extra information. Default: “false”. Required: no.
-    let verbose: Bool?
+    public let verbose: Bool?
     //    num-providers [int]: The number of providers to find. Default: “20”. Required: no.
-    let numProviders: Int?
+    public let numProviders: Int?
     
     init(key: String,
          verbose: Bool? = nil,

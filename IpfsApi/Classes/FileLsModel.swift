@@ -8,8 +8,8 @@
 import Foundation
 
 public struct FileLsModel: Codable{
-    let arguments: [String:String]?
-    let objects: [String:ObjectModel]?
+    public let arguments: [String:String]?
+    public let objects: [String:ObjectModel]?
     
     enum CodingKeys: String, CodingKey {
         case arguments = "Arguments"

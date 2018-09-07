@@ -8,9 +8,9 @@
 import Foundation
 
 public struct ResponseRepoStatModel: Codable {
-    let numObjects, repoSize: UInt64?
-    let repoPath, version: String?
-    let storageMax: UInt64?
+    public let numObjects, repoSize: UInt64?
+    public let repoPath, version: String?
+    public let storageMax: UInt64?
     
     enum CodingKeys: String, CodingKey {
         case numObjects = "NumObjects"

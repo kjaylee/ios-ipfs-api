@@ -8,11 +8,11 @@
 import Foundation
 
 public struct ResponseBitswapStatModel: Codable {
-    let provideBufLen: Int?
-    let wantlist: [String]?
-    let peers: [String]?
-    let blocksReceived, dataReceived, blocksSent, dataSent: UInt64?
-    let dupBlksReceived, dupDataReceived: UInt64?
+    public let provideBufLen: Int?
+    public let wantlist: [String]?
+    public let peers: [String]?
+    public let blocksReceived, dataReceived, blocksSent, dataSent: UInt64?
+    public let dupBlksReceived, dupDataReceived: UInt64?
     
     enum CodingKeys: String, CodingKey {
         case provideBufLen = "ProvideBufLen"

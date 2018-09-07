@@ -8,9 +8,9 @@
 import Foundation
 
 public struct IDInfoModel: Codable {
-    let id, publicKey: String?
-    let addresses: [String]?
-    let agentVersion, protocolVersion: String?
+    public let id, publicKey: String?
+    public let addresses: [String]?
+    public let agentVersion, protocolVersion: String?
     
     enum CodingKeys: String, CodingKey {
         case id = "ID"

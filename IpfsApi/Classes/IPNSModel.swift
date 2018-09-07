@@ -8,9 +8,9 @@
 import Foundation
 
 public struct IPNSModel: Codable {
-    let name: String?
-    let value: String?
-    let path: String?
+    public let name: String?
+    public let value: String?
+    public let path: String?
     
     enum CodingKeys: String, CodingKey {
         case name = "Name"

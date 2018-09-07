@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsObjectPutModel: Codable {
     //    inputenc [string]: Encoding type of input data. One of: {“protobuf”, “json”}. Default: “json”. Required: no.
-    let inputenc: String?
+    public let inputenc: String?
     //    datafieldenc [string]: Encoding type of the data field, either “text” or “base64”. Default: “text”. Required: no.
-    let datafieldenc: String?
+    public let datafieldenc: String?
     //    pin [bool]: Pin this object when adding. Default: “false”. Required: no.
-    let pin: Bool?
+    public let pin: Bool?
     
     init(inputenc: String? = nil,
          datafieldenc: String? = nil,

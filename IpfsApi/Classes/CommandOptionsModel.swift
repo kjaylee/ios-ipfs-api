@@ -8,7 +8,7 @@
 import Foundation
 
 public struct CommandOptionsModel: Codable {
-    let names: [String]?
+    public let names: [String]?
     
     enum CodingKeys: String, CodingKey {
         case names = "Names"

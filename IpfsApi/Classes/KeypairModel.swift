@@ -8,11 +8,11 @@
 import Foundation
 
 public struct KeypairModel: Codable {
-    let id: String?
-    let name: String?
-    let was: String?
-    let now: String?
-    let overwrite: Bool?
+    public let id: String?
+    public let name: String?
+    public let was: String?
+    public let now: String?
+    public let overwrite: Bool?
     
     enum CodingKeys: String, CodingKey {
         case id = "Id"

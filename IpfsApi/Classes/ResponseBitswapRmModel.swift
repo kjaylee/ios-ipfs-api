@@ -8,7 +8,7 @@
 import Foundation
 
 public struct ResponseBlockRmModel: Codable {
-    let hash, error: String?
+    public let hash, error: String?
     
     enum CodingKeys: String, CodingKey {
         case hash = "Hash"

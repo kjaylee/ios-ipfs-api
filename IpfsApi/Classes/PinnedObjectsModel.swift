@@ -8,7 +8,7 @@
 import Foundation
 
 public struct PinnedObjectsModel: Codable {
-    let keys: [String:ObjectModel]?
+    public let keys: [String:ObjectModel]?
     
     enum CodingKeys: String, CodingKey {
         case keys = "Keys"

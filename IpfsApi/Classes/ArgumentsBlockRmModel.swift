@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsBlockRmModel: Codable {
 //arg [string]: Bash58 encoded multihash of block(s) to remove. Required: yes.
-    let arg: String
+    public let arg: String
 //force [bool]: Ignore nonexistent blocks. Default: “false”. Required: no.
-    let force: Bool?
+    public let force: Bool?
 //quiet [bool]: Write minimal output. Default: “false”. Required: no.
-    let quiet: Bool?
+    public let quiet: Bool?
     
     init(arg: String,
          force: Bool? = nil,

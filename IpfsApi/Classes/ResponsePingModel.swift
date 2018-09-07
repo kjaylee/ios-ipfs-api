@@ -8,9 +8,9 @@
 import Foundation
 
 public struct ResponsePingModel: Codable {
-    let success: Bool?
-    let time: Int64?
-    let text: String?
+    public let success: Bool?
+    public let time: Int64?
+    public let text: String?
     
     enum CodingKeys: String, CodingKey {
         case success = "Success"

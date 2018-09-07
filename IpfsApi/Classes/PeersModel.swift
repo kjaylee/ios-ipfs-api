@@ -8,7 +8,7 @@
 import Foundation
 
 public struct PeersModel: Codable {
-    let peers: [String]?
+    public let peers: [String]?
     
     enum CodingKeys: String, CodingKey {
         case peers = "Peers"

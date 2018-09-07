@@ -9,14 +9,14 @@ import Foundation
 
 public struct ArgumentsStatsBwModel: Codable {
     //    peer [string]: Specify a peer to print bandwidth for. Required: no.
-    let peer: String?
+    public let peer: String?
     //    proto [string]: Specify a protocol to print bandwidth for. Required: no.
-    let proto: String?
+    public let proto: String?
     //    poll [bool]: Print bandwidth at an interval. Default: “false”. Required: no.
-    let poll: Bool?
+    public let poll: Bool?
     //    interval [string]: Time interval to wait between updating output, if ‘poll’ is true.
     //    This accepts durations such as “300s”, “1.5h” or “2h45m”. Valid time units are: “ns”, “us” (or “µs”), “ms”, “s”, “m”, “h”. Default: “1s”. Required: no.
-    let interval: String?
+    public let interval: String?
     
     init(peer: String? = nil,
          proto: String? = nil,

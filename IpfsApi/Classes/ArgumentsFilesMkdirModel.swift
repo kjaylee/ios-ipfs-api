@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsFilesMkdirModel: Codable {
     //    arg [string]: Path to dir to make. Required: yes.
-    let arg: String
+    public let arg: String
     //    parents [bool]: No error if existing, make parent directories as needed. Required: no.
-    let parents: Bool?
+    public let parents: Bool?
     
     init(path: String,
          parents: Bool? = nil) {

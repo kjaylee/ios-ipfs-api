@@ -11,7 +11,7 @@ public struct ArgumentsP2pStreamDialModel: Codable {
     //    arg [string]: Remote peer to connect to Required: yes.
     //    arg [string]: Protocol identifier. Required: yes.
     //    arg [string]: Address to listen for connection/s (default: /ip4/127.0.0.1/tcp/0). Required: no.
-    let arg: [String]
+    public let arg: [String]
     
     init(peer: String,
          protocolID: String,

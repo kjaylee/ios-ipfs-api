@@ -8,9 +8,9 @@
 import Foundation
 
 public struct MessageInfoModel: Codable {
-    let from, data, seqno: [Int]?
-    let topicIDs: [String]?
-    let xxxUnrecognized: [Int]?
+    public let from, data, seqno: [Int]?
+    public let topicIDs: [String]?
+    public let xxxUnrecognized: [Int]?
     
     enum CodingKeys: String, CodingKey {
         case from = "From"

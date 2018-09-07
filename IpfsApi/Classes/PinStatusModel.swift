@@ -8,8 +8,8 @@
 import Foundation
 
 public struct PinStatusModel: Codable {
-    let ok: Bool?
-    let badNodes: [CidModel]?
+    public let ok: Bool?
+    public let badNodes: [CidModel]?
     
     enum CodingKeys: String, CodingKey {
         case ok = "Ok"

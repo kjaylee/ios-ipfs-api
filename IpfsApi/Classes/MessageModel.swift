@@ -8,7 +8,7 @@
 import Foundation
 
 public struct MessageModel: Codable {
-    let message: String?
+    public let message: String?
     
     enum CodingKeys: String, CodingKey {
         case message = "Message"

@@ -8,8 +8,8 @@
 import Foundation
 
 public struct ResponsePinVerifyModel: Codable {
-    let cid: String?
-    let pinStatus: PinStatusModel?
+    public let cid: String?
+    public let pinStatus: PinStatusModel?
     
     enum CodingKeys: String, CodingKey {
         case cid = "Cid"

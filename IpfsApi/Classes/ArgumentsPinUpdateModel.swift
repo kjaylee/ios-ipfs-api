@@ -10,9 +10,9 @@ import Foundation
 public struct ArgumentsPinUpdateModel: Codable {
     //    arg [string]: Path to old object. Required: yes.
     //    arg [string]: Path to new object to be pinned. Required: yes.
-    let arg: [String]
+    public let arg: [String]
     //    unpin [bool]: Remove the old pin. Default: “true”. Required: no.
-    let unpin: Bool?
+    public let unpin: Bool?
     
     init(fromPath: String,
          toPath: String,

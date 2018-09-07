@@ -8,8 +8,8 @@
 import Foundation
 
 public struct ResponseVersionModel: Codable {
-    let version, commit, repo, system: String?
-    let golang: String?
+    public let version, commit, repo, system: String?
+    public let golang: String?
     
     enum CodingKeys: String, CodingKey {
         case version = "Version"

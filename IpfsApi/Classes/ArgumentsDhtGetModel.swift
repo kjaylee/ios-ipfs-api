@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsDhtGetModel: Codable {
     //    arg [string]: The key to find a value for. Required: yes.
-    let arg: String
+    public let arg: String
     //    verbose [bool]: Print extra information. Default: “false”. Required: no.
-    let verbose: Bool?
+    public let verbose: Bool?
     
     init(key: String,
          verbose: Bool? = nil) {

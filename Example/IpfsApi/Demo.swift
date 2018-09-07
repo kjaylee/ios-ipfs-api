@@ -2,25 +2,39 @@
 //  Demo.swift
 //  IpfsApi_Example
 //
-//  Created by we on 2018. 9. 4..
+//  Created by we on 2018. 9. 6..
 //  Copyright © 2018년 CocoaPods. All rights reserved.
 //
 
-import UIKit
+import Foundation
 import IGListKit
+import Ipfs
 
-class Demo: ListDiffable {
+struct Demo : ModelProtocol {
     typealias Handler = ()->()
-    var title: String = ""
+    var id: NSString
+    var title: String?
     var handler: Handler?
-    init(title:String, handler: Handler? = nil) {
-        self.title = title 
-        self.handler = handler
+}
+
+class DemoVM: ViewModel<Demo> {
+    typealias Handler = ()->()
+    var title: String?
+    {
+        set {
+            self.model.title = newValue
+        }
+        get {
+            return self.model.title
+        }
     }
-    func diffIdentifier() -> NSObjectProtocol {
-        return title as NSString
-    }
-    func isEqual(toDiffableObject object: ListDiffable?) -> Bool {
-        return self.diffIdentifier().isEqual(object?.diffIdentifier())
+    var handler: Handler?
+    {
+        set {
+            self.model.handler = newValue
+        }
+        get {
+            return self.model.handler
+        }
     }
 }

@@ -8,7 +8,7 @@
 import Foundation
 
 public struct PathModel: Codable {
-    let path: String?
+    public let path: String?
     
     enum CodingKeys: String, CodingKey {
         case path = "Path"

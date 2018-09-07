@@ -10,9 +10,9 @@ import Foundation
 public struct ArgumentsDhtPutModel: Codable {
     //    arg [string]: The key to store the value at. Required: yes.
     //    arg [string]: The value to store. Required: yes.
-    let arg: [String]
+    public let arg: [String]
     //    verbose [bool]: Print extra information. Default: “false”. Required: no.
-    let verbose: Bool?
+    public let verbose: Bool?
    
     init(key: String,
          value: String,

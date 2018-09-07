@@ -9,13 +9,13 @@ import Foundation
 
 public struct ArgumentsVersionModel: Codable {
     //    number [bool]: Only show the version number. Default: “false”. Required: no.
-    let number: Bool?
+    public let number: Bool?
     //    commit [bool]: Show the commit hash. Default: “false”. Required: no.
-    let commit: Bool?
+    public let commit: Bool?
     //    repo [bool]: Show repo version. Default: “false”. Required: no.
-    let repo: Bool?
+    public let repo: Bool?
     //    all [bool]: Show all version information. Default: “false”. Required: no.
-    let all: Bool?
+    public let all: Bool?
     
     init(number: Bool? = nil,
          commit: Bool? = nil,

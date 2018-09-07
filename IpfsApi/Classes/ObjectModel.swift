@@ -8,15 +8,15 @@
 import Foundation
 
 public struct ObjectModel: Codable {
-    let hash: String?
-    let size: UInt64?
-    let type: String?
-    let links: [ObjectModel]?
-    let name: String?
-    let bytes: Int64?
-    let blocks: Int?
-    let cumulativeSize: UInt64?
-    let data: String?
+    public let hash: String?
+    public let size: String?
+    public let type: String?
+    public let links: [ObjectModel]?
+    public let name: String?
+    public let bytes: Int64?
+    public let blocks: Int?
+    public let cumulativeSize: UInt64?
+    public let data: String?
     
     enum CodingKeys: String, CodingKey {
         case hash = "Hash"

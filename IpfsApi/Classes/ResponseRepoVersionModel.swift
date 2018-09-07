@@ -8,7 +8,7 @@
 import Foundation
 
 public struct ResponseRepoVersionModel: Codable {
-    let version: String?
+    public let version: String?
     
     enum CodingKeys: String, CodingKey {
         case version = "Version"

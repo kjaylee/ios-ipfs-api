@@ -8,10 +8,10 @@
 import Foundation
 
 public struct ResponseDhtModel: Codable {
-    let id: String?
-    let type: Int?
-    let responses: [AddressModel]?
-    let extra: String?
+    public let id: String?
+    public let type: Int?
+    public let responses: [AddressModel]?
+    public let extra: String?
     
     enum CodingKeys: String, CodingKey {
         case id = "ID"

@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsObjectLinksModel: Codable {
     //    arg [string]: Key of the object to retrieve, in base58-encoded multihash format. Required: yes.
-    let arg: String
+    public let arg: String
     //    headers [bool]: Print table headers (Hash, Size, Name). Default: “false”. Required: no.
-    let headers: Bool?
+    public let headers: Bool?
     
     init(multihash: String,
          headers: Bool? = nil) {

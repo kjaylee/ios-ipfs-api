@@ -8,9 +8,9 @@
 import Foundation
 
 public struct CidModel: Codable {
-    let cid: String?
-    let remPath: String?
-    let error: String?
+    public let cid: String?
+    public let remPath: String?
+    public let error: String?
     
     enum CodingKeys: String, CodingKey {
         case cid = "Cid"

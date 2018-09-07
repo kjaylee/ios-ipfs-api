@@ -8,7 +8,7 @@
 import Foundation
 
 public struct StreamsModel: Codable {
-    let streams: [StreamModel]?
+    public let streams: [StreamModel]?
     
     enum CodingKeys: String, CodingKey {
         case streams = "Streams"

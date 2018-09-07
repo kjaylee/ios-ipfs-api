@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsP2pStreamCloseModel: Codable {
     //    arg [string]: Stream HandlerID Required: no.
-    let arg: String?
+    public let arg: String?
     //    all [bool]: Close all streams. Default: “false”. Required: no.
-    let all: Bool?
+    public let all: Bool?
     
     init(arg: String? = nil,
          all: Bool? = nil) {

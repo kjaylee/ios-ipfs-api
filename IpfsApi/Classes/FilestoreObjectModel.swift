@@ -8,9 +8,9 @@
 import Foundation
 
 public struct FilestoreObjectModel: Codable {
-    let status: Int32?
-    let errorMsg, key, filePath: String?
-    let offset, size: UInt64?
+    public let status: Int32?
+    public let errorMsg, key, filePath: String?
+    public let offset, size: UInt64?
     
     enum CodingKeys: String, CodingKey {
         case status = "Status"

@@ -10,7 +10,7 @@ import Foundation
 public struct ArgumentsObjectPatchRmLinkModel: Codable {
     //    arg [string]: The hash of the node to modify. Required: yes.
     //    arg [string]: Name of the link to remove. Required: yes.
-    let arg: [String]
+    public let arg: [String]
     
     init(root: String,
          link: String) {

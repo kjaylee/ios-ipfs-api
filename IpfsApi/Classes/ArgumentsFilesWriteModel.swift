@@ -9,15 +9,15 @@ import Foundation
 
 public struct ArgumentsFilesWriteModel: Codable {
     //    arg [string]: Path to write to. Required: yes.
-    let arg: String
+    public let arg: String
     //    offset [int]: Byte offset to begin writing at. Required: no.
-    let offset: Int?
+    public let offset: Int?
     //    create [bool]: Create the file if it does not exist. Required: no.
-    let create: Bool?
+    public let create: Bool?
     //    truncate [bool]: Truncate the file to size zero before writing. Required: no.
-    let truncate: Bool?
+    public let truncate: Bool?
     //    count [int]: Maximum number of bytes to read. Required: no.
-    let count: Int?
+    public let count: Int?
     
     init(path: String,
          offset: Int? = nil,

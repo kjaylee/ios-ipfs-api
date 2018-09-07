@@ -8,8 +8,8 @@
 import Foundation
 
 public struct PeerModel: Codable {
-    let addr, peer, latency, muxer: String?
-    let streams: [StreamModel]?
+    public let addr, peer, latency, muxer: String?
+    public let streams: [StreamModel]?
     
     enum CodingKeys: String, CodingKey {
         case addr = "Addr"

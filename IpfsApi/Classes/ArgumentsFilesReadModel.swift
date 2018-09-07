@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsFilesReadModel: Codable {
     //    arg [string]: Path to file to be read. Required: yes.
-    let arg: String
+    public let arg: String
     //    offset [int]: Byte offset to begin reading from. Required: no.
-    let offset: Int?
+    public let offset: Int?
     //    count [int]: Maximum number of bytes to read. Required: no.
-    let count: Int?
+    public let count: Int?
     
     init(path: String,
          offset: Int? = nil,

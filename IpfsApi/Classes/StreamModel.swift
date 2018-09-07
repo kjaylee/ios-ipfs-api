@@ -8,8 +8,8 @@
 import Foundation
 
 public struct StreamModel: Codable {
-    let handlerID, streamProtocol, localPeer, localAddress: String?
-    let remotePeer, remoteAddress: String?
+    public let handlerID, streamProtocol, localPeer, localAddress: String?
+    public let remotePeer, remoteAddress: String?
     
     enum CodingKeys: String, CodingKey {
         case handlerID = "HandlerID"

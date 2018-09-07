@@ -8,7 +8,7 @@
 import Foundation
 
 public struct ListenerModel: Codable {
-    let listenerProtocol, address: String?
+    public let listenerProtocol, address: String?
     
     enum CodingKeys: String, CodingKey {
         case listenerProtocol = "Protocol"

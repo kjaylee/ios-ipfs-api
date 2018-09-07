@@ -8,7 +8,7 @@
 import Foundation
 
 public struct ResponseMessageInfoModel: Codable {
-    let message: MessageInfoModel?
+    public let message: MessageInfoModel?
     
     enum CodingKeys: String, CodingKey {
         case message = "Message"

@@ -8,9 +8,9 @@
 import Foundation
 
 public struct ObjectStatModel: Codable {
-    let hash: String?
-    let numLinks, blockSize, linksSize, dataSize: Int?
-    let cumulativeSize: Int?
+    public let hash: String?
+    public let numLinks, blockSize, linksSize, dataSize: Int?
+    public let cumulativeSize: Int?
     
     enum CodingKeys: String, CodingKey {
         case hash = "Hash"

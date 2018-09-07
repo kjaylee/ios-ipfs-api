@@ -8,8 +8,8 @@
 import Foundation
 
 public struct MountModel: Codable {
-    let ipfs, ipns: String?
-    let fuseAllowOther: Bool?
+    public let ipfs, ipns: String?
+    public let fuseAllowOther: Bool?
     
     enum CodingKeys: String, CodingKey {
         case ipfs = "IPFS"

@@ -8,7 +8,7 @@
 import Foundation
 
 public struct ResponseRepoGcModel: Codable {
-    let key, error: String?
+    public let key, error: String?
     
     enum CodingKeys: String, CodingKey {
         case key = "Key"

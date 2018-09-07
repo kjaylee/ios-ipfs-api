@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsDhtQueryModel: Codable {
     //    arg [string]: The peerID to run the query against. Required: yes.
-    let arg: String
+    public let arg: String
     //    verbose [bool]: Print extra information. Default: “false”. Required: no.
-    let verbose: Bool?
+    public let verbose: Bool?
     
     init(arg: String,
          verbose: Bool? = nil) {

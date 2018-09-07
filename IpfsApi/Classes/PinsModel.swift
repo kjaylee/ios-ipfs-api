@@ -8,8 +8,8 @@
 import Foundation
 
 public struct PinsModel: Codable {
-    let pins: [String]?
-    let progress: Int?
+    public let pins: [String]?
+    public let progress: Int?
     
     enum CodingKeys: String, CodingKey {
         case pins = "Pins"

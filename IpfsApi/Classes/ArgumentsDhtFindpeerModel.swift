@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsDhtFindpeerModel: Codable {
     //    arg [string]: The ID of the peer to search for. Required: yes.
-    let arg: String
+    public let arg: String
     //    verbose [bool]: Print extra information. Default: “false”. Required: no.
-    let verbose: Bool?
+    public let verbose: Bool?
     
     init(peerID: String,
          verbose: Bool? = nil) {

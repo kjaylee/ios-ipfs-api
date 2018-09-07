@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsKeyRmModel: Codable {
     //    arg [string]: names of keys to remove Required: yes.
-    let arg: String
+    public let arg: String
     //    l [bool]: Show extra information about keys. Required: no.
-    let l: Bool?
+    public let l: Bool?
     
     init(name: String,
          information: Bool? = nil) {

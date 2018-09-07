@@ -8,8 +8,8 @@
 import Foundation
 
 public struct DiffModel: Codable {
-    let type: Int?
-    let path, before, after: String?
+    public let type: Int?
+    public let path, before, after: String?
     
     enum CodingKeys: String, CodingKey {
         case type = "Type"

@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsBlockPutModel: Codable {
     //    format [string]: cid format for blocks to be created with. Default: “v0”. Required: no.
-    let format: String?
+    public let format: String?
     //    mhtype [string]: multihash hash function. Default: “sha2-256”. Required: no.
-    let mhtype: String?
+    public let mhtype: String?
     //    mhlen [int]: multihash hash length. Default: “-1”. Required: no.
-    let mhlen:Int?
+    public let mhlen:Int?
     
     init(format: String? = nil,
          mhtype: String? = nil,

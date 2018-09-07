@@ -8,9 +8,9 @@
 import Foundation
 
 public struct CommandModel: Codable {
-    let name: String?
-    let subcommands: [CommandModel]?
-    let options: [CommandOptionsModel]?
+    public let name: String?
+    public let subcommands: [CommandModel]?
+    public let options: [CommandOptionsModel]?
     
     enum CodingKeys: String, CodingKey {
         case name = "Name"

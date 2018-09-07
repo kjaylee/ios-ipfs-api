@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsLsModel: Codable {
     //    arg [string]: The path to the IPFS object(s) to list links from. Required: yes.
-    let arg: String
+    public let arg: String
     //    headers [bool]: Print table headers (Hash, Size, Name). Default: “false”. Required: no.
-    let headers: Bool?
+    public let headers: Bool?
     //    resolve-type [bool]: Resolve linked objects to find out their types. Default: “true”. Required: no.
-    let resolveType: Bool?
+    public let resolveType: Bool?
     
     init(arg: String,
          headers: Bool? = nil,

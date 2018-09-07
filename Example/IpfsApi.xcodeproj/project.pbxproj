@@ -15,10 +15,24 @@
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
+		9605A50D213F8A9000CE7620 /* ListVCProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605A50C213F8A9000CE7620 /* ListVCProtocol.swift */; };
+		9605A50F213FD9AE00CE7620 /* ListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605A50E213FD9AE00CE7620 /* ListVC.swift */; };
+		9605A5112140C5AE00CE7620 /* PeersVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605A5102140C5AE00CE7620 /* PeersVC.swift */; };
+		9605A5132140C87E00CE7620 /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605A5122140C87E00CE7620 /* Peer.swift */; };
+		9605A5152140D1BE00CE7620 /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605A5142140D1BE00CE7620 /* Cell.swift */; };
+		9605A5172140D1F000CE7620 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9605A5162140D1F000CE7620 /* DemoCell.swift */; };
+		9611F41121422EE7004CACE1 /* PinnedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611F41021422EE7004CACE1 /* PinnedVC.swift */; };
+		9611F41321422F06004CACE1 /* PinnedLSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611F41221422F06004CACE1 /* PinnedLSC.swift */; };
+		9611F41521422F46004CACE1 /* PinnedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611F41421422F46004CACE1 /* PinnedCell.swift */; };
+		9611F41721423CD2004CACE1 /* Pinned.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9611F41621423CD2004CACE1 /* Pinned.swift */; };
 		96A8F2C6213E661900DAB354 /* DemoLSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A8F2C5213E661900DAB354 /* DemoLSC.swift */; };
-		96A8F2C8213E666A00DAB354 /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A8F2C7213E666A00DAB354 /* Demo.swift */; };
-		96A8F2CA213E67C600DAB354 /* DemoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A8F2C9213E67C600DAB354 /* DemoCell.swift */; };
+		96A8F2C8213E666A00DAB354 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A8F2C7213E666A00DAB354 /* ViewModel.swift */; };
 		96A8F3CC213F6E8D00DAB354 /* TextFieldVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A8F3CB213F6E8D00DAB354 /* TextFieldVC.swift */; };
+		96CFFBD32140EFAF009155BA /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CFFBD22140EFAF009155BA /* Demo.swift */; };
+		96CFFBD52140F3E1009155BA /* PeerLSC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CFFBD42140F3E1009155BA /* PeerLSC.swift */; };
+		96CFFBD72140F429009155BA /* PeerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CFFBD62140F429009155BA /* PeerCell.swift */; };
+		96CFFBDB2140FBE4009155BA /* ModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CFFBDA2140FBE4009155BA /* ModelProtocol.swift */; };
+		96CFFBDF214104BF009155BA /* FileVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96CFFBDE214104BF009155BA /* FileVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +60,24 @@
 		607FACE51AFB9204008FA782 /* IpfsApi_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IpfsApi_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
+		9605A50C213F8A9000CE7620 /* ListVCProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVCProtocol.swift; sourceTree = "<group>"; };
+		9605A50E213FD9AE00CE7620 /* ListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListVC.swift; sourceTree = "<group>"; };
+		9605A5102140C5AE00CE7620 /* PeersVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeersVC.swift; sourceTree = "<group>"; };
+		9605A5122140C87E00CE7620 /* Peer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		9605A5142140D1BE00CE7620 /* Cell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		9605A5162140D1F000CE7620 /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		9611F41021422EE7004CACE1 /* PinnedVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedVC.swift; sourceTree = "<group>"; };
+		9611F41221422F06004CACE1 /* PinnedLSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedLSC.swift; sourceTree = "<group>"; };
+		9611F41421422F46004CACE1 /* PinnedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinnedCell.swift; sourceTree = "<group>"; };
+		9611F41621423CD2004CACE1 /* Pinned.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pinned.swift; sourceTree = "<group>"; };
 		96A8F2C5213E661900DAB354 /* DemoLSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLSC.swift; sourceTree = "<group>"; };
-		96A8F2C7213E666A00DAB354 /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
-		96A8F2C9213E67C600DAB354 /* DemoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoCell.swift; sourceTree = "<group>"; };
+		96A8F2C7213E666A00DAB354 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		96A8F3CB213F6E8D00DAB354 /* TextFieldVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldVC.swift; sourceTree = "<group>"; };
+		96CFFBD22140EFAF009155BA /* Demo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
+		96CFFBD42140F3E1009155BA /* PeerLSC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerLSC.swift; sourceTree = "<group>"; };
+		96CFFBD62140F429009155BA /* PeerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerCell.swift; sourceTree = "<group>"; };
+		96CFFBDA2140FBE4009155BA /* ModelProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ModelProtocol.swift; sourceTree = "<group>"; };
+		96CFFBDE214104BF009155BA /* FileVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileVC.swift; sourceTree = "<group>"; };
 		A2B7D28499BCFE6EDD811056 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AB5B89CB5E11CBC49460DBC5 /* Pods-IpfsApi_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IpfsApi_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IpfsApi_Tests/Pods-IpfsApi_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B1721566A09ECC38CE255832 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
@@ -112,15 +140,11 @@
 		607FACD21AFB9204008FA782 /* Example for IpfsApi */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
-				607FACD71AFB9204008FA782 /* ViewController.swift */,
-				96A8F3CB213F6E8D00DAB354 /* TextFieldVC.swift */,
-				96A8F2C5213E661900DAB354 /* DemoLSC.swift */,
-				96A8F2C7213E666A00DAB354 /* Demo.swift */,
-				96A8F2C9213E67C600DAB354 /* DemoCell.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
-				607FACDC1AFB9204008FA782 /* Images.xcassets */,
-				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				96CFFBDD21410344009155BA /* List */,
+				96A8F3CE213F85D400DAB354 /* Alert */,
+				96A8F3CD213F85C600DAB354 /* Main */,
+				9605A501213F88F700CE7620 /* Sub */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
 			name = "Example for IpfsApi";
@@ -130,6 +154,9 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				607FACDC1AFB9204008FA782 /* Images.xcassets */,
+				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
+				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -160,6 +187,69 @@
 				A2B7D28499BCFE6EDD811056 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
+			sourceTree = "<group>";
+		};
+		9605A501213F88F700CE7620 /* Sub */ = {
+			isa = PBXGroup;
+			children = (
+				9611F40F21422EAD004CACE1 /* File */,
+				96CFFBDC2141032C009155BA /* Peer */,
+			);
+			name = Sub;
+			sourceTree = "<group>";
+		};
+		9611F40F21422EAD004CACE1 /* File */ = {
+			isa = PBXGroup;
+			children = (
+				96CFFBDE214104BF009155BA /* FileVC.swift */,
+				9611F41021422EE7004CACE1 /* PinnedVC.swift */,
+				9611F41221422F06004CACE1 /* PinnedLSC.swift */,
+				9611F41421422F46004CACE1 /* PinnedCell.swift */,
+				9611F41621423CD2004CACE1 /* Pinned.swift */,
+			);
+			name = File;
+			sourceTree = "<group>";
+		};
+		96A8F3CD213F85C600DAB354 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				607FACD71AFB9204008FA782 /* ViewController.swift */,
+				96A8F2C5213E661900DAB354 /* DemoLSC.swift */,
+				9605A5162140D1F000CE7620 /* DemoCell.swift */,
+				96CFFBD22140EFAF009155BA /* Demo.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		96A8F3CE213F85D400DAB354 /* Alert */ = {
+			isa = PBXGroup;
+			children = (
+				96A8F3CB213F6E8D00DAB354 /* TextFieldVC.swift */,
+			);
+			name = Alert;
+			sourceTree = "<group>";
+		};
+		96CFFBDC2141032C009155BA /* Peer */ = {
+			isa = PBXGroup;
+			children = (
+				9605A5102140C5AE00CE7620 /* PeersVC.swift */,
+				96CFFBD42140F3E1009155BA /* PeerLSC.swift */,
+				96CFFBD62140F429009155BA /* PeerCell.swift */,
+				9605A5122140C87E00CE7620 /* Peer.swift */,
+			);
+			name = Peer;
+			sourceTree = "<group>";
+		};
+		96CFFBDD21410344009155BA /* List */ = {
+			isa = PBXGroup;
+			children = (
+				9605A50C213F8A9000CE7620 /* ListVCProtocol.swift */,
+				9605A50E213FD9AE00CE7620 /* ListVC.swift */,
+				96CFFBDA2140FBE4009155BA /* ModelProtocol.swift */,
+				96A8F2C7213E666A00DAB354 /* ViewModel.swift */,
+				9605A5142140D1BE00CE7620 /* Cell.swift */,
+			);
+			name = List;
 			sourceTree = "<group>";
 		};
 		C6AB8F1A069630CDA78760A3 /* Frameworks */ = {
@@ -301,6 +391,7 @@
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-IpfsApi_Example/Pods-IpfsApi_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
 				"${BUILT_PRODUCTS_DIR}/DynamicBlurView/DynamicBlurView.framework",
 				"${BUILT_PRODUCTS_DIR}/FontAwesomeKit/FontAwesomeKit.framework",
 				"${BUILT_PRODUCTS_DIR}/Hero/Hero.framework",
@@ -317,6 +408,7 @@
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/DynamicBlurView.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/FontAwesomeKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Hero.framework",
@@ -360,11 +452,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96CFFBDF214104BF009155BA /* FileVC.swift in Sources */,
 				96A8F2C6213E661900DAB354 /* DemoLSC.swift in Sources */,
-				96A8F2CA213E67C600DAB354 /* DemoCell.swift in Sources */,
+				9611F41321422F06004CACE1 /* PinnedLSC.swift in Sources */,
+				9605A5112140C5AE00CE7620 /* PeersVC.swift in Sources */,
+				96CFFBD52140F3E1009155BA /* PeerLSC.swift in Sources */,
+				9605A5172140D1F000CE7620 /* DemoCell.swift in Sources */,
+				96CFFBD72140F429009155BA /* PeerCell.swift in Sources */,
+				96CFFBD32140EFAF009155BA /* Demo.swift in Sources */,
+				9605A5152140D1BE00CE7620 /* Cell.swift in Sources */,
+				9611F41721423CD2004CACE1 /* Pinned.swift in Sources */,
+				9605A50D213F8A9000CE7620 /* ListVCProtocol.swift in Sources */,
+				96CFFBDB2140FBE4009155BA /* ModelProtocol.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
-				96A8F2C8213E666A00DAB354 /* Demo.swift in Sources */,
+				96A8F2C8213E666A00DAB354 /* ViewModel.swift in Sources */,
+				9611F41521422F46004CACE1 /* PinnedCell.swift in Sources */,
+				9611F41121422EE7004CACE1 /* PinnedVC.swift in Sources */,
+				9605A50F213FD9AE00CE7620 /* ListVC.swift in Sources */,
 				96A8F3CC213F6E8D00DAB354 /* TextFieldVC.swift in Sources */,
+				9605A5132140C87E00CE7620 /* Peer.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,10 +626,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pipln.ipfs-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -537,10 +644,11 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.pipln.ipfs-example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};

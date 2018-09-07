@@ -8,8 +8,8 @@
 import Foundation
 
 public struct ResponseStatsBWModel: Codable {
-    let totalIn, totalOut: Int64?
-    let rateIn, rateOut: Float64?
+    public let totalIn, totalOut: Int64?
+    public let rateIn, rateOut: Float64?
     
     enum CodingKeys: String, CodingKey {
         case totalIn = "TotalIn"

@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsNameResolveModel: Codable {
     //    arg [string]: The IPNS name to resolve. Defaults to your node’s peerID. Required: no.
-    let arg: String?
+    public let arg: String?
     //    recursive [bool]: Resolve until the result is not an IPNS name. Default: “false”. Required: no.
-    let recursive: Bool?
+    public let recursive: Bool?
     //    nocache [bool]: Do not use cached entries. Default: “false”. Required: no.
-    let nocache: Bool?
+    public let nocache: Bool?
 
     
     init(name: String? = nil,

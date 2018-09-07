@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsFilesRmModel: Codable {
     //    arg [string]: File to remove. Required: yes.
-    let arg: String
+    public let arg: String
     //    recursive [bool]: Recursively remove directories. Required: no.
-    let recursive: Bool?
+    public let recursive: Bool?
     
     init(path: String,
          recursive: Bool? = nil) {

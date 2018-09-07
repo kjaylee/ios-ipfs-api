@@ -1,5 +1,7 @@
 PODS:
   - Alamofire (4.7.3)
+  - AlamofireImage (3.3.1):
+    - Alamofire (~> 4.5)
   - DynamicBlurView (2.0.2)
   - FontAwesomeKit (2.2.1):
     - FontAwesomeKit/Core (= 2.2.1)
@@ -47,6 +49,7 @@ PODS:
   - Viewer (3.0.0)
 
 DEPENDENCIES:
+  - AlamofireImage
   - FontAwesomeKit
   - Hero
   - IGListKit
@@ -60,6 +63,7 @@ DEPENDENCIES:
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
     - Alamofire
+    - AlamofireImage
     - DynamicBlurView
     - FontAwesomeKit
     - Hero
@@ -78,6 +82,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Alamofire: c7287b6e5d7da964a70935e5db17046b7fde6568
+  AlamofireImage: 3b35b586853abaf94ca1250f4e94cff3c21a4c0d
   DynamicBlurView: aa6db4defc6e537eb86fc5e58dd3991666178399
   FontAwesomeKit: 3614979b3dbb0ec3f7fac1bd760b91f66c31db67
   Hero: 3eecd3fd62dd2425cbc7e35505c557b86d5a379e
@@ -91,6 +96,6 @@ SPEC CHECKSUMS:
   TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
   Viewer: 1820d06cfe48054775a3e979567208dc37eb270d
 
-PODFILE CHECKSUM: ebca79b8ce559421ee0a90e6bcd72aa883ca009d
+PODFILE CHECKSUM: 5839c54888570522d8cb5c5974b3a518937873f2
 
 COCOAPODS: 1.6.0.beta.1

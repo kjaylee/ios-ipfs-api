@@ -8,7 +8,7 @@
 import Foundation
 
 public struct LsModel: Codable {
-    let objects: [ObjectModel]?
+    public let objects: [ObjectModel]?
     
     enum CodingKeys: String, CodingKey {
         case objects = "Objects"

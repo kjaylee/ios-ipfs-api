@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsPubsubSubModel: Codable {
     //    arg [string]: String name of topic to subscribe to. Required: yes.
-    let arg: String
+    public let arg: String
     //    discover [bool]: try to discover other peers subscribed to the same topic. Required: no.
-    let discover: Bool?
+    public let discover: Bool?
     
     init(topic: String,
          discover: Bool? = nil) {

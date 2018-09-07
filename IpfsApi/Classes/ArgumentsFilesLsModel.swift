@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsFilesLsModel: Codable {
     //    arg [string]: Path to show listing for. Defaults to ‘/’. Required: no.
-    let arg: String?
+    public let arg: String?
     //    l [bool]: Use long listing format. Required: no.
-    let l: Bool?
+    public let l: Bool?
     
     init(path: String? = nil,
          long: Bool? = nil) {

@@ -9,15 +9,15 @@ import Foundation
 
 public struct ArgumentsNamePublishModel: Codable {
     //    arg [string]: ipfs path of the object to be published. Required: yes.
-    let arg: String
+    public let arg: String
     //    resolve [bool]: Resolve given path before publishing. Default: “true”. Required: no.
-    let resolve: Bool?
+    public let resolve: Bool?
     //    lifetime [string]: Time duration that the record will be valid for. This accepts durations such as “300s”, “1.5h” or “2h45m”. Valid time units are “ns”, “us” (or “µs”), “ms”, “s”, “m”, “h”. Default: “24h”. Required: no.
-    let lifetime: String?
+    public let lifetime: String?
     //    ttl [string]: Time duration this record should be cached for (caution: experimental). Required: no.
-    let ttl: String?
+    public let ttl: String?
     //    key [string]: Name of the key to be used or a valid PeerID, as listed by ‘ipfs key list -l’. Default:. Default: “self”. Required: no.
-    let key: String?
+    public let key: String?
     
     init(path: String,
          resolve: Bool? = nil,

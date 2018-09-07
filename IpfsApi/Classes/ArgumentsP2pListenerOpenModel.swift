@@ -10,7 +10,7 @@ import Foundation
 public struct ArgumentsP2pListenerOpenModel: Codable {
     //    arg [string]: Protocol identifier. Required: yes.
     //    arg [string]: Request handling application address. Required: yes.
-    let arg: [String]
+    public let arg: [String]
     
     init(protocolID: String,
          address: String) {

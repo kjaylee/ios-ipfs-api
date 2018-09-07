@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsPinLsModel: Codable {
     //    arg [string]: Path to object(s) to be listed. Required: no.
-    let arg: String?
+    public let arg: String?
     //    type [string]: The type of pinned keys to list. Can be “direct”, “indirect”, “recursive”, or “all”. Default: “all”. Required: no.
-    let type: String?
+    public let type: String?
     //    quiet [bool]: Write just hashes of objects. Default: “false”. Required: no.
-    let quiet: Bool?
+    public let quiet: Bool?
     
     init(path: String? = nil,
          type: String? = nil,

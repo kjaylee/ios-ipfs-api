@@ -8,7 +8,7 @@
 import Foundation
 
 public struct ReferenceModel: Codable {
-    let ref, error: String?
+    public let ref, error: String?
     
     enum CodingKeys: String, CodingKey {
         case ref = "Ref"

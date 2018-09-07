@@ -8,7 +8,7 @@
 import Foundation
 
 public struct EntriesModel: Codable{
-    let entries: [ObjectModel]?
+    public let entries: [ObjectModel]?
     
     enum CodingKeys: String, CodingKey {
         case entries = "Entries"

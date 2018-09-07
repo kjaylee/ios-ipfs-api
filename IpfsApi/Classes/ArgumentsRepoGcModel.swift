@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsRepoGcModel: Codable {
     //    quiet [bool]: Write minimal output. Default: “false”. Required: no.
-    let quiet: Bool?
+    public let quiet: Bool?
     //    stream-errors [bool]: Stream errors. Default: “false”. Required: no.
-    let streamErrors: Bool?
+    public let streamErrors: Bool?
     
     init(quiet: Bool? = nil,
          streamErrors: Bool? = nil) {

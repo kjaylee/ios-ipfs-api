@@ -8,7 +8,7 @@
 import Foundation
 
 public struct DiffsModel: Codable {
-    let changes: [DiffModel]?
+    public let changes: [DiffModel]?
     
     enum CodingKeys: String, CodingKey {
         case changes = "Changes"

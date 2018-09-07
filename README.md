@@ -11,11 +11,10 @@ Check out [the client API reference](https://ipfs.io/docs/api/) for the full com
 
 ## TODO
 
-- [ ] support Moya/RxSwift.
 - [ ] test case.
 - [ ] support OSX.
-- [ ] example app.
-- [ ] support carthage.
+- [x] example app.
+- [x] support carthage.
 
 
 ## Example

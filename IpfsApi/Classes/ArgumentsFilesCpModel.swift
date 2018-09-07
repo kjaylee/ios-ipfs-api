@@ -10,7 +10,7 @@ import Foundation
 public struct ArgumentsFilesCpModel: Codable {
     //    arg [string]: Source object to copy. Required: yes.
     //    arg [string]: Destination to copy object to. Required: yes.
-    let arg: [String]
+    public let arg: [String]
     
     init(source: String,
          dest: String) {

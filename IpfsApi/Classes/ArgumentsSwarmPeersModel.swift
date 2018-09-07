@@ -9,11 +9,11 @@ import Foundation
 
 public struct ArgumentsSwarmPeersModel: Codable {
     //    verbose [bool]: display all extra information. Required: no.
-    let verbose: Bool?
+    public let verbose: Bool?
     //    streams [bool]: Also list information about open streams for each peer. Required: no.
-    let streams: Bool?
+    public let streams: Bool?
     //    latency [bool]: Also list information about latency to each peer. Required: no.
-    let latency: Bool?
+    public let latency: Bool?
     
     init(verbose: Bool? = nil,
          streams: Bool? = nil,

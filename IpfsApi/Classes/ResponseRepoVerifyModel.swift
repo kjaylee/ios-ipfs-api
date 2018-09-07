@@ -8,8 +8,8 @@
 import Foundation
 
 public struct ResponseRepoVerifyModel: Codable {
-    let message: String?
-    let progress: Int?
+    public let message: String?
+    public let progress: Int?
     
     enum CodingKeys: String, CodingKey {
         case message = "Message"

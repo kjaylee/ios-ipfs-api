@@ -8,8 +8,8 @@
 import Foundation
 
 public struct BlockModel: Codable {
-    let key: String?
-    let size: Int?
+    public let key: String?
+    public let size: Int?
     
     enum CodingKeys: String, CodingKey {
         case key = "Key"

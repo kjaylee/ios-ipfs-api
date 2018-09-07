@@ -33,6 +33,9 @@ extension Ipfs {
     public func setBase(address:String, port:Int? = 5001, apiVersionPath:String? = "/api/v0") {
         self.baseAddress = address + String(describing: ":\(port!)") + apiVersionPath!
     }
+    public func setBase(fullAddress:String) {
+        self.baseAddress = fullAddress
+    }
     public func address() -> String {
         return baseAddress
     }
@@ -640,8 +643,7 @@ extension Ipfs {
                              callbackQueue: DispatchQueue? = nil,
                              progressBlock: Moya.ProgressBlock? = nil,
                              completion: @escaping Moya.Completion ) {
-            Ipfs.pin.rm(path: path,
-                        recursive: recursive,
+            Ipfs.pin.rm(arguments: ArgumentsPinRmModel(path: path, recursive: recursive),
                         callbackQueue: callbackQueue,
                         progressBlock: progressBlock,
                         completion: completion)

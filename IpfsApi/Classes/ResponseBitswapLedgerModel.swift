@@ -8,11 +8,11 @@
 import Foundation
 
 public struct ResponseBitswapLedgerModel: Codable {
-    let peer: String?
-    let value: Float64?
-    let sent: UInt64?
-    let recv: UInt64?
-    let exchanged: UInt64?
+    public let peer: String?
+    public let value: Float64?
+    public let sent: UInt64?
+    public let recv: UInt64?
+    public let exchanged: UInt64?
     
     enum CodingKeys: String, CodingKey {
         case peer = "Peer"

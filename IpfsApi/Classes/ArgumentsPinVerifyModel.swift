@@ -9,9 +9,9 @@ import Foundation
 
 public struct ArgumentsPinVerifyModel: Codable {
     //    verbose [bool]: Also write the hashes of non-broken pins. Required: no.
-    let verbose: Bool?
+    public let verbose: Bool?
     //    quiet [bool]: Write just hashes of broken pins. Required: no.
-    let quiet: Bool?
+    public let quiet: Bool?
     
     init(verbose: Bool? = nil,
          quiet: Bool? = nil) {
