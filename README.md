@@ -21,6 +21,8 @@ Check out [the client API reference](https://ipfs.io/docs/api/) for the full com
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
+[![iOS example](http://img.youtube.com/vi/Mh9OITAbNhY/0.jpg)](https://www.youtube.com/watch?v=Mh9OITAbNhY "iOS example")
+
 
 ```swift
     import Ipfs
